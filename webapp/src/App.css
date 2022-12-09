@@ -1,3 +1,4 @@
-headerWelle {
-  max-width: 390px;
+.headerWelle {
+  width: 100%;
+  height: auto;
 }
