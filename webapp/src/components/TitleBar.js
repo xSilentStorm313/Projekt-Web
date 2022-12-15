@@ -7,6 +7,8 @@ export default function TitleBar() {
             <img src={header} className="headerWelle" alt="welle" />
             <br/><br/>
             <img src={logo} className="logo" alt="schrift" />
+            <br/><br/>
+            <h4>Das kann dir Helping Hands alles bieten:</h4>
         </div>
     )
 }            
