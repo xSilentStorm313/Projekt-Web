@@ -1,12 +1,17 @@
 import './App.css';
-import Footer from './components/Footer';
 import TitleBar from './components/TitleBar';
+import InfoText from './components/InfoText';
+import Button from './components/Button';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <div className='container'>
-        <TitleBar/>
+      <TitleBar/>
+      <div className="container">
+        <InfoText/>
+        <Button/>
         <Footer/>
       </div>
     </div>

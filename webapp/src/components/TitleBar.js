@@ -1,9 +1,12 @@
-import logo from  "./images/welle_header.png" // anderer Speicherort
+import header from  "./images/welle_header.png" // anderer Speicherort
+import logo from  "./images/helpinghandslogo.png" // anderer Speicherort
 
 export default function TitleBar() {
     return (
         <div className="titlebar">
-            <img src={logo} className="headerWelle" alt="welle" />
+            <img src={header} className="headerWelle" alt="welle" />
+            <br/><br/>
+            <img src={logo} className="logo" alt="schrift" />
         </div>
     )
 }            

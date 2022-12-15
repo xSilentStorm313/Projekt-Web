@@ -1,4 +1,62 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .headerWelle {
   width: 100%;
   height: auto;
+  margin-top: -1.6rem;
+}
+
+.logo {
+  width: 40%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.buttonlogin {
+  background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
+  color: white;
+  padding: 0.1rem 2rem;
+  margin: 1rem 2rem;
+  box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
+  border-radius: 18px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.footer {
+  position: fixed;
+  font-weight: bold;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
 }
