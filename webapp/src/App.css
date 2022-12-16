@@ -56,12 +56,22 @@ a:active {
   text-decoration: underline;
 }
 
-.footer {
+footer {
   position: fixed;
   font-weight: bold;
   left: 0;
+  right: 0px;
   bottom: 0;
   width: 100%;
   padding: 2rem;
   text-align: center;
+  margin-bottom: 0px;
+}
+
+.Home {
+  overflow: hidden;
+}
+
+.my-page{
+  background-color: blueviolet;
 }

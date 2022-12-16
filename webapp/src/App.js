@@ -1,20 +1,19 @@
 import './App.css';
-import TitleBar from './components/TitleBar';
-import InfoText from './components/InfoText';
-import Button from './components/Button';
-import Footer from './components/Footer';
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import Home from "./Home"
+import Login from './Login';
+import Hauptseite from "./Hauptseite"
 
 
 function App() {
   return (
-    <div className="App">
-      <TitleBar/>
-      <div className="container">
-        <InfoText/>
-        <Button/>
-        <Footer/>
-      </div>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/login" element={<Login />} />
+      <Route exact path="/start" element={<Hauptseite />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,5 +1,6 @@
 import header from  "./images/welle_header.png" // anderer Speicherort
 import logo from  "./images/helpinghandslogo.png" // anderer Speicherort
+import React from "react"
 
 export default function TitleBar() {
     return (
@@ -8,7 +9,6 @@ export default function TitleBar() {
             <br/><br/>
             <img src={logo} className="logo" alt="schrift" />
             <br/><br/>
-            <h4>Das kann dir Helping Hands alles bieten:</h4>
         </div>
     )
 }            
