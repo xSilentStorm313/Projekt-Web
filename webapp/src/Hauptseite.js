@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hauptseite.css"
 import TitleBarHauptseite from './components/TitleBarHauptseite';
+import MenuIcon from "./components/MenuIcon"
 
 import styled from 'styled-components';
 
@@ -44,6 +45,7 @@ const Card = styled.div`
 function App() {
     return (
         <Container>
+            <MenuIcon items={['Menu Item 1', 'Menu Item 2', 'Menu Item 3']} />
             <TitleBarHauptseite/>
             <Header> 
                 <p>Suchfeld</p>
