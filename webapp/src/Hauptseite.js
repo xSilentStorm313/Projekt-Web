@@ -42,6 +42,12 @@ const Card = styled.div`
   align-items: center;
 `;
 
+const items = [
+  { text: 'Startseite', link: '/' },
+  { text: 'Über uns', link: '/about' },
+  { text: 'Kontakt', link: '/contact' },
+];
+
 function App() {
     return (
         <Container>

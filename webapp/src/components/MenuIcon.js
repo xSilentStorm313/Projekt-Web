@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { FaBars } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function MenuIcon({ onClick }) {
   return (
     <div className="menu-icon" onClick={onClick}>
-      Menu Icon
+      <FaBars size={30}/>
     </div>
   );
 }
@@ -19,7 +21,9 @@ function Menu({ items }) {
           <MenuIcon onClick={() => setMenuOpen(!menuOpen)} />
           <ul>
             {items.map((item, index) => (
-              <li key={index}>{item}</li>
+              <li key={index}>{item}
+                <Link to={item.link}>{item.text}</Link>
+              </li>
             ))}
           </ul>
         </div>
