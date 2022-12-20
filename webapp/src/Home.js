@@ -3,6 +3,7 @@ import TitleBar from './components/TitleBar';
 import InfoText from './components/InfoText';
 import Button from './components/Button';
 import Footer from './components/Footer';
+import SocialMediaLogin from './components/SocialMediaLogin';
 import './App.css';
 
 function Home() {
@@ -12,7 +13,9 @@ function Home() {
             <div className="container">
                 <InfoText />
             </div>
+            <br/>
             <Button />
+                <SocialMediaLogin />
             <Footer />
         </div>
     );
