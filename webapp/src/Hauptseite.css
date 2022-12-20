@@ -1,43 +1,26 @@
 .headerWellelila {
-    width: 100%;
-    height: auto;
-    margin-top: -1.6rem;
-  }
+  width: 100%;
+  height: auto;
+  margin-top: -1.6rem;
+}
 
-.header{
+.header {
   height: 100px;
   width: 100%;
   background: #fff;
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
-.container{
-background: #fff;
-display: flex;
-justify-content: center; 
-flex-flow: column wrap; 
-width: 100%;
-height: 100%;
-flex-flow: row wrap;
-}
-
-.card{
-  margin: 20px;
-  background: rgb(132, 91, 162);
+.buttonbeitrag {
+  background-color: rgb(132, 91, 162);
   height: 320px;
   width: 320px;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px 5px rgb(210, 210, 210);
-  display: flex;
-  flex-flow: column; 
-  justify-content: center;
-  align-items: center;
-}
-
-.list{
-  display: flex;
-  justify-content: center; 
-  flex-flow: row wrap; 
-  flex-flow: column wrap;
+  margin: 1rem 2rem;
+  box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10rem;
+  display: block;
 }

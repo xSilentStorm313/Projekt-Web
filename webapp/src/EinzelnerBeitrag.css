@@ -1,0 +1,13 @@
+.überschrift {
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 1.2rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.formular {
+    width: 90%;
+    height: auto;
+    margin-top: -1.6rem;
+}
