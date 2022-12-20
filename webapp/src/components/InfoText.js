@@ -1,9 +1,9 @@
 import React from "react";
-import icon1 from "./images/user-clock.svg" // anderer Speicherort
-import icon2 from "./images/info.svg" // anderer Speicherort
-import icon3 from "./images/magnifying-glass.svg" // anderer Speicherort
-import icon4 from "./images/clipboard-question.svg" // anderer Speicherort
-import icon5 from "./images/hands.svg" // anderer Speicherort
+import icon1 from "./images/rundumdieuhr.svg" // anderer Speicherort
+import icon2 from "./images/information.svg" // anderer Speicherort
+import icon3 from "./images/suchen.svg" // anderer Speicherort
+import icon4 from "./images/formulare.svg" // anderer Speicherort
+import icon5 from "./images/interagieren.svg" // anderer Speicherort
 
 export default function InfoText() {
     return (
