@@ -1,7 +1,8 @@
 import React from "react";
-import "./Hauptseite.css"
+import "./Hauptseite.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
-import MenuIcon from "./components/MenuIcon"
+import MenuIcon from "./components/MenuIcon";
+
 
 import styled from 'styled-components';
 
@@ -43,6 +44,7 @@ const Card = styled.div`
 `;
 
 const items = [
+  
   { text: 'Startseite', link: '/' },
   { text: 'Über uns', link: '/about' },
   { text: 'Kontakt', link: '/contact' },
