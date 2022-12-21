@@ -12,6 +12,7 @@
   justify-content: center;
 }
 
+
 .buttonbeitrag {
   background-color: rgb(132, 91, 162);
   height: 320px;
@@ -20,7 +21,20 @@
   box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
   border-radius: 12px;
   font-size: 1.2rem;
-  font-weight: bold;
   margin-top: 10rem;
   display: block;
+  color: white;
 }
+
+img{
+  height: 100px;
+  weight: 100px;
+}
+
+.beschreibung{
+  text-align: left;
+  margin: 20px;
+}
+
+
+
