@@ -4,6 +4,7 @@ import Home from "./Home"
 import Login from './Login';
 import Hauptseite from "./Hauptseite"
 import EinzelnerBeitrag from './EinzelnerBeitrag';
+import Arbeitserlaubnis from './Arbeitserlaubnis';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/start" element={<Hauptseite />} />
       <Route exact path="/beitrag" element={<EinzelnerBeitrag />} />
+      <Route exact path="/arbeitserlaubnis" element={<Arbeitserlaubnis />} />
     </Routes>
     </BrowserRouter>
   );

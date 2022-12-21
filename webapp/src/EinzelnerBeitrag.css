@@ -6,6 +6,13 @@
     margin-bottom: 2rem;
 }
 
+.überschrift1 {
+  box-sizing: border-box;
+  text-align: left;
+  margin-left: 1.2rem;
+  margin-bottom: 2rem;
+}
+
 .formular {
     width: 90%;
     height: auto;
@@ -40,5 +47,10 @@
   .anmelden{
     color: white;
     
+  }
+
+  .text{
+    text-align: left;
+    margin-left: 25px;
   }
 
