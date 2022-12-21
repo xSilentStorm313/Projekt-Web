@@ -22,6 +22,7 @@ function Menu({ items }) {
         <div className={`menu ${menuOpen ? 'open' : ''}`}>
           <MenuIcon onClick={() => setMenuOpen(!menuOpen)} />
           <ul>
+            <h1> Menü </h1>
             {items.map((item, index) => (
               <li key={index}>{item}
                 <Link to={item.link}>{item.text}</Link>
@@ -30,7 +31,10 @@ function Menu({ items }) {
             <br/>
           </ul>
           <Switch />
+          <br/>
+          <a className='anmelden'>Abmelden</a>
         </div>
+
       )}
     </div>
   );
