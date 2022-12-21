@@ -20,15 +20,19 @@
   margin: 1rem 2rem;
   box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
   border-radius: 12px;
-  font-size: 1.2rem;
-  margin-top: 10rem;
+  font-size: 20px;
+  margin-top: 2rem;
   display: block;
   color: white;
 }
 
+.abstand{
+  margin-top: 5rem;
+}
+
 img{
   height: 100px;
-  weight: 100px;
+  width: 100px;
 }
 
 .beschreibung{
