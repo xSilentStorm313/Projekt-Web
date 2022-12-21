@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Switch from "./SwitchButton"
+import Switch from "./SwitchButton";
+
 
 function MenuIcon({ onClick }) {
   return (
@@ -26,6 +27,7 @@ function Menu({ items }) {
                 <Link to={item.link}>{item.text}</Link>
               </li>
             ))}
+            <br/>
           </ul>
           <Switch />
         </div>

@@ -9,12 +9,13 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    width: 100px;
-    height: 50px;
-    background: grey;
+    width: 322px;
+    height: 49px;
+    background: #A68EB8;
     border-radius: 100px;
     position: relative;
     transition: background-color .2s;
+    margin-left: 1.5rem;
   }
   
   .react-switch-label .react-switch-button {
