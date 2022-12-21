@@ -9,7 +9,7 @@ import Beiträge from "./components/Beiträge";
 function App() {
   return (
     <div className="hauptseite">
-      <MenuIcon items={['Menu Item 1', 'Menu Item 2', 'Menu Item 3']} />
+      <MenuIcon items={['Home', 'Account', 'Kategorien', 'Anfrage stellen', 'Meine Chats']} />
       <TitleBarHauptseite />
       <Beiträge />
     </div>
