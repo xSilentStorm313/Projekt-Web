@@ -1,10 +1,10 @@
 import React from "react";
 import formular from "./images/kindergeldantraghalb.png";
 import arbeitserlaubnis from "./images/arbeitserlaubnis.svg";
-import anerkennung from "/Users/katharinagrunwald/Projekt-Web-1/webapp/src/components/images/anerkennunngabschluesse.svg";
-import asylbeantragen from "/Users/katharinagrunwald/Projekt-Web-1/webapp/src/components/images/asylbeantragen.svg";
-import sportverein from "/Users/katharinagrunwald/Projekt-Web-1/webapp/src/components/images/sportverein.svg";
-import wohnen from "/Users/katharinagrunwald/Projekt-Web-1/webapp/src/components/images/wohnen.svg";
+import anerkennung from "./images/anerkennunngabschluesse.svg";
+import asylbeantragen from "./images/asylbeantragen.svg";
+import sportverein from "./images/sportverein.svg";
+import wohnen from "./images/wohnen.svg";
 
 export default function Button() {
     return (
