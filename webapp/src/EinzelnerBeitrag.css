@@ -83,12 +83,23 @@
   }
 
   .antwortkomment{
-    border: 3px solid grey;
-    border-radius: 10px;
+    border: 2px solid grey;
+    border-radius: 15px;
     margin-left: 5rem;
     margin-right: 1.5rem;
     padding: 5px;
     text-align: left;
     font-weight: bold;
+  }
+
+  .buttonantworten{
+    color:green;
+    border-color: green;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    right: 2rem;
+    
+
   }
 
