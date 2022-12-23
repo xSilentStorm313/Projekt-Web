@@ -72,3 +72,23 @@
     font-weight:normal;
   }
 
+  .komment {
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .antwortkomment{
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-right: 1.5rem;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+  }
+
