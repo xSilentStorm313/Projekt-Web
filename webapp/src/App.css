@@ -38,6 +38,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: background-color 250ms;
+
 }
 
 a:link {
@@ -148,4 +149,8 @@ a:active {
 .titlebarhauptseite img{
   width: 100%;
   height: auto;
+}
+
+a{
+  color: white;
 }
