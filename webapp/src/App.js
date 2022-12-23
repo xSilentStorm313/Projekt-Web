@@ -5,6 +5,7 @@ import Login from './Login';
 import Hauptseite from "./Hauptseite"
 import EinzelnerBeitrag from './EinzelnerBeitrag';
 import Arbeitserlaubnis from './Arbeitserlaubnis';
+import Asylantrag from './Asylantrag';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route exact path="/start" element={<Hauptseite />} />
       <Route exact path="/beitrag" element={<EinzelnerBeitrag />} />
       <Route exact path="/arbeitserlaubnis" element={<Arbeitserlaubnis />} />
+      <Route exact path="/asylantrag" element={<Asylantrag />} />
     </Routes>
     </BrowserRouter>
   );

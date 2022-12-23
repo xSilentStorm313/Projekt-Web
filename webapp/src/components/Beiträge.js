@@ -19,7 +19,7 @@ export default function Button() {
           <a href="/beitrag"><span className="buttonbeitrag">
             <img src={anerkennung} className="formular" alt="formular"/>Anerkennung der Abschlüsse</span></a>
 
-          <a href="/beitrag"><span className="buttonbeitrag">
+          <a href="/asylantrag"><span className="buttonbeitrag">
             <img src={asylbeantragen} className="formular" alt="formular"/>Asyl beantragen</span></a>
 
           <a href="/beitrag"><span className="buttonbeitrag">

@@ -54,3 +54,21 @@
     margin-left: 25px;
   }
 
+  .infotextasyl{
+    font-weight: lighter;
+    text-align: left;
+    color: white;
+    background-color: rgb(132, 91, 162);
+    box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
+  }
+
+  .text{
+    text-align: left;
+  }
+
+  .zwischenüberschrift{
+    text-align: left;
+    margin: 1.5rem;
+    font-weight:normal;
+  }
+
