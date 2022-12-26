@@ -10,5 +10,4 @@ function ZurueckIcon({ onClick }) {
   );
 }
 
-
 export default ZurueckIcon;
