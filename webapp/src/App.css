@@ -96,11 +96,12 @@ a:active {
   z-index: 1001;
 }
 
+
 .menu {
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
   width: 390px;
   background: rgb(132, 91, 162);
   box-shadow: 2px 0 3px rgba(0, 0, 0, 0.1);
@@ -154,4 +155,18 @@ a:active {
 
 a{
   color: white;
+}
+
+.zurueck-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
 }
