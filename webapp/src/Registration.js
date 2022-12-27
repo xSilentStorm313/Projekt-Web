@@ -1,17 +1,16 @@
 import React from "react";
-import TitleBarRegestrierung from './components/TitelBarregestrierung';
-import ButtonRegestrierung from './components/ButtonRegestrierung';
-import Footer from './components/Footer';
-import RegestrierungText from "./components/RegstrierungText";
+import TitleBarRegistrierung from './components/TitelBarregestrierung';
+import ButtonRegistrierung from './components/ButtonRegestrierung';
+import RegistrierungText from "./components/RegstrierungText";
 import './App.css';
 
 function Regestration() {
     return (
         <div className="Home">
-            <TitleBarRegestrierung />
+            <TitleBarRegistrierung />
             <br/>
-            <RegestrierungText/>
-            <ButtonRegestrierung />
+            <RegistrierungText/>
+            <ButtonRegistrierung />
         </div>
     );
 }

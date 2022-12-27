@@ -5,7 +5,7 @@ export default function ButtonRegestrierung() {
     return (
         <div className="buttonlogin">
           <a>
-            <Link to="/start">Regestrieren</Link>
+            <Link to="/start">Registrieren</Link>
           </a>
         </div>
     ) }
