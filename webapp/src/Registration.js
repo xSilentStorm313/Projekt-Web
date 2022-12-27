@@ -12,10 +12,6 @@ function Regestration() {
             <br/>
             <RegestrierungText/>
             <ButtonRegestrierung />
-            <br/>
-            <br/>
-            <br/>
-            <Footer />
         </div>
     );
 }
