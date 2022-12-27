@@ -6,7 +6,7 @@ export default function ButtonRegestrierung() {
         <div className="buttonlogin">
           <a>
             <Link to="/start">
-            <input type="submit" value="Registrieren" className="reistriernweiterbutton"/>
+            <input type="submit" value="Jetzt Registrieren" className="reistriernweiterbutton"/>
             </Link>
 
           </a>

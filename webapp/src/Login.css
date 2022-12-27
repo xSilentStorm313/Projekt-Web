@@ -15,6 +15,11 @@
     text-align: left;
 }
 
+.passwortvergessen{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
 .buttonlogin {
     background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
     color: white;

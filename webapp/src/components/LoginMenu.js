@@ -28,6 +28,7 @@ export default function LoginMenu() {
                         <input type="submit" value="EINLOGGEN" />
                     </Link>
                 </div>
+                <p className="passwortvergessen">Passwort vergessen</p>
             </form>
         </div>
     );
