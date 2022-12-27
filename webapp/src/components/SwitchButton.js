@@ -8,6 +8,7 @@ const Switch = () => {
         className="react-switch-checkbox"
         id={`react-switch-new`}
         type="checkbox"
+        placeholder="placeholder text"
       />
       <label
         className="react-switch-label"
