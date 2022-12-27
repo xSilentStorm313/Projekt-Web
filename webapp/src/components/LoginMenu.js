@@ -5,22 +5,22 @@ export default function LoginMenu() {
 
     return (
         <div className="login-menu">
-            <h1 className="text">EINLOGGEN</h1>
+            <h1 className="überschriftlogin">Einloggen</h1>
             <form>
                 <label>
-                    <div className="text">
+                    <div className="textlogin">
                         Benutzername:
                     </div>
                     <br />
-                    <input type="text" name="username" className="input" />
+                    <input type="text" name="username" className="input" placeholder="Benutzerename"/>
                 </label>
                 <br />
                 <label >
-                    <div className="text">
+                    <div className="textlogin">
                         Passwort:
                     </div>
                     <br />
-                    <input type="password" name="password" className="input" />
+                    <input type="password" name="password" className="input" placeholder="Passwort"/>
                 </label>
                 <br />
                 <div className="buttonlogin">
@@ -29,6 +29,9 @@ export default function LoginMenu() {
                     </Link>
                 </div>
                 <p className="passwortvergessen">Passwort vergessen</p>
+                <br />
+                <br />
+                <p>Du hast kein Konto? <Link to="/registration" className="regestrierung">Registrieren</Link></p>
             </form>
         </div>
     );

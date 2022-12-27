@@ -1,11 +1,24 @@
-.text {
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+.textlogin {
     box-sizing: border-box;
     text-align: left;
-    margin-left: 1.2rem;
+    margin-left: 2.5rem;
+    margin-bottom: -15px;
+  }
+
+  .überschriftlogin{
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 2.5rem;
+    font-size: 36px;
   }
   
 .input[type=text], [type=password]{
-    width: 90%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -16,7 +29,7 @@
 }
 
 .passwortvergessen{
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: underline;
 }
 
