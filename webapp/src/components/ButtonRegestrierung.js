@@ -5,7 +5,10 @@ export default function ButtonRegestrierung() {
     return (
         <div className="buttonlogin">
           <a>
-            <Link to="/start">Registrieren</Link>
+            <Link to="/start">
+            <input type="submit" value="Registrieren" className="reistriernweiterbutton"/>
+            </Link>
+
           </a>
         </div>
     ) }
