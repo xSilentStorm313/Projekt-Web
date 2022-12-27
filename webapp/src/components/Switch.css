@@ -11,11 +11,14 @@
     cursor: pointer;
     width: 322px;
     height: 49px;
-    background: #A68EB8;
+    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
     border-radius: 0.5em;
     position: relative;
     transition: background-color .2s;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
+    padding: 1%;
+    margin-bottom: 10px;
+    margin-top: 0.1px;
   }
   
   .react-switch-label .react-switch-button {
@@ -39,3 +42,21 @@
   .react-switch-label:active .react-switch-button {
     width: 60px;
   }  
+
+.text-left-right {
+    position: relative;
+    margin-bottom: 0.1px;
+}
+.left-text {
+  font-weight: light;
+  font-size: 50%;
+  color: #fff;
+  margin-left: 1em;
+  margin-right: 3em;
+}
+.byline {
+  font-weight: right;
+  font-size: 50%;
+  color: #fff;
+  margin-right: 4em;
+}
