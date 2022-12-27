@@ -70,6 +70,8 @@ export default function RegestrierungText() {
                 <option value="kenia">Kenia</option>
                 <option value="peru">Peru</option>
                 </select>
+                <br/>
+                <br/>
         </div>
     )
 }

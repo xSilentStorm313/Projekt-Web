@@ -192,8 +192,20 @@ a{
   font-size: 1rem;
   color:grey;
   margin-top: 10px;
-  box-sizing:content-box;
-  padding: 10px;
+  padding: 12px 20px;
   border-radius: 10px;
+  text-align: left;
+  width: 90%;
+}
+
+.input[type=text], [type=password]{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 188, 188);
+  border-radius: 12px;
+  outline: none;
+  text-align: left;
 }
 
