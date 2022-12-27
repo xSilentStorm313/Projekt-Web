@@ -1,6 +1,6 @@
 import React from "react";
 import TitleBarRegestrierung from './components/TitelBarregestrierung';
-import Button from './components/Button';
+import ButtonRegestrierung from './components/ButtonRegestrierung';
 import Footer from './components/Footer';
 import RegestrierungText from "./components/RegstrierungText";
 import './App.css';
@@ -11,7 +11,10 @@ function Regestration() {
             <TitleBarRegestrierung />
             <br/>
             <RegestrierungText/>
-            <Button />
+            <ButtonRegestrierung />
+            <br/>
+            <br/>
+            <br/>
             <Footer />
         </div>
     );
