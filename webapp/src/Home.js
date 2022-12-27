@@ -16,7 +16,6 @@ function Home() {
             <br/>
             <Button />
                 <SocialMediaLogin />
-            <Footer />
         </div>
     );
 }

@@ -6,7 +6,7 @@ import Hauptseite from "./Hauptseite"
 import EinzelnerBeitrag from './EinzelnerBeitrag';
 import Arbeitserlaubnis from './Arbeitserlaubnis';
 import Asylantrag from './Asylantrag';
-import Regestration from './Registration';
+import Registration from './Registration';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Route exact path="/beitrag" element={<EinzelnerBeitrag />} />
       <Route exact path="/arbeitserlaubnis" element={<Arbeitserlaubnis />} />
       <Route exact path="/asylantrag" element={<Asylantrag />} />
-      <Route exact path="/regestration" element={<Regestration />} />
+      <Route exact path="/registration" element={<Registration />} />
     </Routes>
     </BrowserRouter>
   );

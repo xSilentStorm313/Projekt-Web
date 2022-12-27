@@ -13,7 +13,7 @@ export default function SocialMediaLogin(){
             <img src={icon8} className="icon" alt="icon" align="center" width="35" height="35"/>
             <img src={icon6} className="icon" alt="icon" align="center" width="35" height="35"/>
             <img src={icon7} className="icon" alt="icon" align="center" width="35" height="35"/>
-            <p>Du hast kein Konto? <Link to="/start" className="regestrierung">Registrieren</Link></p>
+            <p>Du hast kein Konto? <Link to="/registration" className="regestrierung">Registrieren</Link></p>
         </div>
     )
 }
