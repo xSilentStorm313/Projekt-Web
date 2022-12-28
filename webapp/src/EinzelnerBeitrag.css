@@ -15,7 +15,7 @@
   box-sizing: border-box;
   text-align: left;
   margin-left: 1.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .formular {
@@ -62,7 +62,7 @@
   .infotextasyl{
     font-weight: medium;
     text-align: left;
-    color: white;
+    color: black;
     background-color: #A28AB4;
     box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
     margin-left: 1rem;
@@ -70,18 +70,23 @@
     border: 15px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: lighter;
 
   }
 
   .text{
     text-align: left;
+    font-size: 17px;
+    margin-right: 1.2rem;
   }
 
   .zwischenüberschrift{
     text-align: left;
     margin: 1.5rem;
-    font-weight:normal;
+    font-weight: medium;
+    margin-bottom: -5px;
+    font-size: 20px;
   }
 
   .komment {
@@ -117,5 +122,22 @@
 
   .profilbildantwort{
     size: 30px;
+  }
+
+  .downloadbutton{
+    background-color:#A28AB4;
+    color:black;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .quellen{
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    
   }
 
