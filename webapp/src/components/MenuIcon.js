@@ -32,7 +32,7 @@ function Menu({ items }) {
           </ul>
           <Switch />
           <br/>
-          <a className='anmelden'>Abmelden</a>
+          <a className='abmelden'>Abmelden</a>
         </div>
 
       )}
