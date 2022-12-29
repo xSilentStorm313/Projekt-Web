@@ -7,6 +7,7 @@ import EinzelnerBeitrag from './EinzelnerBeitrag';
 import Arbeitserlaubnis from './Arbeitserlaubnis';
 import Asylantrag from './Asylantrag';
 import Registration from './Registration';
+import AnerkennungAbschlüsse from './AnerkennungAbschlüsse';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route exact path="/arbeitserlaubnis" element={<Arbeitserlaubnis />} />
       <Route exact path="/asylantrag" element={<Asylantrag />} />
       <Route exact path="/registration" element={<Registration />} />
+      <Route exact path="/anerkennungabschluesse" element={<AnerkennungAbschlüsse />} />
     </Routes>
     </BrowserRouter>
   );

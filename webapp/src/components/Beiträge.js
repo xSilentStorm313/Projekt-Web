@@ -15,7 +15,7 @@ export default function Button() {
         <img src={arbeitserlaubnis} className="formular" alt="formular"/>Arbeitserlaubnis <span className="beschreibung"> <br />In diesem Artikel erfährst du,
           wie du als EU und non-EU Bürger in Deutschland arbeiten kannst</span> </span></a>
  
-      <a href="/beitrag"><span className="buttonbeitrag">
+      <a href="/anerkennungabschluesse"><span className="buttonbeitrag">
         <img src={anerkennung} className="formular" alt="formular" />Anerkennung der Abschlüsse<span className="beschreibung"> <br />Hier wird dir gezeigt, wie du welche Abschlüsse anerkennen lassen kannst</span></span></a>
 
       <a href="/asylantrag"><span className="buttonbeitrag">
