@@ -89,6 +89,22 @@
     font-size: 22px;
   }
 
+  .zwischenüberschriftasyl{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 2rem;
+    padding-top: 15px;
+    font-weight:500;
+  }
+
+  .listearbeitserlaubnis{
+    color:black;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    font-size: 17px;
+  }
+
   .komment {
     border: 3px solid grey;
     border-radius: 10px;
