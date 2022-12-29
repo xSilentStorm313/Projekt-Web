@@ -7,7 +7,7 @@ export default function TitleBarRegestrierung() {
         <div className="titlebar">
             <img src={header} className="headerWelle" alt="welle" />
             <Link to="/login">
-            <button className="buttoneinloggen">Einloggen</button>
+            <button className="buttoneinloggen">EINLOGGEN</button>
             </Link>
             <br/><br/>
         </div>

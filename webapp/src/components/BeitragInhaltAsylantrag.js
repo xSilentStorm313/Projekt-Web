@@ -7,8 +7,7 @@ import { MdAccountCircle } from "react-icons/md";
 export default function BeitragInhaltAsylantrag() {
 
     return (
-        <div>
-            <br className="abstand" />
+        <div className="abstand">
             <img src={asylbeantragen} className="formular" alt="formular" />
             <button className="downloadbutton">Download Formulare</button>
             <h1 className="überschrift1">Asylverfahren</h1>

@@ -4,34 +4,34 @@ import React from "react";
 export default function RegestrierungText() {
     return (
         <div>
-            <h1 className="regestrieungheader">Konto erstellen</h1>
-            <p className="regestrierungbeschreibung">Name</p>
+            <h1 className="registrierungsheader">Konto erstellen</h1>
+            <p className="registrierungsbeschreibung">Name</p>
             <input type="text" name="Name" className="input" placeholder="Name" />
-            <p className="regestrierungbeschreibung">Vorname</p>
+            <p className="registrierungsbeschreibung">Vorname</p>
             <input type="text" name="Vorname" className="input" placeholder="Vorname" />
-            <p className="regestrierungbeschreibung">Benutzername</p>
+            <p className="registrierungsbeschreibung">Benutzername</p>
             <input type="text" name="Benutzername" className="input" placeholder="Benutzername" />
-            <p className="regestrierungbeschreibung">E-Mail</p>
+            <p className="registrierungsbeschreibung">E-Mail</p>
             <input type="text" name="E-Mail" className="input" placeholder="E-Mail" />
-            <p className="regestrierungbeschreibung">E-Mail bestätigen</p>
+            <p className="registrierungsbeschreibung">E-Mail bestätigen</p>
             <input type="text" name="E-Mail bestätigen" className="input" placeholder="E-Mail bestätigen" />
-            <p className="regestrierungbeschreibung">Geburtsdatum</p>
+            <p className="registrierungsbeschreibung">Geburtsdatum</p>
             <input type="text" name="Geburtsdatum" className="input" placeholder="Geburtsdatum" />
-            <p className="regestrierungbeschreibung">Passwort</p>
+            <p className="registrierungsbeschreibung">Passwort</p>
             <input type="password" name="password" className="input" placeholder="Passwort" />
             
-                <p className="regestrierungbeschreibung">Wohnsituation</p>
+                <p className="registrierungsbeschreibung">Wohnsituation</p>
                 <select name="wohnsituation" id="wohnsituation-select" className="auswaehleninput">
-                <option value="">--Bitte auswählen--</option>
+                <option value="">Bitte auswählen</option>
                 <option value="individuellesWohnen">individuelles Wohnen</option>
                 <option value="gemeinschaftlichesWohnen">gemeinschaftliches Wohnen</option>
                 <option value="gemeinschaftlichesWohnenundArbeiten">gemeinschaftliches Wohnen und Arbeiten</option>
                 <option value="institutionellesWohnen">institutionelles Wohnen</option>
                 </select>
 
-                <p className="regestrierungbeschreibung">Kinder</p>
+                <p className="registrierungsbeschreibung">Kinder</p>
                 <select name="kinder" id="kinder-select" className="auswaehleninput">
-                <option value="">--Bitte auswählen--</option>
+                <option value="">Bitte auswählen</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -50,9 +50,9 @@ export default function RegestrierungText() {
                 <option value="16">16</option>
                 </select>
 
-                <p className="regestrierungbeschreibung">Herkunftsland</p>
+                <p className="registrierungsbeschreibung">Herkunftsland</p>
                 <select name="herkunftsland" id="herkunftsland-select" className="auswaehleninput">
-                <option value="">--Bitte auswählen--</option>
+                <option value="">Bitte auswählen</option>
                 <option value="deutschland">Deutschland</option>
                 <option value="griechenland">Griechenland</option>
                 <option value="iran">Iran</option>

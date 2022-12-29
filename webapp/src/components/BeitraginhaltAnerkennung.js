@@ -5,8 +5,7 @@ import { MdAccountCircle } from "react-icons/md";
 export default function BeitragInhaltAnerkennung() {
 
     return (
-        <div>
-            <br className="abstand" />
+        <div className="abstand">
             <img src={anerkennung} className="formular" alt="formular" />
             <button className="downloadbutton">Download Formulare</button>
             <h1 className="überschrift1">Anerkennung der Abschlüsse</h1>

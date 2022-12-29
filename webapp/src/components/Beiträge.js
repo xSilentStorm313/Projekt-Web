@@ -8,8 +8,7 @@ import wohnen from "./images/wohnen.svg";
 
 export default function Button() {
   return (
-    <div>
-      <br className="abstand" />
+    <div className="abstand">
 
       <a href="/arbeitserlaubnis"><span className="buttonbeitrag">
         <img src={arbeitserlaubnis} className="formular" alt="formular"/>Arbeitserlaubnis <span className="beschreibung"> <br />In diesem Artikel erfährst du,
@@ -29,7 +28,7 @@ export default function Button() {
         <img src={wohnen} className="formular" alt="formular" />Beantragen Wohngeld <span className="beschreibung"> <br />Hier findest Informationen zum Thema Wohnen wie zum Beispiel zur Wohnungsanmeldung</span></span></a>
       
         <a href="/beitrag"><span className="buttonbeitrag">
-        <img src={formular} className="formular" alt="formular"/> <br /> <br />Kindergeld  <span className="beschreibung"> <br />Frage zu Absatz 3</span> </span></a>
+        <img src={formular} className="formular" alt="formular"/> <br /> <br />Kindergeld  <span className="beschreibung"> <br />Ich hätte eine Frage zu Absatz 3, woher kriege ich folgende Informationen?</span> </span></a>
     </div>
   );
 }

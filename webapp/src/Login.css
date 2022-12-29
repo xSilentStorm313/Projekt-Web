@@ -1,60 +1,70 @@
-:root { font-family: 'Inter', sans-serif; }
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
 }
 
 .textlogin {
-    box-sizing: border-box;
-    text-align: left;
-    margin-left: 2.5rem;
-    margin-bottom: -15px;
-  }
-
-  .überschriftlogin{
-    box-sizing: border-box;
-    text-align: left;
-    margin-left: 2.5rem;
-    font-size: 36px;
-  }
-  
-.input[type=text], [type=password]{
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid rgb(189, 188, 188);
-    border-radius: 12px;
-    outline: none;
-    text-align: left;
+  box-sizing: border-box;
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-bottom: -15px;
 }
 
-.passwortvergessen{
-    font-size: 14px;
-    text-decoration: underline;
+.überschriftlogin {
+  box-sizing: border-box;
+  text-align: left;
+  margin-left: 1.5rem;
+  font-size: 36px;
+}
+
+.input[type=text],[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 188, 188);
+  border-radius: 12px;
+  outline: none;
+  text-align: left;
+}
+
+.passwortvergessen {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.registrierung {
+  color: black;
+  font-weight: bold;
 }
 
 .buttonlogin {
-    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
-    color: white;
-    padding: 12px 20px;
-    margin: 1rem 2rem;
-    box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
-    border-radius: 12px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 250ms;
+  background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
+  color: white;
+  width: 80%;
+  padding: 12px 20px;
+  box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 250ms;
+  border: none
 }
 
 .footer {
-    position: fixed;
-    font-weight: bold;
-    left: 0;
-    right: 0px;
-    bottom: 0;
-    width: 100%;
-    padding: 2rem;
-    text-align: center;
-    margin-bottom: 0px;
+  position: fixed;
+  font-weight: bold;
+  left: 0;
+  right: 0px;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 0px;
 }

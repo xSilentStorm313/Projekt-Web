@@ -1,10 +1,10 @@
 import React from "react";
-import TitleBarRegistrierung from './components/TitelBarregestrierung';
-import ButtonRegistrierung from './components/ButtonRegestrierung';
-import RegistrierungText from "./components/RegstrierungText";
-import './App.css';
+import TitleBarRegistrierung from './components/TitelBarRegistrieren';
+import ButtonRegistrierung from './components/ButtonRegistrieren';
+import RegistrierungText from "./components/RegistrierenText";
+import './Registrieren.css';
 
-function Regestration() {
+function Registration() {
     return (
         <div className="Home">
             <TitleBarRegistrierung />
@@ -15,4 +15,4 @@ function Regestration() {
     );
 }
 
-export default Regestration;
+export default Registration;

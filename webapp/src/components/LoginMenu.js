@@ -23,15 +23,15 @@ export default function LoginMenu() {
                     <input type="password" name="password" className="input" placeholder="Passwort"/>
                 </label>
                 <br />
-                <div className="buttonlogin">
+                <div className="button">
                     <Link to="/start">
-                        <input type="submit" value="EINLOGGEN" />
+                        <input type="submit" value="EINLOGGEN" className="buttonlogin" />
                     </Link>
                 </div>
                 <p className="passwortvergessen">Passwort vergessen</p>
                 <br />
                 <br />
-                <p>Du hast kein Konto? <Link to="/registration" className="regestrierung">Registrieren</Link></p>
+                <p>Du hast kein Konto? <Link to="/registration" className="registrierung">Jetzt Registrieren</Link></p>
             </form>
         </div>
     );
