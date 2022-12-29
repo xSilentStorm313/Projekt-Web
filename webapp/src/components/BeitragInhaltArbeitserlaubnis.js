@@ -10,6 +10,7 @@ export default function BeitragInhaltArbeitserlaubnis() {
         <div>
             <br className="abstand" />
             <img src={arbeitserlaubnis} className="formular" alt="formular" />
+            <button className="downloadbutton">Download Formulare</button>
             <h1 className="überschrift1">Arbeitserlaubnis</h1>
             <p className="text">Bürgerinnen und Bürger aus EU-Mitglied- staaten und sog. EFTA-Staaten dürfen in Deutschland gemäß dem sogenannten Frei- zügigkeitsrecht ohne Einschränkung eine Beschäftigung aufnehmen. <br /> <br />
                 Sie sind inländischen Arbeitnehmerinnen und Arbeitnehmern gleichgestellt. Der Zugang von ausländischen Fachkräften aus Dritt- staaten zum deutschen Arbeitsmarkt setzt in den meisten Fällen eine Zustimmung der Bundesagentur für Arbeit (BA) voraus.</p>
