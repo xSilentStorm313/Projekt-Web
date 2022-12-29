@@ -84,9 +84,9 @@
   .zwischenüberschrift{
     text-align: left;
     margin: 1.5rem;
-    font-weight: medium;
+    font-weight: bolder;
     margin-bottom: -5px;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .komment {
