@@ -2,6 +2,8 @@ import React from "react";
 import wohnen from "./images/wohnen.svg";
 import { MdAccountCircle } from "react-icons/md";
 
+//https://www.stmb.bayern.de/wohnen/wohngeld/index.php
+
 export default function BeitragInhaltWohngeld() {
 
     return (
@@ -23,8 +25,8 @@ export default function BeitragInhaltWohngeld() {
             <p className="text">Viele Wohngeldbehörden bieten für den Antrag auf Mietzuschuss bereits ein Online-Verfahren an. Auf der Internetseite Ihrer kreisfreien Stadt beziehungsweise Ihres Landkreises oder im BayernPortal können Sie sehen, ob der Online-Antrag von Ihrer Wohngeldbehörde bereits angeboten wird.</p>
             <h2 className="zwischenüberschrift">Bewilligung</h2>
             <p className="text">Über den Antrag entscheidet das zuständige Landratsamt oder die kreisfreie Stadt ("Wohngeldbehörde") mit einem schriftlichen Bescheid. Bei der Wohngeldbehörde werden auch nähere Auskünfte erteilt und Fragen beantwortet. Bewilligt wird das Wohngeld in der Regel für zwölf Monate. Danach ist ein neuer Antrag erforderlich.</p>
-            
-            
+
+
             <p className="quellen">Quellen</p>
 
             <p className="komment">Was ist wenn ich meinen Geburtsurkunde verloren habe? Ist das schlimm? Kann ich die irgendwo neu beantragen?
