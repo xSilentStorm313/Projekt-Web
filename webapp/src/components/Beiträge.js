@@ -21,10 +21,10 @@ export default function Button() {
         <img src={asylbeantragen} className="formular" alt="formular" />Asyl beantragen
         <span className="beschreibung"> <br />Hier erhälst du Hilfe für dein Asylverfahren</span> </span> </a>
 
-      <a href="/beitrag"><span className="buttonbeitrag">
+      <a href="/vereinsanmeldung"><span className="buttonbeitrag">
         <img src={sportverein} className="formular" alt="formular" />Vereinsanmeldung<span className="beschreibung"> <br />Hier findest Sport und Freizeitangebote</span></span></a>
 
-      <a href="/beitrag"><span className="buttonbeitrag">
+      <a href="/wohngeld"><span className="buttonbeitrag">
         <img src={wohnen} className="formular" alt="formular" />Beantragen Wohngeld <span className="beschreibung"> <br />Hier findest Informationen zum Thema Wohnen wie zum Beispiel zur Wohnungsanmeldung</span></span></a>
       
         <a href="/beitrag"><span className="buttonbeitrag">

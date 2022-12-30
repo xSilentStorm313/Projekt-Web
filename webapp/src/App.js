@@ -8,6 +8,8 @@ import Arbeitserlaubnis from './Arbeitserlaubnis';
 import Asylantrag from './Asylantrag';
 import Registration from './Registration';
 import AnerkennungAbschlüsse from './AnerkennungAbschlüsse';
+import Wohngeld from './Wohngeld';
+import Vereinsanmeldung from './Vereinsanmeldung';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <Route exact path="/asylantrag" element={<Asylantrag />} />
       <Route exact path="/registration" element={<Registration />} />
       <Route exact path="/anerkennungabschluesse" element={<AnerkennungAbschlüsse />} />
+      <Route exact path="/wohngeld" element={<Wohngeld />} />
+      <Route exact path="/vereinsanmeldung" element={<Vereinsanmeldung />} />
     </Routes>
     </BrowserRouter>
   );
