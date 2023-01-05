@@ -1,0 +1,158 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+.headerWellelila {
+  width: 100%;
+  height: auto;
+  margin-top: -1.6rem;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+
+.buttonbeitrag {
+  background-color: #669F98;
+  height: 350px;
+  width: 320px;
+  margin: 1rem 2rem;
+  box-shadow: 3px 3px 3px 1px rgb(213, 213, 213);
+  border-radius: 12px;
+  font-size: 20px;
+  margin-top: 2rem;
+  display: block;
+  color: white;
+  
+}
+
+.abstand{
+  margin-top: 8rem;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+.beschreibung{
+  text-align: left;
+  font-weight: lighter;
+  line-height: 1px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+span{
+  text-align: left;
+  padding-left: 20px;
+  font-weight: medium;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.formular{
+  margin-bottom: 0px;
+}
+
+.menu-icon-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1001;
+}
+
+
+.menu {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  width: 390px;
+  background: #669F98;
+  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.1);
+  transform: translateX(100%);
+  transition: transform 0,7s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1002;
+}
+
+.menu.open {
+  transform: translateX(0);
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: transform 0,7s ease-out;
+  
+}
+
+.menu ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding-top: 5rem;
+}
+
+.menu li {
+  display: block;
+  position: center;
+  padding: 20px;
+  width: 20rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.551);
+  font-size: 20px;
+}
+
+.titlebarhauptseite {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.titlebarhauptseite img{
+  width: 100%;
+  height: auto;
+}
+
+a{
+  color: white;
+}
+
+.zurueck-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+.abmelden {
+  color: #fff;
+}

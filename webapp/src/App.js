@@ -10,6 +10,7 @@ import Registration from './Registration';
 import AnerkennungAbschlüsse from './AnerkennungAbschlüsse';
 import Wohngeld from './Wohngeld';
 import Vereinsanmeldung from './Vereinsanmeldung';
+import Hauptseitegrün from './Hauptseitegrün';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route exact path="/" element={<Home />} />
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/start" element={<Hauptseite />} />
+      <Route exact path="/startgrün" element={<Hauptseitegrün />} />
       <Route exact path="/beitrag" element={<EinzelnerBeitrag />} />
       <Route exact path="/arbeitserlaubnis" element={<Arbeitserlaubnis />} />
       <Route exact path="/asylantrag" element={<Asylantrag />} />
