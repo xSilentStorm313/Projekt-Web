@@ -1,0 +1,159 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+.überschrift {
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 1.2rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.überschrift1 {
+  box-sizing: border-box;
+  text-align: left;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.formular {
+    width: 90%;
+    height: auto;
+    margin-top: -1.6rem;
+}
+
+.footer{
+    position: fixed; 
+    bottom: 0px; 
+}
+
+.fragebeitrag {
+    background-color: rgb(132, 91, 162);
+    height: 110px;
+    width: 350px;
+    margin: 1rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    display: block;
+  }
+
+  ul{
+    text-align: center;
+    color: white;
+  }
+
+  .anmelden{
+    color: white;
+    
+  }
+
+  .text{
+    text-align: left;
+    margin-left: 25px;
+  }
+
+  .infotextasylgrün{
+    font-weight: medium;
+    text-align: left;
+    color: black;
+    background-color: #669F98;
+    box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: lighter;
+
+  }
+
+  .text{
+    text-align: left;
+    font-size: 17px;
+    margin-right: 1.2rem;
+  }
+
+  .zwischenüberschrift{
+    text-align: left;
+    margin: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: -5px;
+    font-size: 22px;
+  }
+
+  .zwischenüberschriftasyl{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 2rem;
+    padding-top: 15px;
+    font-weight:500;
+  }
+
+  .listearbeitserlaubnis{
+    color:black;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    font-size: 17px;
+  }
+
+  .komment {
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .antwortkomment{
+    border: 2px solid grey;
+    border-radius: 15px;
+    margin-left: 5rem;
+    margin-right: 1.5rem;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+    font-weight: medium;
+  }
+
+  .buttonantworten{
+    color:green;
+    border-color: green;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    right: 2rem;
+    font-weight: medium;
+  }
+
+  .profilbildantwort{
+    size: 30px;
+  }
+
+  .downloadbuttongrün{
+    background-color:#669F98;
+    color:black;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .quellen{
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    
+  }
+

@@ -11,6 +11,7 @@ import AnerkennungAbschlüsse from './AnerkennungAbschlüsse';
 import Wohngeld from './Wohngeld';
 import Vereinsanmeldung from './Vereinsanmeldung';
 import Hauptseitegrün from './Hauptseitegrün';
+import Rückkehr from './Rückkehr';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Route exact path="/anerkennungabschluesse" element={<AnerkennungAbschlüsse />} />
       <Route exact path="/wohngeld" element={<Wohngeld />} />
       <Route exact path="/vereinsanmeldung" element={<Vereinsanmeldung />} />
+      <Route exact path="/rückkehr" element={<Rückkehr />} />
     </Routes>
     </BrowserRouter>
   );
