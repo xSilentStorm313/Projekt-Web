@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function Appgrün() {
   return (
-    <div className="hauptseite">
+    <div className="hauptseitegrün">
       <MenuIcon items={['Home', 'Account', 'Kategorien' , 'Meine Chats']} />
       <Link to='/'>
         <ZurueckIcon/>

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Switch from "./SwitchButton";
+import Helfer from "./HelferButton";
+import Hilfesuchender from "./HilfesuchenderButton";
 
 
 function MenuIcon({ onClick }) {
@@ -30,7 +31,7 @@ function Menu({ items }) {
             ))}
             <br/>
           </ul>
-          <Switch />
+          <Helfer /> <Hilfesuchender />
           <br/>
           <div className='abmelden'>Abmelden</div>
         </div>
