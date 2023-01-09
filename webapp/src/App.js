@@ -12,6 +12,7 @@ import Wohngeld from './Wohngeld';
 import Vereinsanmeldung from './Vereinsanmeldung';
 import Hauptseitegrün from './Hauptseitegrün';
 import Rückkehr from './Rückkehr';
+import Verkehr from './Verkehr';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Route exact path="/wohngeld" element={<Wohngeld />} />
       <Route exact path="/vereinsanmeldung" element={<Vereinsanmeldung />} />
       <Route exact path="/rückkehr" element={<Rückkehr />} />
+      <Route exact path="/verkehr" element={<Verkehr />} />
     </Routes>
     </BrowserRouter>
   );
