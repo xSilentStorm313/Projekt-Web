@@ -5,7 +5,7 @@ import MenuIcon from "./components/MenuIcon";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
-import BeitragInhaltRückkehr from "./components/BeitragInhaltRückkehr";
+import BeitragInhaltVerkehr from "./components/BeitagInhaltVerkehr";
 
 export default function Verkehr() {
     return (
@@ -15,7 +15,7 @@ export default function Verkehr() {
                 <ZurueckIcon/>
             </Link>
             <TitleBarHauptseite />
-            <BeitragInhaltRückkehr />
+            <BeitragInhaltVerkehr />
             <Kommentare className="kommentar"/>
         </div>
     );
