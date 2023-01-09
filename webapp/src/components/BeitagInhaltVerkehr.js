@@ -1,5 +1,5 @@
 import React from "react";
-import rückkehr from "./images/Rückkehr.png";
+import verkehr from "./images/verkehr.png";
 import { MdAccountCircle, MdDetails } from "react-icons/md";
 
 // https://www.bamf.de/DE/Themen/Rueckkehr/FoerderprogrammREAGGARP/reaggarp-node.html
@@ -8,7 +8,7 @@ export default function BeitragInhaltVerkehr() {
 
     return (
         <div className="abstand">
-            <img src={rückkehr} className="formular" alt="formular" />
+            <img src={verkehr} className="formular" alt="formular" />
             <button className="downloadbuttongrün">Download Formulare</button>
             <h1 className="überschrift1">Geflüchtete aus der Ukraine fahren kostenlos mit den Verkehrsmitteln im MVV</h1>
             <div className="infotextasylgrün">Gemeinsam haben sich Verkehrsunternehmen und Gesellschafter im Münchner Verkehrs- und Tarifverbund (MVV) entschlossen, schnell und unbürokratisch Hilfe zu leisten. Flüchtende aus der Ukraine können die öffentlichen Verkehrsmittel im MVV-Raum ab sofort kostenlos nutzen.</div>
