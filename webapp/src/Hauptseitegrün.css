@@ -61,14 +61,14 @@ span{
   margin-bottom: 0px;
 }
 
-.menu-icon-container {
+.menu-icon-containergrün {
   position: fixed;
   top: 0;
   right: 0;
   z-index: 999;
 }
 
-.menu-icon {
+.menu-icongrün {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,7 @@ span{
 }
 
 
-.menu {
+.menugrün {
   position: fixed;
   top: 5px;
   right: 5px;
@@ -153,7 +153,7 @@ a{
   z-index: 1001;
 }
 
-.abmelden {
+.abmeldengrün {
   color: #fff;
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hauptseitegrün.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
-import MenuIcon from "./components/MenuIcon";
+import MenuIconGrün from "./components/MenuIconGrün";
 import BeiträgeHelfer from "./components/BeiträgeHelfer";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 function Appgrün() {
   return (
     <div className="hauptseitegrün">
-      <MenuIcon items={['Home', 'Account', 'Kategorien' , 'Meine Chats']} />
+      <MenuIconGrün items={['Home', 'Account', 'Kategorien' , 'Meine Chats']} />
       <Link to='/'>
         <ZurueckIcon/>
       </Link>
