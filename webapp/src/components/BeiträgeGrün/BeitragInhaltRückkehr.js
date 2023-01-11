@@ -1,5 +1,5 @@
 import React from "react";
-import rückkehr from "./images/Arikelbilder/Rückkehr.png";
+import rückkehr from "./BilderbeiträgeGrün/Rückkehr.png";
 import { MdAccountCircle } from "react-icons/md";
 
 // https://www.bamf.de/DE/Themen/Rueckkehr/FoerderprogrammREAGGARP/reaggarp-node.html

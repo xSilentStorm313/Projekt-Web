@@ -2,7 +2,7 @@ import React from "react";
 import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
 import MenuIcon from "./components/MenuIcon";
-import BeitragInhaltAnerkennung from "./components/BeitraginhaltAnerkennung";
+import BeitragInhaltAnerkennunglila from "./components/BeitraginhaltAnerkennunglila";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
@@ -24,7 +24,7 @@ export default function Arbeitserlaubnis() {
                 <ZurueckIcon/>
             </Link>
             <TitleBarHauptseite />
-            <BeitragInhaltAnerkennung />
+            <BeitragInhaltAnerkennunglila />
             <Kommentare className="kommentar"/>
         </div>
     );

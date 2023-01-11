@@ -5,7 +5,7 @@ import MenuIconGrün from "./components/MenuIconGrün";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
-import BeitragInhaltRückkehr from "./components/BeitragInhaltRückkehr";
+import BeitragInhaltRückkehr from "./components/BeiträgeGrün/BeitragInhaltRückkehr";
 
 export default function Rückkehr() {
     const itemsgrün = [

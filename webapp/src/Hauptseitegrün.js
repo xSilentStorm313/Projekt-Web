@@ -2,7 +2,7 @@ import React from "react";
 import "./Hauptseitegrün.css";
 import TitleBarHauptseite from './components/TitleBarHauptseitegrün';
 import MenuIconGrün from "./components/MenuIconGrün";
-import Beiträgegrün from "./components/Beiträgegrün";
+import Beiträgegrün1 from "./components/BeiträgeGrün/Beiträgegrün";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
 
@@ -23,7 +23,7 @@ function Appgrün() {
         <ZurueckIcon/>
       </Link>
       <TitleBarHauptseite />
-      <Beiträgegrün />
+      <Beiträgegrün1 />
     </div>
   );
 }

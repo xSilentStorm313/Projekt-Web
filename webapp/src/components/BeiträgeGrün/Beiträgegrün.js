@@ -1,6 +1,6 @@
 import React from "react";
-import rückkehr from "./images/Arikelbilder/Rückkehr.png";
-import verkehr from "./images/Arikelbilder/verkehr.png";
+import rückkehr from "./BilderbeiträgeGrün/Rückkehr.png";
+import verkehr from "./BilderbeiträgeGrün/verkehr.png";
 
 export default function Button() {
   return (

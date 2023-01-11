@@ -4,7 +4,7 @@ import TitleBarHauptseite from './components/TitleBarHauptseite';
 import MenuIcon from "./components/MenuIcon";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
-import AnfrageStellenInhalt from "./components/AnfrageStellenInhalt";
+import AnfrageStellenInhalt from "./components/AntragStellen/AnfrageStellenInhalt";
 
 
 export default function AnfrageStellen() {

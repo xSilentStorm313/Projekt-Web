@@ -4,7 +4,7 @@ import TitleBarHauptseite from './components/TitleBarHauptseite';
 import MenuIcon from "./components/MenuIcon";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
-import AnfrageFertigInhalt from "./components/AnfrageFertigInhalt";
+import AnfrageFertigInhalt from "./components/AntragStellen/AnfrageFertigInhalt";
 
 
 export default function AnfrageFertig() {

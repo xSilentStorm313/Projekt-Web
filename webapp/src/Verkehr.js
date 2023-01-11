@@ -5,7 +5,7 @@ import MenuIconGrün from "./components/MenuIconGrün";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
-import BeitragInhaltVerkehr from "./components/BeitagInhaltVerkehr";
+import BeitragInhaltVerkehrgrün from "./components/BeiträgeGrün/BeitagInhaltVerkehrgrün";
 
 export default function Verkehr() {
     const itemsgrün = [
@@ -21,7 +21,7 @@ export default function Verkehr() {
                 <ZurueckIcon />
             </Link>
             <TitleBarHauptseite />
-            <BeitragInhaltVerkehr />
+            <BeitragInhaltVerkehrgrün />
             <Kommentare className="kommentar" />
         </div>
     );
