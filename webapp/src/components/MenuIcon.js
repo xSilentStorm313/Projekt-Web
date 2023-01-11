@@ -7,7 +7,7 @@ import Hilfesuchender from "./HilfesuchenderButton";
 function MenuIcon({ onClick }) {
   return (
     <div className="menu-icon" onClick={onClick}>
-      <FaBars size={30}/>
+      <FaBars size={30} />
     </div>
   );
 }
@@ -24,14 +24,14 @@ function Menu({ items }) {
           <ul>
             <h1> Menü </h1>
             {items.map((item, index) => (
-      <li key={index} onClick={() => window.location.href = item.link}>
-        {item.text}
-      </li>
-    ))}
-            <br/>
+              <li key={index} onClick={() => window.location.href = item.link}>
+                {item.text}
+              </li>
+            ))}
+            <br />
           </ul>
           <Helfer /> <Hilfesuchender />
-          <br/>
+          <br />
           <div className='abmelden'>Abmelden</div>
         </div>
 
