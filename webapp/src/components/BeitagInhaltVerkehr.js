@@ -1,6 +1,6 @@
 import React from "react";
-import verkehr from "./images/verkehr.png";
-import { MdAccountCircle, MdDetails } from "react-icons/md";
+import verkehr from "./images/Arikelbilder/verkehr.png";
+import { MdAccountCircle } from "react-icons/md";
 
 // https://www.bamf.de/DE/Themen/Rueckkehr/FoerderprogrammREAGGARP/reaggarp-node.html
 

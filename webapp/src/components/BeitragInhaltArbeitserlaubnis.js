@@ -1,5 +1,5 @@
 import React from "react";
-import arbeitserlaubnis from "./images/arbeitserlaubnis.svg";
+import arbeitserlaubnis from "./images/Arikelbilder/arbeitserlaubnis.svg";
 import { MdAccountCircle } from "react-icons/md";
 import infografik from "./images/grafik-fluechtlinge-begrifflichkeiten.jpeg";
 

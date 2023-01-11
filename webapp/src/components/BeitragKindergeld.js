@@ -1,5 +1,5 @@
 import React from "react";
-import formular from  "./images/kindergeldantraghalb.png"
+import formular from  "./images/Arikelbilder/kindergeldantraghalb.png"
 
 export default function Inhalt() {
 

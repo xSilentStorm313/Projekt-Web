@@ -1,10 +1,10 @@
 import React from "react";
-import formular from "./images/kindergeldantraghalb.png";
-import arbeitserlaubnis from "./images/arbeitserlaubnis.svg";
-import anerkennung from "./images/anerkennunngabschluesse.svg";
-import asylbeantragen from "./images/asylbeantragen.svg";
-import sportverein from "./images/sportverein.svg";
-import wohnen from "./images/wohnen.svg";
+import formular from "./images/Arikelbilder/kindergeldantraghalb.png";
+import arbeitserlaubnis from "./images/Arikelbilder/arbeitserlaubnis.svg";
+import anerkennung from "./images/Arikelbilder/anerkennunngabschluesse.svg";
+import asylbeantragen from "./images/Arikelbilder/asylbeantragen.svg";
+import sportverein from "./images/Arikelbilder/sportverein.svg";
+import wohnen from "./images/Arikelbilder/wohnen.svg";
 
 export default function Button() {
   return (

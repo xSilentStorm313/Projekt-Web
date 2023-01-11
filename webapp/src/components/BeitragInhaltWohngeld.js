@@ -1,5 +1,5 @@
 import React from "react";
-import wohnen from "./images/wohnen.svg";
+import wohnen from "./images/Arikelbilder/wohnen.svg";
 import { MdAccountCircle } from "react-icons/md";
 
 //https://www.stmb.bayern.de/wohnen/wohngeld/index.php

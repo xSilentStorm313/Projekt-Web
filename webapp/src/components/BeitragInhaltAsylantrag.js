@@ -1,5 +1,5 @@
 import React from "react";
-import asylbeantragen from "./images/asylbeantragen.svg";
+import asylbeantragen from "./images/Arikelbilder/asylbeantragen.svg";
 import { MdAccountCircle } from "react-icons/md";
 
 
