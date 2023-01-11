@@ -1,16 +1,17 @@
 import React from "react";
 import "./EinzelnerBeitraggrün.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
-import MenuIcon from "./components/MenuIcon";
+import MenuIconGrün from "./components/MenuIconGrün";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
 import BeitragInhaltRückkehr from "./components/BeitragInhaltRückkehr";
 
 export default function Rückkehr() {
+    const itemsgrün = ['Home', 'Account', 'Kategorien' , 'Meine Chats'];
     return (
         <div className="hauptseite">
-            <MenuIcon items={['Home', 'Account', 'Kategorien', 'Meine Chats']} />
+            <MenuIconGrün items={itemsgrün} />
             <Link to='/startgrün'>
                 <ZurueckIcon/>
             </Link>
