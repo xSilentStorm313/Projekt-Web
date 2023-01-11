@@ -17,10 +17,10 @@ function Menu({ items }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="menu-container">
+    <div className="menu-containergrün">
       <MenuIcon onClick={() => setMenuOpen(!menuOpen)} />
       {menuOpen && (
-        <div className={`menu ${menuOpen ? 'open' : ''}`}>
+        <div className={`menugrün ${menuOpen ? 'open' : ''}`}>
           <MenuIcon onClick={() => setMenuOpen(!menuOpen)} />
           <ul>
             <h1> Menü </h1>
