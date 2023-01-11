@@ -1,0 +1,71 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+.anfrage {
+    color: grey;
+}
+
+.überschriftantrag {
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 36px;
+}
+
+.inputanfrage {
+    width: 80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 188, 188);
+    border-radius: 12px;
+    outline: none;
+    text-align: start;
+    box-shadow: 10%;
+    padding: 10px;
+    height: 318px;
+    
+}
+
+
+.inputbetreff {
+    width: 80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 188, 188);
+    border-radius: 12px;
+    outline: none;
+    text-align: left;
+    box-shadow: 10%;
+    padding: 12px 15px;
+}
+
+.buttonprivat {
+    background-color:#A28AB4;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 150px;
+    height: 49px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 13px;
+    border-color: rgb(132, 91, 162);
+}
+
+.buttonöffentlich {
+    background-color:#A28AB4;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 150px;
+    height: 49px;
+    margin-right: 1rem;
+    border-radius: 13px;
+    border-color: rgb(132, 91, 162);
+}

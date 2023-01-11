@@ -13,6 +13,7 @@ import Vereinsanmeldung from './Vereinsanmeldung';
 import Hauptseitegrün from './Hauptseitegrün';
 import Rückkehr from './Rückkehr';
 import Verkehr from './Verkehr';
+import AnfrageStellen from './AnfrageStellen';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Route exact path="/vereinsanmeldung" element={<Vereinsanmeldung />} />
       <Route exact path="/rückkehr" element={<Rückkehr />} />
       <Route exact path="/verkehr" element={<Verkehr />} />
+      <Route exact path="/anfrage" element={<AnfrageStellen />} />
     </Routes>
     </BrowserRouter>
   );
