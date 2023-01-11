@@ -1,7 +1,7 @@
 import React from "react";
 import TitleBarRegistrierung from './components/TitelBarRegistrieren';
-import ButtonRegistrierung from './components/ButtonRegistrieren';
-import RegistrierungText from "./components/RegistrierenText";
+import ButtonRegistrierung from './components/Regestrierung/ButtonRegistrieren';
+import RegistrierungText from "./components/Regestrierung/RegistrierenText";
 import './Registrieren.css';
 
 function Registration() {
