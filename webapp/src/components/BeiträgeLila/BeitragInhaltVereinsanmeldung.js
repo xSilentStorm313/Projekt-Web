@@ -1,5 +1,5 @@
 import React from "react";
-import sportverein from "./images/Arikelbilder/sportverein.svg";
+import sportverein from "./BeiträgeBilderLila/sportverein.svg";
 import { MdAccountCircle } from "react-icons/md";
 
 export default function BeitragInhaltVereinsanmeldung() {

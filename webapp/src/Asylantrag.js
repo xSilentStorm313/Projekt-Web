@@ -2,7 +2,7 @@ import React from "react";
 import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
 import MenuIcon from "./components/MenuIcon";
-import BeitragInhaltAsylantrag from "./components/BeitragInhaltAsylantrag";
+import BeitragInhaltAsylantrag from "./components/BeiträgeLila/BeitragInhaltAsylantrag";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";

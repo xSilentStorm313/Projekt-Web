@@ -5,7 +5,7 @@ import MenuIcon from "./components/MenuIcon";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
-import BeitragInhaltVereinsanmeldung from "./components/BeitragInhaltVereinsanmeldung";
+import BeitragInhaltVereinsanmeldung from "./components/BeiträgeLila/BeitragInhaltVereinsanmeldung";
 
 export default function Wohngeld() {
     const items =[

@@ -1,5 +1,5 @@
 import React from "react";
-import anerkennung from "./images/Arikelbilder/anerkennunngabschluesse.svg";
+import anerkennung from "./BeiträgeBilderLila/anerkennunngabschluesse.svg";
 import { MdAccountCircle } from "react-icons/md";
 
 export default function BeitragInhaltAnerkennung() {

@@ -2,7 +2,7 @@ import React from "react";
 import "./Hauptseitelila.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
 import MenuIcon from "./components/MenuIcon";
-import Beiträgelila from "./components/Beiträgelila";
+import Beiträgelila from "./components/BeiträgeLila/Beiträgelila";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
 

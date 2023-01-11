@@ -1,7 +1,7 @@
 import React from "react";
-import arbeitserlaubnis from "./images/Arikelbilder/arbeitserlaubnis.svg";
+import arbeitserlaubnis from "./BeiträgeBilderLila/arbeitserlaubnis.svg";
 import { MdAccountCircle } from "react-icons/md";
-import infografik from "./images/grafik-fluechtlinge-begrifflichkeiten.jpeg";
+import infografik from "./BeiträgeBilderLila/grafik-fluechtlinge-begrifflichkeiten.jpeg";
 
 //https://www.bmas.de/DE/Arbeit/Fachkraeftesicherung-und-Integration/Migration-und-Arbeit/Flucht-und-Aysl/arbeitsmarktzugang-fuer-fluechtlinge.html //quelle
 
