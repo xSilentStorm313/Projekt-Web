@@ -1,8 +1,8 @@
 import React from "react";
-import "./Hauptseite.css";
+import "./Hauptseitelila.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
 import MenuIcon from "./components/MenuIcon";
-import Beiträge from "./components/Beiträge";
+import Beiträgelila from "./components/Beiträgelila";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
 
@@ -24,7 +24,7 @@ function App() {
         <ZurueckIcon />
       </Link>
       <TitleBarHauptseite />
-      <Beiträge />
+      <Beiträgelila />
     </div>
   );
 }
