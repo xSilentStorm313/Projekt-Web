@@ -8,16 +8,21 @@ import { Link } from "react-router-dom";
 import BeitragInhaltVerkehr from "./components/BeitagInhaltVerkehr";
 
 export default function Verkehr() {
-    const itemsgrün = ['Home', 'Account', 'Kategorien' , 'Meine Chats'];
+    const itemsgrün = [
+        { text: 'Home', link: '/startgrün' },
+        { text: 'Account', link: '/' },
+        { text: 'Kategorien', link: '/' },
+        { text: 'Meine Chats', link: '/' },
+    ];
     return (
         <div className="hauptseite">
             <MenuIconGrün items={itemsgrün} />
             <Link to='/startgrün'>
-                <ZurueckIcon/>
+                <ZurueckIcon />
             </Link>
             <TitleBarHauptseite />
             <BeitragInhaltVerkehr />
-            <Kommentare className="kommentar"/>
+            <Kommentare className="kommentar" />
         </div>
     );
 }

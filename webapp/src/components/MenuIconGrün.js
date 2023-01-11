@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import Helfer from "./HelferButton";
 import Hilfesuchender from "./HilfesuchenderButton";
 
@@ -25,8 +24,8 @@ function Menu({ items }) {
           <ul>
             <h1> Menü </h1>
             {items.map((item, index) => (
-              <li key={index}>{item}
-                <Link to={item.link}>{item.text}</Link>
+              <li key={index} onClick={() => window.location.href = item.link}>
+                {item.text}
               </li>
             ))}
             <br/>

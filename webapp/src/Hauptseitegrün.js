@@ -9,7 +9,12 @@ import { Link } from "react-router-dom";
 
 
 function Appgrün() {
-  const itemsgrün = ['Home', 'Account', 'Kategorien' , 'Meine Chats'];
+  const itemsgrün = [
+    { text: 'Home', link: '/startgrün' },
+    { text: 'Account', link: '/' },
+    { text: 'Kategorien', link: '/' },
+    { text: 'Meine Chats', link: '/' },
+];
   
   return (
     <div className="hauptseitegrün">

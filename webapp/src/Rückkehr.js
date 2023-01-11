@@ -8,7 +8,12 @@ import { Link } from "react-router-dom";
 import BeitragInhaltRückkehr from "./components/BeitragInhaltRückkehr";
 
 export default function Rückkehr() {
-    const itemsgrün = ['Home', 'Account', 'Kategorien' , 'Meine Chats'];
+    const itemsgrün = [
+        { text: 'Home', link: '/startgrün' },
+        { text: 'Account', link: '/' },
+        { text: 'Kategorien', link: '/' },
+        { text: 'Meine Chats', link: '/' },
+    ];
     return (
         <div className="hauptseite">
             <MenuIconGrün items={itemsgrün} />
