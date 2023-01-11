@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Home from "./Home"
+import Startseite from "./Startseite"
 import Login from './Login';
 import Hauptseitelila from "./Hauptseitelila"
 import Kindergeld from './Kindergeld';
@@ -21,7 +21,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route exact path="/" element={<Startseite/>} />
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/start" element={<Hauptseitelila />} />
       <Route exact path="/startgrün" element={<Hauptseitegrün />} />

@@ -1,6 +1,6 @@
 import React from "react";
 import TitleBar from './components/TitleBar';
-import InfoText from './components/InfoText';
+import StartseiteText from './components/StartseiteText';
 import Button from './components/Button';
 import SocialMediaLogin from './components/SocialMediaLogin';
 import Footer from './components/Footer'
@@ -11,7 +11,7 @@ function Home() {
         <div className="Home">
             <TitleBar />
             <div className="container">
-                <InfoText />
+                <StartseiteText />
             </div>
             <br/>
             <Button />
