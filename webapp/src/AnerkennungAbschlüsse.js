@@ -9,9 +9,17 @@ import { Link } from "react-router-dom";
 
 
 export default function Arbeitserlaubnis() {
+    const items =[
+        { text: 'Home', link: '/start' },
+        { text: 'Account', link: '/' },
+        { text: 'Kategorien', link: '/' },
+        { text: 'Anfrage stellen', link: '/anfrage' },
+        { text: 'Meine Chats', link: '/' },
+        ];
+      
     return (
         <div className="hauptseite">
-            <MenuIcon items={['Home', 'Account', 'Kategorien', 'Anfrage stellen', 'Meine Chats']} />
+            <MenuIcon items={items} />
             <Link to='/start'>
                 <ZurueckIcon/>
             </Link>
