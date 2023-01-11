@@ -1,7 +1,7 @@
 import React from "react";
 import "./AnfrageStellen.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
-import MenuIcon from "./components/MenuIcon";
+import MenuIcon from "./components/Menü/MenuLogikLila";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
 import AnfrageStellenInhalt from "./components/AntragStellen/AnfrageStellenInhalt";

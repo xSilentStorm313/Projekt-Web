@@ -1,7 +1,7 @@
 import React from "react";
 import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
-import MenuIcon from "./components/MenuIcon";
+import MenuIcon from "./components/Menü/MenuLogikLila";
 import BeitragInhaltArbeitserlaubnis from "./components/BeiträgeLila/BeitragInhaltArbeitserlaubnis";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";

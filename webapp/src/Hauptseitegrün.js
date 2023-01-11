@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hauptseitegrün.css";
 import TitleBarHauptseite from './components/TitleBarHauptseitegrün';
-import MenuIconGrün from "./components/MenuIconGrün";
+import MenuIconGrün from "./components/Menü/MenüLogikGrün";
 import Beiträgegrün1 from "./components/BeiträgeGrün/Beiträgegrün";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";

@@ -3,7 +3,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Home from "./Home"
 import Login from './Login';
 import Hauptseitelila from "./Hauptseitelila"
-import EinzelnerBeitrag from './EinzelnerBeitrag';
+import Kindergeld from './Kindergeld';
 import Arbeitserlaubnis from './Arbeitserlaubnis';
 import Asylantrag from './Asylantrag';
 import Registration from './Registration';
@@ -25,7 +25,7 @@ function App() {
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/start" element={<Hauptseitelila />} />
       <Route exact path="/startgrün" element={<Hauptseitegrün />} />
-      <Route exact path="/beitrag" element={<EinzelnerBeitrag />} />
+      <Route exact path="/kindergeld" element={<Kindergeld />} />
       <Route exact path="/arbeitserlaubnis" element={<Arbeitserlaubnis />} />
       <Route exact path="/asylantrag" element={<Asylantrag />} />
       <Route exact path="/registration" element={<Registration />} />

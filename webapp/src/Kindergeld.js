@@ -1,8 +1,8 @@
 import React from "react";
 import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from './components/TitleBarHauptseite';
-import MenuIcon from "./components/MenuIcon";
-import BeitragInhalt from "./components/BeiträgeLila/BeitragKindergeld";
+import MenuIcon from "./components/Menü/MenuLogikLila";
+import BeitragInhaltKindergeld from "./components/BeiträgeLila/BeitragKindergeld";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
 import { Link } from "react-router-dom";
@@ -23,7 +23,7 @@ export default function EinzelnerBeitrag() {
                 <ZurueckIcon/>
             </Link>
             <TitleBarHauptseite />
-            <BeitragInhalt />
+            <BeitragInhaltKindergeld />
             <Kommentare className="kommentar"/>
         </div>
     );
