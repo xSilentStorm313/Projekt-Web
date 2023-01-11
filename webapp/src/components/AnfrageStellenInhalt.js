@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 export default function AntragStellenInhalt() {
@@ -17,8 +18,10 @@ export default function AntragStellenInhalt() {
             <br/>
             <br/>
             <br/>
-        
+            <Link to="/anfragefertig">
+            
             <input type="submit" value="Privat" className="buttonprivat"/>
             <input type="submit" value="Öffentlich" className="buttonöffentlich"/>
+            </Link>
         </div>
     ) }

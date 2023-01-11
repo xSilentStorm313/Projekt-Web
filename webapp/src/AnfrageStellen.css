@@ -25,9 +25,7 @@
     box-shadow: 10%;
     padding: 10px;
     height: 318px;
-    
 }
-
 
 .inputbetreff {
     width: 80%;
@@ -68,4 +66,42 @@
     margin-right: 1rem;
     border-radius: 13px;
     border-color: rgb(132, 91, 162);
+}
+
+.überschriftantragfertig{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 36px;
+}
+
+.textantragfertig{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttonneuerantrag{
+    background-color:#A28AB4;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 189px;
+    height: 49px;
+    border-radius: 13px;
+    border-color: rgb(132, 91, 162); 
+}
+
+.buttonantragfertig{
+    background-color:#A28AB4;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 150px;
+    height: 49px;
+    border-radius: 13px;
+    border-color: rgb(132, 91, 162); 
 }

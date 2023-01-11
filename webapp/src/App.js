@@ -14,6 +14,7 @@ import Hauptseitegrün from './Hauptseitegrün';
 import Rückkehr from './Rückkehr';
 import Verkehr from './Verkehr';
 import AnfrageStellen from './AnfrageStellen';
+import AnfrageFertig from './AnfrageFertig';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Route exact path="/rückkehr" element={<Rückkehr />} />
       <Route exact path="/verkehr" element={<Verkehr />} />
       <Route exact path="/anfrage" element={<AnfrageStellen />} />
+      <Route exact path="/anfragefertig" element={<AnfrageFertig />} />
     </Routes>
     </BrowserRouter>
   );
