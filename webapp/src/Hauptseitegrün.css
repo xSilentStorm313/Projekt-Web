@@ -127,7 +127,7 @@ span {
   font-size: 20px;
 }
 
-.titlebarhauptseite {
+.titlebarhauptseitegrün {
   position: fixed;
   top: 0;
   left: 0;
@@ -135,7 +135,7 @@ span {
   z-index: 1000;
 }
 
-.titlebarhauptseite img {
+.titlebarhauptseitegrün img {
   width: 100%;
   height: auto;
 }
