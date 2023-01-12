@@ -1,4 +1,4 @@
-import header from  "./images/welle_header.png" // anderer Speicherort
+import header from  "./welle_header Kopie.png" // anderer Speicherort
 import React from "react"
 import { Link } from "react-router-dom";
 

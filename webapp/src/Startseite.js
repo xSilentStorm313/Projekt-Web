@@ -1,8 +1,8 @@
 import React from "react";
-import TitleBar from './components/TitleBar';
-import StartseiteText from './components/StartseiteText';
-import Button from './components/Button';
-import SocialMediaLogin from './components/SocialMediaLogin';
+import TitleBar from './components/Startseite/TitleBarStartseite';
+import StartseiteText from './components/Startseite/StartseiteText';
+import Einloggenbutton from './components/Startseite/Einloggenbutton';
+import SocialMediaLogin from './components/Startseite/SocialMediaLogin';
 import Footer from './components/Footer'
 import './App.css';
 
@@ -14,7 +14,7 @@ function Home() {
                 <StartseiteText />
             </div>
             <br/>
-            <Button />
+            <Einloggenbutton />
             <SocialMediaLogin />
             <Footer />
         </div>

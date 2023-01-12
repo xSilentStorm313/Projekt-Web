@@ -1,6 +1,6 @@
 import React from "react";
 import "./EinzelnerBeitrag.css";
-import TitleBarHauptseite from './components/TitleBarHauptseite';
+import TitleBarHauptseite from './components/BeiträgeLila/TitleBarHauptseiteLila';
 import MenuIcon from "./components/Menü/MenuLogikLila";
 import BeitragInhaltAsylantrag from "./components/BeiträgeLila/BeitragInhaltAsylantrag";
 import Kommentare from "./components/Kommentare";

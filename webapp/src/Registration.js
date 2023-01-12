@@ -1,5 +1,5 @@
 import React from "react";
-import TitleBarRegistrierung from './components/TitelBarRegistrieren';
+import TitleBarRegistrierung from './components/Regestrierung/TitelBarRegistrieren';
 import ButtonRegistrierung from './components/Regestrierung/ButtonRegistrieren';
 import RegistrierungText from "./components/Regestrierung/RegistrierenText";
 import './Registrieren.css';

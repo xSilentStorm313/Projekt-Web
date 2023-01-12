@@ -1,7 +1,7 @@
 import React from "react";
-import icon6 from "./images/logoapple.svg"; 
-import icon7 from "./images/logogoogle.svg";
-import icon8 from "./images/logofacebook.svg";
+import icon6 from "./BilderSocialMediaLogin/logoapple.svg"; 
+import icon7 from "./BilderSocialMediaLogin/logogoogle.svg";
+import icon8 from "./BilderSocialMediaLogin/logofacebook.svg";
 import { Link } from "react-router-dom";
 
 

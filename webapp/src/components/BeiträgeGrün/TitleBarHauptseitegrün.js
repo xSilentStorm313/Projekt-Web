@@ -1,4 +1,4 @@
-import header from  "./images/welle_header_grün.png" // anderer Speicherort
+import header from  "./BilderbeiträgeGrün/welle_header_grün.png" // anderer Speicherort
 import React from "react"
 
 export default function TitleBarHauptseitegrün() {

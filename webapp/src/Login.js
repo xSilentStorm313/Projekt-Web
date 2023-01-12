@@ -1,5 +1,5 @@
 import React from "react";
-import TitleBar from './components/TitleBar';
+import TitleBar from './components/Startseite/TitleBarStartseite';
 import Footer from "./components/Footer";
 import LoginMenu from "./components/LoginMenu";
 import './Login.css'

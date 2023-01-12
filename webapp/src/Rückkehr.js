@@ -1,6 +1,6 @@
 import React from "react";
 import "./EinzelnerBeitraggrün.css";
-import TitleBarHauptseite from './components/TitleBarHauptseitegrün';
+import TitleBarHauptseite from './components/BeiträgeGrün/TitleBarHauptseitegrün';
 import MenuIconGrün from "./components/Menü/MenüLogikGrün";
 import Kommentare from "./components/Kommentare";
 import ZurueckIcon from "./components/ZurückButton";
