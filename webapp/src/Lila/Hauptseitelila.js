@@ -1,9 +1,9 @@
 import React from "react";
 import "./Hauptseitelila.css";
-import TitleBarHauptseite from './components/BeiträgeLila/TitleBarHauptseiteLila';
-import MenuIcon from "./components/Menü/MenuLogikLila";
-import Beiträgelila from "./components/BeiträgeLila/Beiträgelila";
-import ZurueckIcon from "./components/ZurückButton";
+import TitleBarHauptseite from '../components/BeiträgeLila/TitleBarHauptseiteLila';
+import MenuIcon from "../components/Menü/MenuLogikLila";
+import Beiträgelila from "../components/BeiträgeLila/Beiträgelila";
+import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
 
 

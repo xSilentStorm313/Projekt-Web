@@ -1,13 +1,13 @@
 import React from "react";
 import "./EinzelnerBeitrag.css";
-import TitleBarHauptseite from './components/BeiträgeLila/TitleBarHauptseiteLila';
-import MenuIcon from "./components/Menü/MenuLogikLila";
-import Kommentare from "./components/Kommentare";
-import ZurueckIcon from "./components/ZurückButton";
+import TitleBarHauptseite from '../components/BeiträgeLila/TitleBarHauptseiteLila';
+import MenuIcon from "../components/Menü/MenuLogikLila";
+import BeitragInhaltKindergeld from "../components/BeiträgeLila/BeitragKindergeld";
+import Kommentare from "../components/Kommentare";
+import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
-import BeitragInhaltVereinsanmeldung from "./components/BeiträgeLila/BeitragInhaltVereinsanmeldung";
 
-export default function Wohngeld() {
+export default function EinzelnerBeitrag() {
     const items =[
         { text: 'Home', link: '/start' },
         { text: 'Account', link: '/' },
@@ -23,7 +23,7 @@ export default function Wohngeld() {
                 <ZurueckIcon/>
             </Link>
             <TitleBarHauptseite />
-            <BeitragInhaltVereinsanmeldung />
+            <BeitragInhaltKindergeld />
             <Kommentare className="kommentar"/>
         </div>
     );

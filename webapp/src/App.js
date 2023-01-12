@@ -2,17 +2,17 @@ import './App.css';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Startseite from "./Startseite"
 import Login from './Login';
-import Hauptseitelila from "./Hauptseitelila"
-import Kindergeld from './Kindergeld';
-import Arbeitserlaubnis from './Arbeitserlaubnis';
-import Asylantrag from './Asylantrag';
+import Hauptseitelila from "./Lila/Hauptseitelila"
+import Kindergeld from './Lila/Kindergeld';
+import Arbeitserlaubnis from './Lila/Arbeitserlaubnis';
+import Asylantrag from './Lila/Asylantrag';
 import Registration from './Registration';
-import AnerkennungAbschlüsse from './AnerkennungAbschlüsse';
-import Wohngeld from './Wohngeld';
-import Vereinsanmeldung from './Vereinsanmeldung';
-import Hauptseitegrün from './Hauptseitegrün';
-import Rückkehr from './Rückkehr';
-import Verkehr from './Verkehr';
+import AnerkennungAbschlüsse from './Lila/AnerkennungAbschlüsse';
+import Wohngeld from './Lila/Wohngeld';
+import Vereinsanmeldung from './Lila/Vereinsanmeldung';
+import Hauptseitegrün from './Grün/Hauptseitegrün';
+import Rückkehr from './Grün/Rückkehr';
+import Verkehr from './Grün/Verkehr';
 import AnfrageStellen from './AnfrageStellen';
 import AnfrageFertig from './AnfrageFertig';
 

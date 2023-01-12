@@ -1,13 +1,13 @@
 import React from "react";
 import "./EinzelnerBeitraggrün.css";
-import TitleBarHauptseite from './components/BeiträgeGrün/TitleBarHauptseitegrün';
-import MenuIconGrün from "./components/Menü/MenüLogikGrün";
-import Kommentare from "./components/Kommentare";
-import ZurueckIcon from "./components/ZurückButton";
+import TitleBarHauptseite from '../components/BeiträgeGrün/TitleBarHauptseitegrün';
+import MenuIconGrün from "../components/Menü/MenüLogikGrün";
+import Kommentare from "../components/Kommentare";
+import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
-import BeitragInhaltVerkehrgrün from "./components/BeiträgeGrün/BeitagInhaltVerkehrgrün";
+import BeitragInhaltRückkehr from "../components/BeiträgeGrün/BeitragInhaltRückkehr";
 
-export default function Verkehr() {
+export default function Rückkehr() {
     const itemsgrün = [
         { text: 'Home', link: '/startgrün' },
         { text: 'Account', link: '/' },
@@ -18,11 +18,11 @@ export default function Verkehr() {
         <div className="hauptseite">
             <MenuIconGrün items={itemsgrün} />
             <Link to='/startgrün'>
-                <ZurueckIcon />
+                <ZurueckIcon/>
             </Link>
             <TitleBarHauptseite />
-            <BeitragInhaltVerkehrgrün />
-            <Kommentare className="kommentar" />
+            <BeitragInhaltRückkehr />
+            <Kommentare className="kommentar"/>
         </div>
     );
 }
