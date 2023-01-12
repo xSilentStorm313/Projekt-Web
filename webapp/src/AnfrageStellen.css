@@ -11,32 +11,34 @@
     box-sizing: border-box;
     text-align: left;
     margin-left: 2rem;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .inputanfrage {
     width: 80%;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
     box-sizing: border-box;
-    border: 1px solid rgb(189, 188, 188);
-    border-radius: 12px;
+    border: 0.063rem solid rgb(189, 188, 188);
+    border-radius: 0.75rem;
     outline: none;
     text-align: start;
     box-shadow: 10%;
-    padding: 10px;
-    height: 318px;
+    padding: 0.625rem;
+    height: 19.875rem;
+    border-color: #A28AB4;
 }
 
 .inputbetreff {
     width: 80%;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
     box-sizing: border-box;
-    border: 1px solid rgb(189, 188, 188);
-    border-radius: 12px;
+    border: 0.063rem solid rgb(189, 188, 188);
+    border-radius: 0.75rem;
     outline: none;
     text-align: left;
     box-shadow: 10%;
-    padding: 12px 15px;
+    padding: 0.75rem 0.938rem;
+    border-color: #A28AB4;
 }
 
 .buttonprivat {
@@ -44,14 +46,14 @@
     color: white;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    width: 150px;
-    height: 49px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    width: 9.375rem;
+    height: 3.063rem;
     margin-right: 1rem;
     margin-left: 1rem;
-    border-radius: 13px;
-    border-color: rgb(132, 91, 162);
+    border-radius: 0.813rem;
+    border-color: #A28AB4;
 }
 
 .buttonöffentlich {
@@ -59,24 +61,25 @@
     color: white;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    width: 150px;
-    height: 49px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    width: 9.375rem;
+    height: 3.063rem;
     margin-right: 1rem;
-    border-radius: 13px;
-    border-color: rgb(132, 91, 162);
+    border-radius: 0.813rem;
+    border-color: #A28AB4;
 }
 
 .überschriftantragfertig{
     box-sizing: border-box;
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
+    margin-top: rem;
 }
 
 .textantragfertig{
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -85,11 +88,11 @@
     color: white;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    width: 189px;
-    height: 49px;
-    border-radius: 13px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    width: 11.813rem;
+    height: 3.063rem;
+    border-radius: 0.813rem;
     border-color: rgb(132, 91, 162); 
 }
 
@@ -98,10 +101,10 @@
     color: white;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    width: 150px;
-    height: 49px;
-    border-radius: 13px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    width: 9.375rem;
+    height: 3.063rem;
+    border-radius: 0.813rem;
     border-color: rgb(132, 91, 162); 
 }

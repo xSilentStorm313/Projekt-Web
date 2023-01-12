@@ -26,21 +26,21 @@
 
 .footer{
     position: fixed; 
-    bottom: 0px; 
+    bottom: 0rem; 
 }
 
 .fragebeitrag {
     background-color: rgb(132, 91, 162);
-    height: 110px;
-    width: 350px;
+    height: 6.875rem;
+    width: 21.875rem;
     margin: 1rem 1rem;
-    box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
-    border-radius: 12px;
+    box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
+    border-radius: 0.75rem;
     font-size: 1.2rem;
     font-weight: bold;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding: 0.625rem;
     display: block;
   }
 
@@ -56,7 +56,7 @@
 
   .text{
     text-align: left;
-    margin-left: 25px;
+    margin-left: 1.563rem;
   }
 
   .infotextasyl{
@@ -64,20 +64,20 @@
     text-align: left;
     color: black;
     background-color: #A28AB4;
-    box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
+    box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
     margin-left: 1rem;
     margin-right: 1rem;
-    border: 15px;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 17px;
+    border: 0.938rem;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    font-size: 1.063rem;
     font-weight: lighter;
 
   }
 
   .text{
     text-align: left;
-    font-size: 17px;
+    font-size: 1.063rem;
     margin-right: 1.2rem;
   }
 
@@ -85,15 +85,15 @@
     text-align: left;
     margin: 1.5rem;
     font-weight: bolder;
-    margin-bottom: -5px;
-    font-size: 22px;
+    margin-bottom: -0.313rem;
+    font-size: 1.375rem;
   }
 
   .zwischenüberschriftasyl{
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: left;
     margin-left: 2rem;
-    padding-top: 15px;
+    padding-top: 0.938rem;
     font-weight:500;
   }
 
@@ -102,25 +102,25 @@
     text-align: left;
     margin-left: 2.5rem;
     margin-right: 1rem;
-    font-size: 17px;
+    font-size: 1.063rem;
   }
 
   .komment {
-    border: 3px solid grey;
-    border-radius: 10px;
+    border: 0.188rem solid grey;
+    border-radius: 0.625rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    padding: 5px;
+    padding: 0.313rem;
     text-align: left;
     font-weight: bold;
   }
 
   .antwortkomment{
-    border: 2px solid grey;
-    border-radius: 15px;
+    border: 0.125 solid grey;
+    border-radius: 0.938rem;
     margin-left: 5rem;
     margin-right: 1.5rem;
-    padding: 5px;
+    padding: 0.313rem;
     text-align: left;
     font-weight: bold;
     font-weight: medium;
@@ -129,7 +129,7 @@
   .buttonantworten{
     color:green;
     border-color: green;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background-color: white;
     position: absolute;
     right: 2rem;
@@ -137,16 +137,16 @@
   }
 
   .profilbildantwort{
-    size: 30px;
+    size: 1.875rem;
   }
 
   .downloadbutton{
     background-color:#A28AB4;
     color:black;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 90%;
-    padding: 10px;
-    font-size: 16px;
+    padding: 0.625rem;
+    font-size: 1rem;
     font-weight: lighter;
   }
 

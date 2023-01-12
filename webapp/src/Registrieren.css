@@ -11,22 +11,22 @@
 .registrierungsbeschreibung {
     text-align: left;
     margin-left: 1.5rem;
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
 }
 
 .registrierungsheader {
     text-align: left;
     margin-left: 1.5rem;
-    margin-top: -25px;
+    margin-top: -1.563rem;
 }
 
 .auswaehleninput {
 
     font-size: 1rem;
-    border: 1px solid rgb(189, 188, 188);
-    margin-top: 10px;
-    padding: 12px 20px;
-    border-radius: 10px;
+    border: 0.063rem solid rgb(189, 188, 188);
+    margin-top: 0.625rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.625rem;
     text-align: left;
     width: 90%;
 }
@@ -34,11 +34,11 @@
 .input[type=text],
 [type=password] {
     width: 90%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
     box-sizing: border-box;
-    border: 1px solid rgb(189, 188, 188);
-    border-radius: 12px;
+    border: 0.063rem solid rgb(189, 188, 188);
+    border-radius: 0.75rem;
     outline: none;
     text-align: left;
 }
@@ -49,16 +49,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 95px;
-    height: 25px;
+    width: 5.938rem;
+    height: 1.563rem;
     color: #fff;
     cursor: pointer;
     position: fixed;
-    top: 30px;
-    right: 30px;
+    top: 1.875rem;
+    right: 1.875rem;
     z-index: 1001;
     border-color: #fff;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     font-weight: bold;
 }
 
@@ -66,10 +66,10 @@
     background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
     color: white;
     width: 80%;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
     margin: 1rem 2rem;
-    box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
-    border-radius: 12px;
+    box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
+    border-radius: 0.75rem;
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;

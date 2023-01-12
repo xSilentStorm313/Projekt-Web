@@ -30,7 +30,10 @@ function Menu({ items }) {
             ))}
             <br />
           </ul>
-          <Helfer /> <Hilfesuchender />
+          <div className="button-container-lila">
+            <Helfer />
+            <Hilfesuchender />
+          </div>
           <br />
           <div className='abmelden'>Abmelden</div>
         </div>

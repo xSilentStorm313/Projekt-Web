@@ -12,28 +12,28 @@
   box-sizing: border-box;
   text-align: left;
   margin-left: 1.5rem;
-  margin-bottom: -15px;
+  margin-bottom: -0.938rem;
 }
 
 .überschriftlogin {
   box-sizing: border-box;
   text-align: left;
   margin-left: 1.5rem;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .input[type=text],[type=password] {
   width: 80%;
-  padding: 12px 20px;
+  padding: 0.75rem 1.25rem;
   box-sizing: border-box;
-  border: 1px solid rgb(189, 188, 188);
-  border-radius: 12px;
+  border: 0.063 solid rgb(189, 188, 188);
+  border-radius: 0.75rem;
   outline: none;
   text-align: left;
 }
 
 .passwortvergessen {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-decoration: underline;
 }
 
@@ -46,9 +46,9 @@
   background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
   color: white;
   width: 80%;
-  padding: 12px 20px;
-  box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
-  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
+  border-radius: 0.75rem;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
@@ -61,10 +61,11 @@
   position: fixed;
   font-weight: bold;
   left: 0;
-  right: 0px;
+  right: 0rem;
   bottom: 0;
   width: 100%;
   padding: 2rem;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
+  
 }
