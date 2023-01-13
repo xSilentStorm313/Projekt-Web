@@ -6,7 +6,7 @@ import { AiOutlineLeft } from "react-icons/ai";
 function ZurueckIcon({ onClick }) {
   return (
     <div className="zurueck-icon" onClick={onClick}>
-      <AiOutlineLeft size={40} />
+      <AiOutlineLeft size={35} />
     </div>
   );
 }
