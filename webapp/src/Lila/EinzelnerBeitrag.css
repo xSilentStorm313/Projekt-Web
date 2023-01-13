@@ -157,3 +157,27 @@
     
   }
 
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-template-areas:
+    "kommentarInput submit-button";
+  }
+
+  .kommentarInput {
+    font: 'Inter var', sans-serif;
+    grid-area: kommentarInput;
+    border: 0.188rem solid grey;
+    border-radius: 0.625rem;
+    padding: 0.313rem;
+    text-align: left;
+    font-weight: bold;
+    width: 95%;
+  }
+  
+  .submit-button {
+    grid-area: submit-button;
+    align-self: center;
+  }

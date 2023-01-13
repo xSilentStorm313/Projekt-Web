@@ -1,6 +1,6 @@
 import React from "react";
 import arbeitserlaubnis from "./BeiträgeBilderLila/arbeitserlaubnis.svg";
-import { MdAccountCircle } from "react-icons/md";
+// import { MdAccountCircle } from "react-icons/md";
 import infografik from "./BeiträgeBilderLila/grafik-fluechtlinge-begrifflichkeiten.jpeg";
 
 //https://www.bmas.de/DE/Arbeit/Fachkraeftesicherung-und-Integration/Migration-und-Arbeit/Flucht-und-Aysl/arbeitsmarktzugang-fuer-fluechtlinge.html //quelle
@@ -63,18 +63,6 @@ export default function BeitragInhaltArbeitserlaubnis() {
             <p className="quellen">Quellen</p>
 
             <br />
-            <p className="komment">Was ist wenn ich meinen Geburtsurkunde verloren habe? Ist das schlimm? Kann ich die irgendwo neu beantragen?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
-            <p className="antwortkomment">Was ist wenn ich meinen Geburts- urkunde verloren habe? Ist das schlimm?Kann ich die irgendwo neu beantragen?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
-            <p className="komment">Was ist wenn ich den Termin für die Anhörung verpasse?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
         </div>
     );
 }

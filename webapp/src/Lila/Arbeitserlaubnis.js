@@ -3,9 +3,9 @@ import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from '../components/BeiträgeLila/TitleBarHauptseiteLila';
 import MenuIcon from "../components/Menü/MenuLogikLila";
 import BeitragInhaltArbeitserlaubnis from "../components/BeiträgeLila/BeitragInhaltArbeitserlaubnis";
-import Kommentare from "../components/Kommentare";
 import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
+import Kommentare from "../components/KommentareAusgeben";
 
 export default function Arbeitserlaubnis() {
     const items =[
@@ -24,7 +24,7 @@ export default function Arbeitserlaubnis() {
             </Link>
             <TitleBarHauptseite />
             <BeitragInhaltArbeitserlaubnis />
-            <Kommentare className="kommentar"/>
+            <Kommentare />
         </div>
     );
 }
