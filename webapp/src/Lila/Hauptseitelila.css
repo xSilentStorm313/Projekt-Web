@@ -159,6 +159,7 @@ span{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 1rem;
+
 }
 
 .button-switch-hilfesuchender {
@@ -167,7 +168,7 @@ span{
   width: 90%;
   padding: 0.75rem 1.25rem;
   border-radius: 0.75rem;
-  box-shadow: 0.07rem 0.07rem 0.07rem 0.07rem #ffffff;
+  box-shadow: 0.07rem 0.07rem 0.07rem 0.07rem;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
