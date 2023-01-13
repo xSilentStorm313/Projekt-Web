@@ -30,16 +30,19 @@
 .buttonlogin {
   background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
   color: white;
-  padding: 12px 20px;
   margin: 1rem 2rem;
   box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
-  border-radius: 12px;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 250ms;
+}
 
+.buttonlogintext{
+  color:white;
+  font-size: 16px;
+  margin: -1px -1px;
 }
 
 .registrierung {
@@ -73,6 +76,7 @@ a:active {
   padding: 2rem;
   text-align: center;
   margin-bottom: 0px;
+  color: black;
 }
 
 
