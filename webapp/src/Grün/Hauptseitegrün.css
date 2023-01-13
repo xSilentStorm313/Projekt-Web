@@ -170,9 +170,8 @@ span {
 }
 
 .button-switch-hilfesuchender {
-  color: white;
-  background-color: #A28AB4;
-  width: 90%;
+  background-color: #845BA2;
+  width: 100%;
   padding: 0.75rem 1.25rem;
   text-align: center;
   font-size: 1.2rem;
@@ -181,8 +180,8 @@ span {
 }
 
 .button-switch-helfer {
-  background-color: #70beb5;
-  width: 90%;
+  background-color: #669F98;
+  width: 100%;
   padding: 0.75rem 1.25rem;;
   text-align: center;
   font-size: 1.2rem;
@@ -193,6 +192,11 @@ span {
 .button-container-grün {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
+.button-switch-schrift {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }

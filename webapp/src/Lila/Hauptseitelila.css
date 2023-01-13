@@ -162,5 +162,6 @@ span{
 .button-container-lila {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }

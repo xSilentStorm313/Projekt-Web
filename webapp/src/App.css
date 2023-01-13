@@ -27,19 +27,24 @@
   margin-right: 15px;
 }
 
-.buttonlogin {
+.buttonstartseite {
   background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
   color: white;
-  margin: 1rem 2rem;
-  box-shadow: 3px 3px 3px 3px rgb(213, 213, 213);
+  width: 80%;
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
+  border-radius: 0.75rem;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 250ms;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.buttonlogintext{
+.buttonstartseitetext{
   color:white;
   font-size: 1.2rem;
   margin: -1px -1px;
@@ -55,7 +60,6 @@ a:link {
 }
 
 .footer {
-  position: fixed;
   font-weight: bold;
   left: 0;
   right: 0px;

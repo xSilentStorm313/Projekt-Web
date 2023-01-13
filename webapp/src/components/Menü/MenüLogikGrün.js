@@ -35,6 +35,7 @@ function Menu({ items }) {
             <Hilfesuchender />
           </div>
           <br/>
+          <div className='abmeldengrün'>Abmelden</div>
         </div>
       )}
     </div>
