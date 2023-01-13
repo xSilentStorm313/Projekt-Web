@@ -24,17 +24,17 @@
 
 
 .buttonbeitraggrün {
-  background-color: #669F98;
+  background-color:white;
   height: 21.875rem;
   width: 20rem;
   margin: 1rem 2rem;
-  box-shadow: 0.188rem 0.188rem 0.188rem 0.063rem rgb(213, 213, 213);
-  border-radius: 0.75rem;
+  box-shadow: 0 0  1rem 0.063rem rgb(213, 213, 213);
+  border-radius: 1rem;
   font-size: 1.25rem;
   margin-top: 2rem;
   display: block;
-  color: white;
-
+  color: black;
+  padding: 1rem;
 }
 
 .abstand {
