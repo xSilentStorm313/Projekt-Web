@@ -17,7 +17,7 @@ function Appgrün() {
 ];
   
   return (
-    <div className="hauptseitegrün">
+    <div className="itemslist">
       <MenuIconGrün items={itemsgrün} />
       <Link to='/'>
         <ZurueckIcon/>
