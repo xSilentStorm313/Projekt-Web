@@ -9,7 +9,7 @@ function CommentForm({ onSubmit }) {
       onSubmit({ text });
       setText('');
     }} className="form-container">
-        <textarea placeholder="Kommentar schreiben..." value={text} onChange={e => setText(e.target.value)} className="kommentarInput" />
+        <input type="text" name="Kommentar" className="kommentarInput" placeholder="Kommentar hinzufügen..." value={text} onChange={e => setText(e.target.value)}/>
       <br />
         <button type="submit" className="submit-button">Senden</button>
     </form>

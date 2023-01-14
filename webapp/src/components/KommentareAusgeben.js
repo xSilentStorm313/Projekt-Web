@@ -1,11 +1,11 @@
 import CommentSection from './KommentarSection';
 
-function App() {
+function Kommentare() {
   return (
-    <div className="App">
+    <div className="KommentareAusgeben">
       <CommentSection />
     </div>
   );
 }
 
-export default App;
+export default Kommentare;

@@ -1,11 +1,11 @@
 import React from 'react';
 import Comment from './Kommentar';
 
-function CommentList({ comments }) {
+function CommentList({ comments, onEdit, onDelete }) {
   return (
     <div>
       {comments.map(comment => (
-        <Comment key={comment.id} comment={comment} />
+        <Comment key={comment.id} comment={comment} onEdit={onEdit} onDelete={onDelete} />
       ))}
     </div>
   );
