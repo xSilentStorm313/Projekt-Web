@@ -25,16 +25,15 @@
 
 .buttonbeitraggrün {
   background-color:white;
-  height: 21.875rem;
-  width: 20rem;
+  height: 19.875rem;
   margin: 1rem 2rem;
   box-shadow: 0 0  1rem 0.063rem rgb(213, 213, 213);
   border-radius: 1rem;
   font-size: 1.25rem;
   margin-top: 2rem;
-  display: block;
+  display: inline-block;
   color: black;
-  padding: 1rem;
+  column-width: 14rem;
 }
 
 .abstand {
@@ -96,7 +95,7 @@ span {
   top: 0.313rem;
   right: 0.313rem;
   bottom: 0.313rem;
-  width: 24.375rem;
+  width: 100%;
   background: #669F98;
   box-shadow: 0.125rem 0 0.188rem rgba(0, 0, 0, 0.1);
   transform: translateX(100%);
