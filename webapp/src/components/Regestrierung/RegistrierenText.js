@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 const RegestrierungText = () => {
@@ -15,37 +15,46 @@ const RegestrierungText = () => {
     country_of_origin: '',
   });
 
-  console.log('After useState')
+  const [error, setError] = useState(false);
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
-    console.log('HEYYYYYYYYYYY');
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   }
 
-  const handleSubmit = async () => {
-    console.log('HEYYYYYYYYYYY');
-    const options = {
-      method: 'POST',
-      body: JSON.stringify(formData),
-      headers: {
-        'Content-Type': 'application/json',
-        'Origin': '*',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept': '*/*'
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    let isValid = true;
+    for (const key in formData) {
+      if (formData[key] === "") {
+        setError("Bitte fülle alle erforderlichen Felder aus");
+        isValid = false;
+        break;
       }
     }
-    fetch('http://localhost:3001/users', options)
-      // .then(res => res)
-      .then(data => {
-        console.log(data);
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  }
+    if (isValid) {
+      try {
+        const options = {
+          method: "POST",
+          body: JSON.stringify(formData),
+          headers: {
+            "Content-Type": "application/json",
+            Origin: "*",
+            "Accept-Encoding": "gzip, deflate, br",
+            Accept: "*/*",
+          },
+        };
+        const res = await fetch("http://localhost:3001/users", options);
+        if (!res.ok) throw new Error(res.statusText);
+        navigate("/start");
+      } catch (err) {
+        setError(err.message);
+      }
+    }
+  };
 
   return (
     <div>
@@ -70,6 +79,7 @@ const RegestrierungText = () => {
         placeholder="Vorname"
         value={formData.vorname}
         onChange={handleChange}
+        required
       />
       <p className="registrierungsbeschreibung">Benutzername</p>
       <input
@@ -79,6 +89,7 @@ const RegestrierungText = () => {
         placeholder="Benutzername"
         value={formData.benutzername}
         onChange={handleChange}
+        required
       />
       <p className="registrierungsbeschreibung">E-Mail</p>
       <input
@@ -88,6 +99,7 @@ const RegestrierungText = () => {
         placeholder="E-Mail"
         value={formData.email}
         onChange={handleChange}
+        required
       />
       <p className="registrierungsbeschreibung">Geburtsdatum</p>
       <input
@@ -97,6 +109,7 @@ const RegestrierungText = () => {
         placeholder="Geburtsdatum"
         value={formData.birthdate}
         onChange={handleChange}
+        required
       />
       <p className="registrierungsbeschreibung">Passwort</p>
       <input
@@ -106,6 +119,7 @@ const RegestrierungText = () => {
         placeholder="Passwort"
         value={formData.password}
         onChange={handleChange}
+        required
       />
       <p className="registrierungsbeschreibung">Wohnsituation</p>
       <select
@@ -114,6 +128,7 @@ const RegestrierungText = () => {
         className="auswaehleninput"
         value={formData.wohnsituation}
         onChange={handleChange}
+        required
       >
         <option value="">Bitte auswählen</option>
         <option value="individuelles Wohnen">individuelles Wohnen</option>
@@ -169,11 +184,9 @@ const RegestrierungText = () => {
       </select>
       <br />
       <br />
-
+      {error && <p>{error}</p>}
       <div className="button">
-        <Link to="/start">
           <input type="submit" value="JETZT REGISTRIEREN" className="registrierenweiterbutton" onClick={handleSubmit} />
-        </Link>
       </div>
 
     </div>
