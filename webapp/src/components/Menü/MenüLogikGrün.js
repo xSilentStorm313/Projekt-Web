@@ -15,6 +15,16 @@ function MenuIcon({ onClick }) {
 function Menu({ items }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const handleSubmit = async (e) => {
+    fetch('/users/logout', { method: 'POST' })
+      .then(res => {
+        if(res.status === 200){
+            window.location.href = '/';
+        }
+      })
+      .catch(err => console.log(err));
+  }
+
   return (
     <div className="menu-containergrün">
       <MenuIcon onClick={() => setMenuOpen(!menuOpen)} />
@@ -35,7 +45,7 @@ function Menu({ items }) {
             <Hilfesuchender />
           </div>
           <br/>
-          <div className='abmeldengrün'>Abmelden</div>
+          <div className='abmeldengrün' onClick={handleSubmit}>Abmelden</div>
         </div>
       )}
     </div>
