@@ -67,17 +67,15 @@ ul {
 .infotextasyl {
   font-weight: medium;
   text-align: left;
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: #A28AB4;
-  box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
+  /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
   margin-left: 1rem;
   margin-right: 1rem;
-  border: 0.938rem;
+  /* border: 0.938rem; */
   border-radius: 0.625rem;
   padding: 0.625rem;
   font-size: 1.063rem;
-  font-weight: lighter;
-
 }
 
 .text {
@@ -147,12 +145,12 @@ ul {
 
 .downloadbutton {
   background-color: #A28AB4;
-  color: black;
+  color: rgb(255, 255, 255);
   border-radius: 0.625rem;
   width: 90%;
   padding: 0.625rem;
   font-size: 1rem;
-  font-weight: lighter;
+  font-weight: medium;
 }
 
 .quellen {
