@@ -2,7 +2,7 @@ import React from "react";
 import "./EinzelnerBeitraggrün.css";
 import TitleBarHauptseite from '../components/BeiträgeGrün/TitleBarHauptseitegrün';
 import MenuIconGrün from "../components/Menü/MenüLogikGrün";
-import Kommentare from "../components/KommentareAlt";
+import Kommentare from "../components/Kommentare/KommentareAusgeben";
 import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
 import BeitragInhaltRückkehr from "../components/BeiträgeGrün/BeitragInhaltRückkehr";
@@ -22,7 +22,7 @@ export default function Rückkehr() {
             </Link>
             <TitleBarHauptseite />
             <BeitragInhaltRückkehr />
-            <Kommentare className="kommentar"/>
+            <Kommentare />
         </div>
     );
 }

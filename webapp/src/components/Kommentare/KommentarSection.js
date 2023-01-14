@@ -12,8 +12,9 @@ function CommentSection() {
     setComments(newComments);
   }
   const onDelete = (id) => {
-    setComments(comments.filter(comment => comment.id !== id));
-}
+      setComments(comments.filter(comment => comment.id !== id));
+  }
+  
   return (
     <div>
       <CommentList comments={comments} onEdit={onEdit} onDelete={onDelete}/>

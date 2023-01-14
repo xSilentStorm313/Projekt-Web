@@ -2,7 +2,7 @@ import React from "react";
 import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from '../components/BeiträgeLila/TitleBarHauptseiteLila';
 import MenuIcon from "../components/Menü/MenuLogikLila";
-import Kommentare from "../components/KommentareAlt";
+import Kommentare from "../components/Kommentare/KommentareAusgeben";
 import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
 import BeitragInhaltVereinsanmeldung from "../components/BeiträgeLila/BeitragInhaltVereinsanmeldung";
@@ -24,7 +24,7 @@ export default function Wohngeld() {
             </Link>
             <TitleBarHauptseite />
             <BeitragInhaltVereinsanmeldung />
-            <Kommentare className="kommentar"/>
+            <Kommentare />
         </div>
     );
 }
