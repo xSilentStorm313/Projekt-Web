@@ -1,6 +1,6 @@
 import React from "react";
 import wohnen from "./BeiträgeBilderLila/wohnen.svg";
-import { MdAccountCircle } from "react-icons/md";
+//import { MdAccountCircle } from "react-icons/md";
 
 //https://www.stmb.bayern.de/wohnen/wohngeld/index.php
 
@@ -28,19 +28,7 @@ export default function BeitragInhaltWohngeld() {
 
 
             <p className="quellen">Quellen</p>
-
-            <p className="komment">Was ist wenn ich meinen Geburtsurkunde verloren habe? Ist das schlimm? Kann ich die irgendwo neu beantragen?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
-            <p className="antwortkomment">Was ist wenn ich meinen Geburts- urkunde verloren habe? Ist das schlimm?Kann ich die irgendwo neu beantragen?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
-            <p className="komment">Was ist wenn ich den Termin für die Anhörung verpasse?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
+            <p className="beitrag-kommentar-überschrift">Kommentare</p>
         </div>
     );
 }

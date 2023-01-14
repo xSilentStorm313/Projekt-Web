@@ -152,6 +152,111 @@
     text-align: left;
     margin-left: 1.5rem;
     margin-top: 1.5rem;
-    
+  }
+
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    grid-template-areas:
+      "kommentarInput submit-button";
+  }
+  
+  .kommentarInput {
+    font: 'Inter var', sans-serif;
+    grid-area: kommentarInput;
+    border-color: rgb(189, 188, 188);
+    border-radius: 0.75rem;
+    text-align: left;
+    width: 95%;
+    padding: 0.75rem 1.25rem;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .submit-button {
+    grid-area: submit-button;
+    align-self: center;
+    background-color: #A28AB4;
+    border-color: #A28AB4;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .comment-container {
+    background-color: #f5f5f5;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: 0.625rem;
+    width: 80%;
+    margin-left: 4rem;
+    border: 0.1rem solid grey;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .comment-text {
+    text-align: left;
+    width: 80%;
+    position: relative;
+    top: 0.6rem;
+    right: 1rem;
+    left: 0.5rem;
+  }
+  
+  .edit-button {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    background-color: #A28AB4;
+    border-color: #A28AB4;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.7rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .delete-button {
+    position: absolute;
+    bottom: 0.6rem;
+    right: 0.6rem;
+    background-color: #A28AB4;
+    border-color: #A28AB4;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.7rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .kommentar-bearbeiten {
+    border: none;
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.55rem;
+  }
+  
+  .save-button {
+    position: absolute;
+    top: 0.7rem;
+    right: 0.7rem;
+    background-color: #A28AB4;
+    border-color: #A28AB4;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .beitrag-kommentar-überschrift {
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
   }
 

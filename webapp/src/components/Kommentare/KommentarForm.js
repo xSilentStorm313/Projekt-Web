@@ -6,7 +6,7 @@ function CommentForm({ onSubmit }) {
   return (
     <form onSubmit={e => {
       e.preventDefault();
-      onSubmit({ text });
+      onSubmit({ text, id: Date.now() });
       setText('');
     }} className="form-container">
         <input type="text" name="Kommentar" className="kommentarInput" placeholder="Kommentar hinzufügen..." value={text} onChange={e => setText(e.target.value)}/>

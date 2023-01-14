@@ -3,7 +3,7 @@ import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from '../components/BeiträgeLila/TitleBarHauptseiteLila';
 import MenuIcon from "../components/Menü/MenuLogikLila";
 import BeitragInhaltAsylantrag from "../components/BeiträgeLila/BeitragInhaltAsylantrag";
-import Kommentare from "../components/KommentareAlt";
+import Kommentare from "../components/Kommentare/KommentareAusgeben";
 import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
 
@@ -24,7 +24,7 @@ export default function Asylantrag() {
             </Link>
             <TitleBarHauptseite />
             <BeitragInhaltAsylantrag />
-            <Kommentare className="kommentar"/>
+            <Kommentare />
         </div>
     );
 }

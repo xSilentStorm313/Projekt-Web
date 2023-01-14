@@ -1,6 +1,6 @@
 import React from "react";
 import rückkehr from "./BilderbeiträgeGrün/Rückkehr.png";
-import { MdAccountCircle } from "react-icons/md";
+//import { MdAccountCircle } from "react-icons/md";
 
 // https://www.bamf.de/DE/Themen/Rueckkehr/FoerderprogrammREAGGARP/reaggarp-node.html
 
@@ -42,19 +42,7 @@ export default function BeitragInhaltRückkehr() {
 
 
             <p className="quellen">Quellen</p>
-
-            <p className="komment">Was ist wenn ich meinen Geburtsurkunde verloren habe? Ist das schlimm? Kann ich die irgendwo neu beantragen?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
-            <p className="antwortkomment">Was ist wenn ich meinen Geburts- urkunde verloren habe? Ist das schlimm?Kann ich die irgendwo neu beantragen?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
-            <p className="komment">Was ist wenn ich den Termin für die Anhörung verpasse?
-                <br />
-                <MdAccountCircle size={30} className="Profilbild antwort" />
-                <button className="buttonantworten">Antworten</button></p>
+            <p className="beitrag-kommentar-überschrift">Kommentare</p>
         </div>
     );
 }
