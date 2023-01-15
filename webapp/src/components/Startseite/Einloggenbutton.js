@@ -5,7 +5,7 @@ export default function Button() {
     return (
         <div className="buttonstartseite">
             <Link to="/login">
-                <p className="buttonstartseitetext">EINLOGGEN</p>
+                <p className="buttonstartseitetext">Einloggen</p>
             </Link>
         </div>
     ) }

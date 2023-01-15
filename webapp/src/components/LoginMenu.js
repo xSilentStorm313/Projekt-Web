@@ -63,7 +63,7 @@ export default function LoginMenu() {
                 </label>
                 <br />
                 <div className="button">
-                    <input type="submit" value="EINLOGGEN" className="buttonlogin" />
+                    <input type="submit" value="Einloggen" className="buttonlogin" />
                 </div>
                 <p className="passwortvergessen">Passwort vergessen</p>
                 <br />
