@@ -45,7 +45,7 @@ function Menu({ items }) {
             <Hilfesuchender />
           </div>
           <br />
-          <div className='abmelden' onClick={handleSubmit}>Abmelden</div>
+          <a className='abmelden' onClick={handleSubmit} href="/login" >Abmelden</a>
         </div>
 
       )}
