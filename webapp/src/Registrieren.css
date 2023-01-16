@@ -41,9 +41,6 @@
         border-radius: 0.625rem;
         text-align: left;
         width: 34rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
     }
 }
 
@@ -72,9 +69,6 @@
         border-radius: 0.75rem;
         outline: none;
         text-align: left;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
     }
 }
 
@@ -126,7 +120,7 @@
         border-radius: 0.75rem;
         text-align: center;
         font-size: 1.2rem;
-        font-weight: medium;
+        font-weight: bold;
         cursor: pointer;
         transition: background-color 250ms;
         border: none;
