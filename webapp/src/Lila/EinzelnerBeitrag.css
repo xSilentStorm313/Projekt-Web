@@ -144,13 +144,14 @@ ul {
 }
 
 .downloadbutton {
-  background-color: #A28AB4;
-  color: rgb(255, 255, 255);
+  background-color: white;
+  color: black;
   border-radius: 0.625rem;
   width: 90%;
-  padding: 0.625rem;
+  padding: 0.75rem;
   font-size: 1rem;
   font-weight: medium;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
 }
 
 .quellen {
