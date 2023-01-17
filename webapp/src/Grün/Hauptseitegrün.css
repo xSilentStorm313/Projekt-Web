@@ -36,7 +36,7 @@
   color: black;
 }
 
-.abstand {
+.abstand{
   margin-top: 8rem;
 }
 
@@ -199,4 +199,16 @@ span {
 .button-switch-schrift {
   color: rgb(255, 255, 255);
   font-weight: bold;
+}
+
+.buttonerfahrungsbereich{
+  background-color: white;
+  color: black;
+  border-radius: 0.625rem;
+  padding: 2vw 18vw ;
+  font-size: 1.25rem;
+  font-weight: medium;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  border: transparent;
+  text-align: center;
 }
