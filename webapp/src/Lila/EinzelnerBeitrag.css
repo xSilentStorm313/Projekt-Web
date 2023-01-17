@@ -67,15 +67,18 @@ ul {
 .infotextasyl {
   font-weight: medium;
   text-align: left;
-  color: rgb(255, 255, 255);
-  background-color: #A28AB4;
+  color: black;
+  background-color: white;
   /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
   margin-left: 1rem;
   margin-right: 1rem;
   /* border: 0.938rem; */
   border-radius: 0.625rem;
-  padding: 0.625rem;
+  padding: 2vh;
   font-size: 1.063rem;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  margin-top: 3.5vh;
+  margin-bottom: 3.5vh;
 }
 
 .text {
@@ -152,6 +155,7 @@ ul {
   font-size: 1rem;
   font-weight: medium;
   box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  border: transparent;
 }
 
 .quellen {
