@@ -10,7 +10,7 @@ export default function AntragStellenInhalt() {
             <br />
             <br />
             <br />
-            <h1 className="überschriftantrag">Antrag stellen</h1>
+            <h1 className="überschriftantrag">Anfrage stellen</h1>
             <input type="text" name="Kommentar" className="inputbetreff" placeholder="Beftreff hinzufügen" />
             <br />
             <br />
