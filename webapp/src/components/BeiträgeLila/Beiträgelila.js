@@ -27,7 +27,7 @@ export default function Button() {
       <a href="/wohngeld"><span className="buttonbeitrag">
         <img src={wohnen} className="formular" alt="formular" />Beantragen Wohngeld <span className="beschreibung"> <br />Hier findest Informationen zum Thema Wohnen wie zum Beispiel zur Wohnungsanmeldung</span></span></a>
       
-        <a href="/beitrag"><span className="buttonbeitrag">
+        <a href="/kindergeld"><span className="buttonbeitrag">
         <img src={formular} className="formular" alt="formular"/> <br /> <br />Kindergeld  <span className="beschreibung"> <br />Ich hätte eine Frage zu Absatz 3, woher kriege ich folgende Informationen?</span> </span></a>
     </div>
   );
