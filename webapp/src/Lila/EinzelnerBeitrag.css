@@ -79,6 +79,7 @@ ul {
   box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
   margin-top: 3.5vh;
   margin-bottom: 3.5vh;
+  width: 90%;
 }
 
 .text {
