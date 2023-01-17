@@ -111,6 +111,8 @@ a:link {
   text-align: center;
   font-size: 2.25rem;
   margin-top: 5vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   color: black;
 }
 
@@ -118,8 +120,35 @@ a:link {
   text-align: center;
   color: black;
   font-size: 1rem;
-  margin-top: 18rem;
+  margin-top: 40vh;
   font-weight: bold;
+}
+
+@media (max-height: 600px){
+  .texterror{
+    margin-top: 8vh;
+  }
+  .errorüberschrift{
+    margin-top: 3vh;
+  }
+}
+
+@media (max-height: 700px){
+  .texterror{
+    margin-top: 20vh;
+  }
+  .errorüberschrift{
+    margin-top: 6vh;
+  }
+}
+
+@media (max-height: 800px){
+  .texterror{
+    margin-top: 30vh;
+  }
+  .errorüberschrift{
+    margin-top: 10vh;
+  }
 }
 
 .linkerror{
@@ -127,5 +156,10 @@ a:link {
   color: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
   text-decoration: underline;
   font-weight: bold;
-  font-size: medium;
+  font-size: 2.25rem;
+}
+
+.footererror{
+  height: 5vh;
+  margin-top: -3vh;
 }
