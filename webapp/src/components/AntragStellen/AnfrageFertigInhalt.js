@@ -7,7 +7,7 @@ export default function AntragFertigInhalt() {
         <div className="button">
             <br className="abstand"/>
             <h1 className="überschriftantragfertig">Dein Antrag wurde aufgenommen!</h1>
-            <p className="textantragfertig">Es kann etwas dauern, bis du eine Antwort bekommst. Du erhälst dann sofort eine Benachrichtigung.</p>
+            <p className="textantragfertig">Es kann etwas dauern, bis du eine Antwort bekommst. <br/>Du erhälst dann sofort eine Benachrichtigung.</p>
             <br/>
             <Link to="/anfrage">
             
