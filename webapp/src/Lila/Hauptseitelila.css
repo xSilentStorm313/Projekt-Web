@@ -20,18 +20,22 @@
 .buttonbeitrag {
   background-color: white;
   height: 20.875rem;
-  margin: 1rem 2rem;
   box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
   border-radius: 1rem;
   font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
   margin-top: 2rem;
-  display: inline-block;
   color: black;
-  column-width: 16rem;
 }
 
 .abstand{
   margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
 }
 
 img{
@@ -42,7 +46,6 @@ img{
 .beschreibung{ /* macht nichts? */
   text-align: left;
   font-weight: bold;
-  line-height: 0.063rem;
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
 }
@@ -132,7 +135,10 @@ span{
 
 .titlebarhauptseite img{
   width: 100%;
-  height: auto;
+  height: 140px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .zurueck-icon {

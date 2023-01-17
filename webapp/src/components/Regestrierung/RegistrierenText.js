@@ -60,7 +60,6 @@ const RegestrierungText = () => {
     <div>
       <h1 className="registrierungsheader">Konto erstellen</h1>
       <form onSubmit={handleSubmit}></form>
-
       <p className="registrierungsbeschreibung">Name</p>
       <input
         type="text"

@@ -54,6 +54,7 @@
     height: 3.063rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
     border-radius: 0.813rem;
     border-color: white;
     border: transparent;
@@ -70,6 +71,7 @@
     width: 9.375rem;
     height: 3.063rem;
     margin-right: 1rem;
+    margin-left: 1rem;
     border-radius: 0.813rem;
     border-color: white;
     border: transparent;
@@ -113,4 +115,8 @@
     height: 3.063rem;
     border-radius: 0.813rem;
     border-color: rgb(132, 91, 162); 
+}
+
+.inputhidden{
+    display: none;
 }
