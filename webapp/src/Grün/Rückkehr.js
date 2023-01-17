@@ -10,9 +10,9 @@ import BeitragInhaltR체ckkehr from "../components/Beitr채geGr체n/BeitragInhaltR�
 export default function R체ckkehr() {
     const itemsgr체n = [
         { text: 'Home', link: '/startgr체n' },
-        { text: 'Account', link: '/' },
-        { text: 'Kategorien', link: '/' },
-        { text: 'Meine Chats', link: '/' },
+        { text: 'Account',  },
+        { text: 'Kategorien',  },
+        { text: 'Meine Chats', },
     ];
     return (
         <div className="hauptseite">

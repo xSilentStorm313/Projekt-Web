@@ -10,9 +10,9 @@ import BeitragInhaltVerkehrgrün from "../components/BeiträgeGrün/BeitagInhalt
 export default function Verkehr() {
     const itemsgrün = [
         { text: 'Home', link: '/startgrün' },
-        { text: 'Account', link: '/' },
-        { text: 'Kategorien', link: '/' },
-        { text: 'Meine Chats', link: '/' },
+        { text: 'Account',  },
+        { text: 'Kategorien', },
+        { text: 'Meine Chats', },
     ];
     return (
         <div className="hauptseite">
