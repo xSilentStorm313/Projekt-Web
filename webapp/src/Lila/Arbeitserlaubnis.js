@@ -10,10 +10,10 @@ import Kommentare from "../components/Kommentare/KommentareAusgeben";
 export default function Arbeitserlaubnis() {
     const items =[
         { text: 'Home', link: '/start' },
-        { text: 'Account', link: '/' },
-        { text: 'Kategorien', link: '/' },
+        { text: 'Account',},
+        { text: 'Kategorien',},
         { text: 'Anfrage stellen', link: '/anfrage' },
-        { text: 'Meine Chats', link: '/' },
+        { text: 'Meine Chats', },
         ];
       
     return (

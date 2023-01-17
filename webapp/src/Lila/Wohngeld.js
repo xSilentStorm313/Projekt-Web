@@ -10,10 +10,10 @@ import BeitragInhaltWohngeld from "../components/BeiträgeLila/BeitragInhaltWohn
 export default function Wohngeld() {
     const items =[
         { text: 'Home', link: '/start' },
-        { text: 'Account', link: '/' },
-        { text: 'Kategorien', link: '/' },
+        { text: 'Account', },
+        { text: 'Kategorien',},
         { text: 'Anfrage stellen', link: '/anfrage' },
-        { text: 'Meine Chats', link: '/' },
+        { text: 'Meine Chats', },
         ];
       
     return (
