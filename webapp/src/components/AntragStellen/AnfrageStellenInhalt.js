@@ -14,7 +14,9 @@ export default function AntragStellenInhalt() {
             <br />
             <br />
             <textarea type="text" name="Kommentar" className="inputanfrage" placeholder="Anfrage formulieren"/>
-            <label for="antragdokument">Test</label>
+            <br />
+            <br />
+            <label for="antragdokument">Datei hinzufügen</label>
             <input className="inputhidden" type="file" name="upload" id="antragdokument"></input>
             <br/>
             <br/>
