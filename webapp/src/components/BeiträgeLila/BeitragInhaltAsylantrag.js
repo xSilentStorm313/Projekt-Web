@@ -17,7 +17,7 @@ export default function BeitragInhaltAsylantrag() {
             <details>
                 <summary className="zwischenüberschrift">1. Registrierung</summary>
                 <p className="text">Bei Ihrer Ankunft in Deutschland werden Sie zunächst regis­triert <br /> <br />
-                    Wir fragen Sie nach Ihrem Namen, Herkunftsland, Geburtsdatum, Ihrer Religion, Sprache und Volkszugehörig­keit. Wir fotografieren Sie und nehmen Ihre Fingerab- drücke ab. Nach der Registrierung erhalten Sie einen An­kunftsnachweis und stellen direkt im Ankunftszentrum Ihren Asylantrag.<br /><br />
+                    Wir fragen Sie nach Ihrem Namen, Herkunftsland, Geburtsdatum, Ihrer Religion, Sprache und Volkszugehörig­keit. Wir fotografieren Sie und nehmen Ihre Fingerabdrücke ab. Nach der Registrierung erhalten Sie einen An­kunftsnachweis und stellen direkt im Ankunftszentrum Ihren Asylantrag.<br /><br />
                     Es kann aber sein, dass Sie erst in einer Aufnahme­einrichtung untergebracht werden. Dort erhalten Sie Ihren Ankunftsnachweis und erfahren, wann Sie Ihren Asylantrag persönlich stellen können.
                 </p>
             </details>
@@ -61,7 +61,7 @@ export default function BeitragInhaltAsylantrag() {
                     Für die Anhörung bestimmter Personengruppen gibt es speziell geschulte Mitarbeitende. <br /> <br />
                     Sie stehen Opfern geschlechtsspezifi­scher Gewalt, Opfern von Folter oder Menschenhandel, trauma­ tisierten Menschen und unbegleiteten Minderjährigen zur Seite.<br /> <br />
                     Falls Sie betroffen sind, teilen Sie uns das am besten direkt bei Ihrer Antragstellung mit.</p>
-                <div className="infotextasyl">Zu Beginn des Asylverfahrens wohnen Sie in einer Aufnahmeeinrichtung. <br />
+                <div className="infotextasyl">Zu Beginn des Asylverfahrens wohnen Sie in einer Aufnahmeeinrichtung. 
                     Es kann sein, dass Sie bis zur Entscheidung über Ihren Antrag dort bleiben oder in eine andere Unterkunft um- ziehen. Sollten Sie umziehen, müssen Sie dem Bundesamt, der Ausländerbehörde und eventuell dem Gericht Ihre neue Anschrift mitteilen. Das ist enorm wichtig, weil die Briefe immer an die letzte Anschrift gesendet werden, die den Behörden mitgeteilt wurde.</div>
             </details>
             <details>
