@@ -8,9 +8,17 @@ import AnfrageStellenInhalt from "./components/AntragStellen/AnfrageStellenInhal
 
 
 export default function AnfrageStellen() {
+    const items =[
+        { text: 'Home', link: '/start' },
+        { text: 'Account', },
+        { text: 'Kategorien',},
+        { text: 'Anfrage stellen', link: '/anfrage' },
+        { text: 'Meine Chats', },
+        ];
     return (
+        
         <div className="hauptseite">
-            <MenuIcon items={['Home', 'Account', 'Kategorien', 'Anfrage stellen', 'Meine Chats']} />
+            <MenuIcon items={items} />
             <Link to='/start'>
                 <ZurueckIcon/>
             </Link>
