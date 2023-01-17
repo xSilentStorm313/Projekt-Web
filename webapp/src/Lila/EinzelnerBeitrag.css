@@ -19,8 +19,8 @@
 .überschrift1 {
   box-sizing: border-box;
   text-align: left;
-  margin-left: 1.2rem;
   margin-bottom: 1rem;
+  width: 90%;
 }
 
 .formular {
@@ -61,7 +61,7 @@ ul {
 
 .text {
   text-align: left;
-  margin-left: 1.563rem;
+  width:90%;
 }
 
 .infotextasyl {
@@ -94,6 +94,7 @@ ul {
   font-weight: bolder;
   margin-bottom: -0.313rem;
   font-size: 1.375rem;
+  width: 90%;
 }
 
 .zwischenüberschriftasyl {
