@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CommentForm from './KommentarForm';
+//import CommentForm from './KommentarForm';
 import CommentList from './KommentarListe';
 
 function CommentSection() {
@@ -18,7 +18,6 @@ function CommentSection() {
   return (
     <div>
       <CommentList comments={comments} onEdit={onEdit} onDelete={onDelete}/>
-      <CommentForm onSubmit={comment => setComments([...comments, comment])} />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Comment({ comment, onEdit, onDelete  }) {
+function Comment({ comment, onEdit, onDelete }) {
   const [isEditing, setIsEditing] = useState(false);
   const [text, setText] = useState(comment.text);
 

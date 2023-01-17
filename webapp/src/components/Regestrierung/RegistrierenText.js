@@ -187,14 +187,8 @@ const RegestrierungText = () => {
       <div className="button">
           <input type="submit" value="Jetzt Registrieren" className="registrierenweiterbutton" onClick={handleSubmit} />
       </div>
-
     </div>
-
-
-
   )
 }
-
-
 
 export { RegestrierungText }
