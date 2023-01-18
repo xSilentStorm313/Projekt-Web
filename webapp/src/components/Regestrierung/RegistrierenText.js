@@ -183,7 +183,7 @@ const RegestrierungText = () => {
       </select>
       <br />
       <br />
-      {error && <p>{error}</p>}
+      {error && <p className="errormeldungregistrieren">{error}</p>}
       <div className="button">
           <input type="submit" value="Jetzt Registrieren" className="registrierenweiterbutton" onClick={handleSubmit} />
       </div>
