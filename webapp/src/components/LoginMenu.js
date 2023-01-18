@@ -78,6 +78,8 @@ export default function LoginMenu() {
                     </Link>
                 </p>
             </form>
+            <br/><br/><br/><br/><br/><br/><br/>
         </div>
     );
 }
+

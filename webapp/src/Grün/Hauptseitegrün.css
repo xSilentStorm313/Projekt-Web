@@ -168,30 +168,6 @@ span {
   width: 100%;
   text-align: center;
 }
-@media (max-width: 550px){
-  .button-switch-hilfesuchender {
-    background-color: #845BA2;
-    width: 100%;
-    text-align: center;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 1rem;
-    margin-top: 1.79rem;
-  }
-}
-
-@media (min-width: 551px){
-  .button-switch-hilfesuchender {
-    background-color: #845BA2;
-    width: 90%;
-    text-align: center;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 1rem;
-    margin-top: 1.79rem;
-  }
-}
-
 
 .button-switch-helfer {
   background-color: #669F98;
@@ -226,4 +202,28 @@ span {
   box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
   border: transparent;
   text-align: center;
+}
+
+@media (max-width: 550px){
+  .button-switch-hilfesuchender {
+    background-color: #845BA2;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1.79rem;
+  }
+}
+
+@media (min-width: 551px){
+  .button-switch-hilfesuchender {
+    background-color: #845BA2;
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1.79rem;
+  }
 }

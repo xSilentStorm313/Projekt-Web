@@ -13,10 +13,11 @@ function Home() {
             <div className="container">
                 <StartseiteText />
             </div>
-            <br/>
             <Einloggenbutton />
             <SocialMediaLogin />
+            <div className="footer-container">
             <Footer />
+            </div>
         </div>
     );
 }

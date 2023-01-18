@@ -9,7 +9,9 @@ function Login() {
         <div className="App">
             <TitleBar />
             <LoginMenu/>
+            <div className="footer-container">
             <Footer />
+            </div>
         </div>
     );
 }

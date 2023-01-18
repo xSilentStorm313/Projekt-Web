@@ -12,7 +12,8 @@
   text-align: left;
   margin-left: 1.5rem;
   margin-bottom: -0.938rem;
-}
+  box-sizing: border-box;
+ }
 
 .überschriftlogin {
   box-sizing: border-box;
@@ -20,7 +21,6 @@
   margin-left: 1.5rem;
   font-size: 2.25rem;
 }
-
 
 .input[type=text],
 [type=password] {
@@ -42,76 +42,76 @@
   color: black;
   font-weight: bold;
 }
-@media (min-width: 601px) {
-  .buttonlogin {
-    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
-    color: white;
-    width: 34rem;
-    padding: 0.6rem 1.25rem;
-    margin-top: 1.25rem;
-    /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
-    border-radius: 0.75rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 250ms;
-    border: none
-  }
-}
 
-@media (max-width: 600px) {
-  .buttonlogin {
-    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
-    color: white;
-    width: 90%;
-    padding: 0.6rem 1.25rem;
-    margin-top: 1.25rem;
-    /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
-    border-radius: 0.75rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 250ms;
-    border: none
-  }
-}
-@media (min-width: 601px) {
-  .buttonstartseite {
-    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
-    color: white;
-    width: 34rem;
-    padding: 0.6rem 1.25rem;
-    margin-top: 1.25rem;
-    /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
-    border-radius: 0.75rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 250ms;
-    border: none
-  }
-}
-
-@media (max-width: 600px) {
-  .buttonstartseite {
-    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
-    color: white;
-    width: 90%;
-    padding: 0.6rem 1.25rem;
-    margin-top: 1.25rem;
-    /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
-    border-radius: 0.75rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 250ms;
-    border: none
-  }
-}
 .loginerrorschrift{
   color: red;
+}
+
+@media (min-width: 601px) {
+  .buttonlogin {
+    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
+    color: white;
+    width: 34rem;
+    padding: 0.6rem 1.25rem;
+    margin-top: 1.25rem;
+    /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 250ms;
+    border: none
+  }
+}
+
+@media (max-width: 600px) {
+  .buttonlogin {
+    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
+    color: white;
+    width: 90%;
+    padding: 0.6rem 1.25rem;
+    margin-top: 1.25rem;
+    /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 250ms;
+    border: none
+  }
+  .buttonstartseite {
+    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
+    color: white;
+    width: 90%;
+    padding: 0.6rem 1.25rem;
+    margin-top: 1.25rem;
+    /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 250ms;
+    border: none
+  }
+}
+
+@media (min-width: 601px) {
+  .buttonstartseite {
+    background-image: linear-gradient(to right, rgb(132, 91, 162) 0%, rgb(102, 159, 152) 75%);
+    color: white;
+    width: 34rem;
+    padding: 0.6rem 1.25rem;
+    margin-top: 1.25rem;
+    /* box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213); */
+    border-radius: 0.75rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 250ms;
+    border: none
+  }
 }
