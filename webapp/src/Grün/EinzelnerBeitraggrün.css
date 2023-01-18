@@ -1,14 +1,19 @@
-:root { font-family: 'Inter', sans-serif; }
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
 }
 
 .überschrift {
-    box-sizing: border-box;
-    text-align: left;
-    margin-left: 1.2rem;
-    margin-top: 7rem;
-    margin-bottom: 2rem;
+  box-sizing: border-box;
+  text-align: left;
+  margin-left: 1.2rem;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
 }
 
 .überschrift1 {
@@ -19,65 +24,47 @@
 }
 
 .formular {
-    width: 200px;
-    height: 200px;
-    margin: 1rem auto;
+  width: 200px;
+  height: 200px;
+  margin: 1rem auto;
 }
 
-.footer{
-    position: fixed; 
-    bottom: 0rem; 
+.footer {
+  position: fixed;
+  bottom: 0rem;
 }
 
 .fragebeitrag {
-    background-color: rgb(132, 91, 162);
-    height: 6.875rem;
-    width: 21.875rem;
-    margin: 1rem 1rem;
-    box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
-    border-radius: 1.25rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: white;
-    text-align: left;
-    padding: 0.625rem;
-    display: block;
-  }
+  background-color: rgb(132, 91, 162);
+  height: 6.875rem;
+  width: 21.875rem;
+  margin: 1rem 1rem;
+  box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
+  border-radius: 1.25rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding: 0.625rem;
+  display: block;
+}
 
-  ul{
-    text-align: center;
-    color: white;
-  }
+ul {
+  text-align: center;
+  color: white;
+}
 
-  .anmelden{
-    color: white;
-    
-  }
+.anmelden {
+  color: white;
 
-  .text{
-    text-align: left;
-    margin-left: 1.563rem;
-  }
+}
 
-  .infotextasylgrün{
-    font-weight: medium;
-    text-align: left;
-    color: black;
-    background-color: white;
-    margin: 3vh auto;
-    border-radius: 0.625rem;
-    padding: 2vh;
-    font-size: 1.063rem;
-    box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
-    width: 90%;
-  }
-
-  .textgrün{
-    text-align: left;
-    width:90%;
-  }
-
-  .zwischenüberschriftgrün{
+.text {
+  text-align: left;
+  margin-left: 1.563rem;
+}
+@media (max-width: 645px) {
+  .zwischenüberschriftgrün {
     text-align: left;
     margin: 1.5rem;
     font-weight: bolder;
@@ -85,188 +72,218 @@
     font-size: 1.375rem;
     width: 90%;
   }
+}
 
-  .zwischenüberschriftasyl{
-    font-size: 1.25rem;
+@media (min-width: 646px) {
+  .zwischenüberschriftgrün {
     text-align: left;
-    margin-left: 2rem;
-    padding-top: 0.938rem;
-    font-weight:500;
-  }
-
-  .listearbeitserlaubnis{
-    color:black;
-    text-align: left;
-    margin-left: 2.5rem;
-    margin-right: 1rem;
-    font-size: 1.063rem;
-  }
-
-  .komment {
-    border: 0.188 solid grey;
-    border-radius: 0.625rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    padding: 0.313rem;
-    text-align: left;
-    font-weight: bold;
-  }
-
-  .antwortkomment{
-    border: 0.125rem solid grey;
-    border-radius: 0.938rem;
-    margin-left: 5rem;
-    margin-right: 1.5rem;
-    padding: 0.313rem;
-    text-align: left;
-    font-weight: bold;
-    font-weight: medium;
-  }
-
-  .buttonantworten{
-    color:green;
-    border-color: green;
-    border-radius: 0.5rem;
-    background-color: white;
-    position: absolute;
-    right: 2rem;
-    font-weight: medium;
-  }
-
-  .profilbildantwort{
-    size: 1.875rem;
-  }
-
-  .downloadbuttongrün{
-    background-color: white;
-    color: black;
-    border-radius: 0.625rem;
+    margin: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: -0.313rem;
+    font-size: 1.375rem;
     width: 90%;
-    padding: 0.75rem;
-    font-size: 1rem;
-    font-weight: medium;
-    box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
-    border: transparent;
+    
   }
+}
 
-  .quellen{
-    text-align: left;
-    margin-left: 1.5rem;
-    margin-top: 1.5rem;
-  }
+.infotextasylgrün {
+  font-weight: medium;
+  text-align: left;
+  color: black;
+  background-color: white;
+  margin: 3vh auto;
+  border-radius: 0.625rem;
+  padding: 2vh;
+  font-size: 1.063rem;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  width: 90%;
+}
 
-  .form-container {
-    display: grid;
-    grid-template-columns: 1fr 0.3fr;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-    grid-template-areas:
-      "kommentarInput submit-button";
-  }
-  
-  .kommentarInput {
-    font: 'Inter var', sans-serif;
-    grid-area: kommentarInput;
-    border: transparent;
-    border-radius: 0.75rem;
-    text-align: left;
-    width: 95%;
-    padding: 0.75rem 1.25rem;
-    box-sizing: border-box;
-    outline: none;
-    box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
-    color: black;
-  }
-  
-  .submit-button {
-    grid-area: submit-button;
-    align-self: center;
-    border-color: white;
-    border-radius: 0.75rem;
-    padding: 0.75rem 1.25rem;
-    box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
-    border: transparent;
-    background-color: white;
-    color: black;
-  }
-  
-  .comment-container {
-    background-color: #f5f5f5;
-    padding: 0.75rem 1.25rem;
-    margin-bottom: 1rem;
-    border-radius: 0.625rem;
-    width: 80%;
-    margin-left: 4rem;
-    border: 0.1rem solid grey;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-  
-  .comment-text {
-    text-align: left;
-    width: 80%;
-    position: relative;
-    top: 0.6rem;
-    right: 1rem;
-    left: 0.5rem;
-  }
-  
-  .edit-button {
-    position: absolute;
-    top: 0.6rem;
-    right: 0.6rem;
-    background-color: #A28AB4;
-    border-color: #A28AB4;
-    border-radius: 0.5rem;
-    padding: 0.2rem 0.7rem;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .delete-button {
-    position: absolute;
-    bottom: 0.6rem;
-    right: 0.6rem;
-    background-color: #A28AB4;
-    border-color: #A28AB4;
-    border-radius: 0.5rem;
-    padding: 0.2rem 0.7rem;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .kommentar-bearbeiten {
-    border: none;
-    background-color: #f5f5f5;
-    text-align: left;
-    padding: 0.75rem 1.25rem;
-    border-radius: 0.55rem;
-  }
-  
-  .save-button {
-    position: absolute;
-    top: 0.7rem;
-    right: 0.7rem;
-    background-color: #A28AB4;
-    border-color: #A28AB4;
-    border-radius: 0.75rem;
-    padding: 0.75rem 1.25rem;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .beitrag-kommentar-überschrift {
-    text-align: left;
-    margin-left: 1.5rem;
-    margin-top: 1.5rem;
-  }
+.textgrün {
+  text-align: left;
+  width: 90%;
+}
 
-  .textgrünaufklappbar{
-    text-align: left;
-    width:90%;
-    margin-left: 5vw;
-  }
+.zwischenüberschriftasyl {
+  font-size: 1.25rem;
+  text-align: left;
+  margin-left: 2rem;
+  padding-top: 0.938rem;
+  font-weight: 500;
+}
 
+.listearbeitserlaubnis {
+  color: black;
+  text-align: left;
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+  font-size: 1.063rem;
+}
+
+.komment {
+  border: 0.188 solid grey;
+  border-radius: 0.625rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: 0.313rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.antwortkomment {
+  border: 0.125rem solid grey;
+  border-radius: 0.938rem;
+  margin-left: 5rem;
+  margin-right: 1.5rem;
+  padding: 0.313rem;
+  text-align: left;
+  font-weight: bold;
+  font-weight: medium;
+}
+
+.buttonantworten {
+  color: green;
+  border-color: green;
+  border-radius: 0.5rem;
+  background-color: white;
+  position: absolute;
+  right: 2rem;
+  font-weight: medium;
+}
+
+.profilbildantwort {
+  size: 1.875rem;
+}
+
+.downloadbuttongrün {
+  background-color: white;
+  color: black;
+  border-radius: 0.625rem;
+  width: 90%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: medium;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  border: transparent;
+}
+
+.quellen {
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 0.3fr;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  grid-template-areas:
+    "kommentarInput submit-button";
+}
+
+.kommentarInput {
+  font: 'Inter var', sans-serif;
+  grid-area: kommentarInput;
+  border: transparent;
+  border-radius: 0.75rem;
+  text-align: left;
+  width: 95%;
+  padding: 0.75rem 1.25rem;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  color: black;
+}
+
+.submit-button {
+  grid-area: submit-button;
+  align-self: center;
+  border-color: white;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  border: transparent;
+  background-color: white;
+  color: black;
+}
+
+.comment-container {
+  background-color: #f5f5f5;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.625rem;
+  width: 80%;
+  margin-left: 4rem;
+  border: 0.1rem solid grey;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.comment-text {
+  text-align: left;
+  width: 80%;
+  position: relative;
+  top: 0.6rem;
+  right: 1rem;
+  left: 0.5rem;
+}
+
+.edit-button {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  background-color: #A28AB4;
+  border-color: #A28AB4;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+.delete-button {
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0.6rem;
+  background-color: #A28AB4;
+  border-color: #A28AB4;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+.kommentar-bearbeiten {
+  border: none;
+  background-color: #f5f5f5;
+  text-align: left;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.55rem;
+}
+
+.save-button {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  background-color: #A28AB4;
+  border-color: #A28AB4;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  font-weight: bold;
+  color: white;
+}
+
+.beitrag-kommentar-überschrift {
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.textgrünaufklappbar {
+  text-align: left;
+  width: 90%;
+  margin-left: 5vw;
+}

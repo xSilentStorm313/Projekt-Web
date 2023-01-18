@@ -126,7 +126,7 @@ span {
   padding-left: 1.25rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  width: 20rem;
+  width: 80vw;
   border-bottom: 0.063rem solid rgba(255, 255, 255, 0.551);
   font-size: 1.25rem;
   text-align: left;
@@ -168,20 +168,34 @@ span {
   width: 100%;
   text-align: center;
 }
-
-.button-switch-hilfesuchender {
-  background-color: #845BA2;
-  width: 100%;
-  text-align: center;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 1rem;
-  margin-top: 1.79rem;
+@media (max-width: 550px){
+  .button-switch-hilfesuchender {
+    background-color: #845BA2;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1.79rem;
+  }
 }
+
+@media (min-width: 551px){
+  .button-switch-hilfesuchender {
+    background-color: #845BA2;
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1.79rem;
+  }
+}
+
 
 .button-switch-helfer {
   background-color: #669F98;
-  width: 100%;
+  width:100%;
   text-align: center;
   font-size: 1.2rem;
   border: none;
@@ -199,6 +213,7 @@ span {
 .button-switch-schrift {
   color: rgb(255, 255, 255);
   font-weight: bold;
+  margin: 1rem 1rem;
 }
 
 .buttonerfahrungsbereich{

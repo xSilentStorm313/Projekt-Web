@@ -26,7 +26,7 @@ export default function NotFound() {
                 <p className="texterror">Hier kommst du wieder zur Startseite:</p>
                 <Link to='/' className="linkerror">
                     <div className="button">
-                        <input value="Startseite" className="buttonlogin" />
+                        <input value="Startseite" className="buttonstartseite" />
                     </div>
                 </Link>
             </footer>
