@@ -15,7 +15,7 @@ export default function BeitragInhaltAsylantrag() {
             <div className="infotextasyl">Grundsätzlich haben Sie das Recht auf ein Asylverfahren. Sie haben aber auch die Pflicht, während des gesamten Verfah­rens aktiv mitzuwirken und immer die Wahrheit zu sagen. Das ist wichtig für Sie, denn sonst gefährden Sie Ihr Asylverfahren.</div>
 
             <details>
-                <summary className="zwischenüberschrift">1. Registrierung</summary>
+                <summary className="textlilaaufklappbar">1. Registrierung</summary>
                 <p className="text">Bei Ihrer Ankunft in Deutschland werden Sie zunächst regis­triert <br /> <br />
                     Wir fragen Sie nach Ihrem Namen, Herkunftsland, Geburtsdatum, Ihrer Religion, Sprache und Volkszugehörig­keit. Wir fotografieren Sie und nehmen Ihre Fingerabdrücke ab. Nach der Registrierung erhalten Sie einen An­kunftsnachweis und stellen direkt im Ankunftszentrum Ihren Asylantrag.<br /><br />
                     Es kann aber sein, dass Sie erst in einer Aufnahme­einrichtung untergebracht werden. Dort erhalten Sie Ihren Ankunftsnachweis und erfahren, wann Sie Ihren Asylantrag persönlich stellen können.
@@ -23,7 +23,7 @@ export default function BeitragInhaltAsylantrag() {
             </details>
 
             <details>
-                <summary className="zwischenüberschrift">2. Persönliche Antragsstellung</summary>
+                <summary className="textlilaaufklappbar">2. Persönliche Antragsstellung</summary>
                 <p className="text">Zu der persönlichen Antragstellung bringen Sie bitte Ihren Ankunftsnachweis und alle wichtigen Dokumente und Unter­lagen mit, die Sie besitzen. <br /> <br />
                     Das können Ihre Geburtsurkunde oder Ihr Pass sein; aber auch Reiseunterlagen oder Beweise für Ihre Fluchtgründe, wie zum Beispiel Fotos. <br /> <br />
                     Wir fragen Sie nach Ihren Personalien sowie nach Wohnort, Schul­ und Ausbildung, Sprachkenntnissen und Reiseweg.<br /> <br />
@@ -32,7 +32,7 @@ export default function BeitragInhaltAsylantrag() {
             </details>
 
             <details>
-                <summary className="zwischenüberschrift">3. Dublin-Verfahren</summary>
+                <summary className="textlilaaufklappbar">3. Dublin-Verfahren</summary>
                 <p className="text">Doch bevor Ihr Verfahren startet, müssen wir feststellen, ob Deutschland oder ein anderer europäischer Staat für die Prüfung Ihres Asylantrags zuständig ist.<br /> <br />
                     Das nennt sich das Dublin­-Verfahren. Sie können nicht selbst entscheiden, welcher Staat Ihren Asylantrag prüft. Darum klären wir unter anderem, wann und wo Sie in die EU eingereist sind, ob Sie Familien­ angehörige in anderen Mitgliedsstaaten haben oder ob Sie in einem anderen Mitgliedsstaat bereits einen Asylantrag gestellt haben. <br /> <br />
                     Sie haben das Recht, Gründe zu nennen, warum Sie nicht in diesen Staat zurückkehren können.<br /> <br />
@@ -41,7 +41,7 @@ export default function BeitragInhaltAsylantrag() {
             </details>
 
             <details>
-                <summary className="zwischenüberschrift">4. Persönliche Anhörung</summary>
+                <summary className="textlilaaufklappbar">4. Persönliche Anhörung</summary>
                 <p className="text">Wenn Deutschland für Ihren Asylantrag zuständig ist, findet eine Anhörung beim Bundesamt statt.<br /> <br />
                     Sie werden dann direkt im Ankunftszentrum nach der Antrag­ stellung zu Ihren Fluchtgründen angehört. Oder Sie erhalten später schriftlich einen Termin zu Ihrer persönlichen Anhörung. Diesen Termin müssen Sie unbedingt persönlich wahrnehmen.<br /> <br />
                     Sollten Sie an dem Tag krank sein oder sich verspäten, teilen Sie uns das am gleichen Tag mit – bei Krankheit reichen Sie uns bitte das Attest per Post nach.<br /> <br />
@@ -65,7 +65,7 @@ export default function BeitragInhaltAsylantrag() {
                     Es kann sein, dass Sie bis zur Entscheidung über Ihren Antrag dort bleiben oder in eine andere Unterkunft um- ziehen. Sollten Sie umziehen, müssen Sie dem Bundesamt, der Ausländerbehörde und eventuell dem Gericht Ihre neue Anschrift mitteilen. Das ist enorm wichtig, weil die Briefe immer an die letzte Anschrift gesendet werden, die den Behörden mitgeteilt wurde.</div>
             </details>
             <details>
-                <summary className="zwischenüberschrift">5. Ausgang Asylverfahren</summary>
+                <summary className="textlilaaufklappbar">5. Ausgang Asylverfahren </summary>
                 <p className="text">Die Entscheidung des Bundesamtes teilen wir Ihnen schriftlich mit. Falls Sie einen Rechtsbeistand haben, erhält Ihre Anwältin oder Ihr Anwalt den Brief.<br /> <br />
                     Wenn Sie mit der Entscheidung des Bundesamtes nicht einver­standen sind, haben Sie das Recht zu klagen. Achten Sie auf die genannten Fristen im Schreiben. Nur innerhalb dieser Fristen können Sie klagen. Sie sollten dazu unbedingt eine Anwältin oder einen Anwalt hinzuziehen.
                 </p>
