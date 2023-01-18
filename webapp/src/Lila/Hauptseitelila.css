@@ -30,6 +30,20 @@
   color: black;
 }
 
+.buttonbeitrag-kindergeld {
+  background-color: white;
+  height: 20.875rem;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-top: 2rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
 .abstand{
   margin-top: 8rem;
   display: flex;
@@ -43,11 +57,41 @@ img{
   width: 5.25rem;
 }
 
-.beschreibung{ /* macht nichts? */
+.überschriften-hauptseite {
+  margin-left: 0.5rem;
+  padding: 0rem;
+}
+.beschreibung {
   text-align: left;
-  font-weight: bold;
+  font-weight: lighter;
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  margin-top: -0.7rem;
+}
+
+.beschreibung-asyl-verein {
+  text-align: left;
+  font-weight: lighter;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  margin-top: -0.7rem;
+  padding-left: 0rem;
+}
+
+.beschreibung-kindergeld {
+  text-align: left;
+  font-weight: lighter;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  margin-top: -0.7rem;
+  padding-left: 0rem;
+  margin-bottom: 1rem;
 }
 
 span{
@@ -60,6 +104,13 @@ span{
 
 .formular{
   margin-bottom: 0rem;
+}
+
+.formular-kindergeld{
+  width: 200px;
+  height: 200px;
+  margin: 1rem auto;
+  margin-left: 1.7rem;
 }
 
 .menu-icon-container {
