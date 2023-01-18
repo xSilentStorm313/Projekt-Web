@@ -6,6 +6,8 @@ export default function LoginMenu() {
     const [password, setPassword] = useState("");
     const [error, setError] = useState(null);
     const navigate = useNavigate();
+    // eslint-disable-next-line no-unused-vars
+    const [token, setToken] = useState('');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -19,7 +21,8 @@ export default function LoginMenu() {
             if (!response.ok) {
                 throw new Error(data.error);
             }
-            // authenticate user and redirect
+            setToken(data.token);
+            localStorage.setItem('token', data.token);
             navigate('/start')
         } catch (err) {
             setError(err.message);

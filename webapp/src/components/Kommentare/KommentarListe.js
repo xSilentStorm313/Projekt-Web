@@ -4,6 +4,8 @@ import CommentForm from './KommentarForm';
 
 function CommentsList() {
   const [comments, setComments] = useState([]);
+  const token = localStorage.getItem('token');
+
 
   useEffect(() => {
     fetch('http://localhost:3001/comments')
@@ -16,7 +18,8 @@ function CommentsList() {
     fetch(`http://localhost:3001/comments/${id}`, {
       method: 'PATCH',
       body: JSON.stringify({ text }),
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`},
     })
       .then(res => res.json())
       .then(data => {
@@ -49,7 +52,8 @@ const handleSubmit = (comment) => {
   fetch('http://localhost:3001/comments', {
     method: 'POST',
     body: JSON.stringify(comment),
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json',
+    'Authorization': `Bearer ${token}`},
   })
     .then(res => res.json())
     .then(data => {
@@ -61,7 +65,6 @@ const handleSubmit = (comment) => {
 
 return (
   <div>
-    <CommentForm onSubmit={handleSubmit} />
     {comments.length ? (
       comments.map(comment => (
         <Comment
@@ -74,8 +77,10 @@ return (
     ) : (
       <p>No comments yet</p>
     )}
+    <CommentForm onSubmit={handleSubmit} />
   </div>
 );
 }
+
 
 export default CommentsList;

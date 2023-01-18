@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import CommentForm from './KommentarForm';
 import CommentList from './KommentarListe';
 
 function CommentSection() {
