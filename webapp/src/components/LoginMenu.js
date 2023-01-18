@@ -33,7 +33,7 @@ export default function LoginMenu() {
     return (
         <div className="login-menu">
             <h1 className="überschriftlogin">Einloggen</h1>
-            {error && <p>{error}</p>}
+            {error && <p className="loginerrorschrift">{error}</p>}
             <form onSubmit={handleSubmit}>
                 <label>
                     <div className="textlogin">
