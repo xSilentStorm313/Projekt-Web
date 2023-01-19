@@ -47,7 +47,7 @@ const RegestrierungText = () => {
             Accept: "*/*",
           },
         };
-        const res = await fetch("http://localhost:3001/users", options);
+        const res = await fetch("https://backend-projektweb.onrender.com/users", options);
         if (!res.ok) throw new Error(res.statusText);
         navigate("/start");
       } catch (err) {

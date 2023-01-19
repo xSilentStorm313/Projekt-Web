@@ -8,11 +8,13 @@ export default function LoginMenu() {
     const navigate = useNavigate();
     // eslint-disable-next-line no-unused-vars
     const [token, setToken] = useState('');
+    // eslint-disable-next-line no-unused-vars
+    const [user_id, setID] = useState('');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch("http://localhost:3001/users/login", {
+            const response = await fetch("https://backend-projektweb.onrender.com/users/login", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ email, password }),
@@ -21,8 +23,11 @@ export default function LoginMenu() {
             if (!response.ok) {
                 throw new Error(data.error);
             }
+
             setToken(data.token);
             localStorage.setItem('token', data.token);
+            setID(data.user_id);
+            localStorage.setItem('user_id', data.user_id);
             navigate('/start')
         } catch (err) {
             setError(err.message);
