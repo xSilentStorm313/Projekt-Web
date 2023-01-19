@@ -8,6 +8,10 @@
   }
 }
 
+h1 {
+  color:rgb(0, 0, 0);
+}
+
 .headerWellelila {
   width: 100%;
   height: auto;
@@ -116,7 +120,7 @@ span {
   bottom: 0.313rem;
   width: 100%;
   height: 100%;
-  background: #669F98;
+  background: #ffffff;
   box-shadow: 0.125rem 0 0.188rem rgba(0, 0, 0, 0.1);
   transform: translateX(100%);
   transition: transform 0, 7s cubic-bezier(0.4, 0, 0.2, 1);
@@ -146,9 +150,10 @@ span {
   padding-top: 2rem;
   padding-bottom: 2rem;
   width: 80vw;
-  border-bottom: 0.063rem solid rgba(255, 255, 255, 0.551);
+  border-bottom: 0.063rem solid rgba(36, 36, 36, 0.551);
   font-size: 1.25rem;
   text-align: left;
+  color:rgb(39, 39, 39);
 }
 
 .titlebarhauptseitegrün {
@@ -180,7 +185,7 @@ span {
 }
 
 .abmeldengrün {
-  color: #fff;
+  color: rgb(0, 0, 0);
   position: fixed;
   left: 0;
   bottom: 1rem;
@@ -190,7 +195,7 @@ span {
 
 .button-switch-helfer {
   background-color: #669F98;
-  width: 100%;
+  width: 90%;
   text-align: center;
   font-size: 1.2rem;
   border: none;

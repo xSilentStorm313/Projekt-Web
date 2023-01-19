@@ -7,10 +7,18 @@ import sportverein from "./BeiträgeBilderLila/sportverein.svg";
 import wohnen from "./BeiträgeBilderLila/wohnen.svg";
 import rückkehr from "./BeiträgeBilderLila/Rückkehr.png";
 import verkehr from "./BeiträgeBilderLila/verkehr.png";
+import icon3 from "../Startseite/BilderSocialMediaLogin/suchen.svg";
+
+
 
 export default function Button() {
   return (
     <div className="abstand">
+      <button className="buttonerfahrungsbereich"><div class="container-inner">
+        <span className="schrift-erfahrungsbereich">Suche</span>
+        <div className="erfahrungsbereich-pfeil"><img src={icon3} className="icon1" alt="icon" align="left" /></div>
+      </div>
+      </button>
 
       <a href="/arbeitserlaubnis"><span className="buttonbeitrag">
         <img src={arbeitserlaubnis} className="formular" alt="formular" /><span className="überschriften-hauptseite">Arbeitserlaubnis</span><span className="beschreibung"> <br />In diesem Artikel erfährst du,
