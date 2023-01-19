@@ -16,8 +16,9 @@ export default function BeitragInhaltVereinsanmeldung() {
 
 
 
-            <p className="quellen">Quellen</p>
             <p className="beitrag-kommentar-überschrift">Kommentare</p>
+            <div class="line"></div>
+            <br />
         </div>
     );
 }

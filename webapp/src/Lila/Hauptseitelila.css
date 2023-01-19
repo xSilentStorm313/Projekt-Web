@@ -30,7 +30,7 @@
   color: black;
 }
 
-.buttonbeitrag-kindergeld {
+.buttonbeitrag-verkehr {
   background-color: white;
   height: 20.875rem;
   box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
@@ -77,6 +77,17 @@ img{
 }
 
 .beschreibung-asyl-verein {
+  text-align: left;
+  font-weight: lighter;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  margin-top: -0.7rem;
+  padding-left: 0rem;
+}
+
+.beschreibung-verkehr {
   text-align: left;
   font-weight: lighter;
   font-family: 'Inter', sans-serif;

@@ -70,8 +70,8 @@ export default function BeitragInhaltAsylantrag() {
                     Wenn Sie mit der Entscheidung des Bundesamtes nicht einver­standen sind, haben Sie das Recht zu klagen. Achten Sie auf die genannten Fristen im Schreiben. Nur innerhalb dieser Fristen können Sie klagen. Sie sollten dazu unbedingt eine Anwältin oder einen Anwalt hinzuziehen.
                 </p>
             </details>
-            <p className="quellen">Quellen</p>
             <p className="beitrag-kommentar-überschrift">Kommentare</p>
+            <div class="line"></div>
             <br />
         </div>
     );

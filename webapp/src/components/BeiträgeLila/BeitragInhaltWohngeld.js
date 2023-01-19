@@ -27,8 +27,9 @@ export default function BeitragInhaltWohngeld() {
             <p className="text">Über den Antrag entscheidet das zuständige Landratsamt oder die kreisfreie Stadt ("Wohngeldbehörde") mit einem schriftlichen Bescheid. Bei der Wohngeldbehörde werden auch nähere Auskünfte erteilt und Fragen beantwortet. Bewilligt wird das Wohngeld in der Regel für zwölf Monate. Danach ist ein neuer Antrag erforderlich.</p>
 
 
-            <p className="quellen">Quellen</p>
             <p className="beitrag-kommentar-überschrift">Kommentare</p>
+            <div class="line"></div>
+            <br />
         </div>
     );
 }

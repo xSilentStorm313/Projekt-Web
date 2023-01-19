@@ -60,8 +60,9 @@ export default function BeitragInhaltArbeitserlaubnis() {
             </details>
             <br />
             <div className="infotextasyl">Weiter Informationen<br /> <a href="https://bamf-navi.bamf.de/de/Themen/Behoerden/">Zuständige Ausländerbehörden</a></div>
-            <p className="quellen">Quellen</p>
             <p className="beitrag-kommentar-überschrift">Kommentare</p>
+            <div class="line"></div>
+            <br />
             <br />
         </div>
     );

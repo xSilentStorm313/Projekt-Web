@@ -82,7 +82,6 @@ export default function LoginMenu() {
                         Jetzt Registrieren
                     </Link>
                 <br />
-                <br />
                 </p>
             </form>
             <br/><br/><br/><br/><br/><br/><br/>

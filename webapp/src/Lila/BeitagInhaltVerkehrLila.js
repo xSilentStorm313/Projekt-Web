@@ -18,8 +18,9 @@ export default function BeitragInhaltVerkehr() {
             Die MVV-Gesellschafter und die Verkehrsunternehmen im Verbund ermöglichen geflüchteten Menschen mit ukrainischem Pass oder Personalausweis ab sofort die kostenlose Nutzung aller Verkehrsmittel im gesamten MVV-Gebiet. Damit soll ihnen die Weiterreise innerhalb des MVV-Verbundgebiets erleichtert werden. Das Angebot gilt bis auf Weiteres.
             </p>
 
-            <p className="quellen">Quellen</p>
             <p className="beitrag-kommentar-überschrift">Kommentare</p>
+            <div class="line"></div>
+            <br />
         </div>
     );
 }

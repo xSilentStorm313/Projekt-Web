@@ -43,8 +43,9 @@ export default function BeitragInhaltRückkehrLila() {
                 Eine REAG/GARP-Förderung erfolgt nur auf Antrag.</p>
 
 
-            <p className="quellen">Quellen</p>
             <p className="beitrag-kommentar-überschrift">Kommentare</p>
+            <div class="line"></div>
+            <br />
         </div>
     );
 }
