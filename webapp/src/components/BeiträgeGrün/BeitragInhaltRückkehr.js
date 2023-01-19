@@ -9,7 +9,7 @@ export default function BeitragInhaltRückkehr() {
     return (
         <div className="abstand2">
             <img src={rückkehr} className="formular" alt="formular" />
-            <button className="downloadbuttongrün">Download Formulare</button>
+            <button className="downloadbuttongrün">Formulare herunterladen</button>
             <h1 className="überschrift2">Freiwillige Rückkehr</h1>
             <div className="infotextasylgrün">Bund und Länder unterstützen mit dem humanitären Förderprogramm REAG/GARP (Reintegration and Emigration Programme for Asylum-Seekers in Germany/Government Assisted Repatriation Programme) Personen bei der freiwilligen Rückkehr in das Herkunftsland oder bei der Weiterwanderung in einen aufnahmebereiten Staat.</div>
             <p className="textgrün">
@@ -17,10 +17,9 @@ export default function BeitragInhaltRückkehr() {
             <details>
                 <summary className="zwischenüberschriftgrün">Freiwillige Ausreisen nach Syrien, Jemen, Libyen, Eritrea und Afghanistan
                 </summary>
-                <p className="textgrünaufklappbar">Freiwillige Ausreisen nach Syrien sowie nach Jemen, Libyen (Eritrea)* und Afghanistan werden aktuell nicht über das REAG/GARP-Programm (IOM) abgewickelt. Für Rückkehrende in diese Herkunftsländer besteht jedoch gegebenenfalls die Möglichkeit, die Ausreise von einer antragsübermittelnden Stelle (z. B. Ausländerbehörde oder Rückkehrberatungsstelle) organisieren und fördern zu lassen. Das Bundesamt beteiligt sich im Rahmen einer Refinanzierung - in Anlehnung an die Förderleistungen des REAG/GARP-Programms - anteilig an den Kosten der freiwilligen Ausreise sofern diese durch die Bundesländer gefördert wird. Nach erfolgter Ausreise kann die antragsübermittelnde Stelle einen Antrag auf Refinanzierung beim Bundesamt für Migration und Flüchtlinge einreichen.</p>
-                <br /> <br />
+                <p className="textgrünaufklappbar">Freiwillige Ausreisen nach Syrien sowie nach Jemen, Libyen (Eritrea)* und Afghanistan werden aktuell nicht über das REAG/GARP-Programm (IOM) abgewickelt. Für Rückkehrende in diese Herkunftsländer besteht jedoch gegebenenfalls die Möglichkeit die Ausreise von einer antragsübermittelnden Stelle (z. B. Ausländerbehörde oder Rückkehrberatungsstelle) organisieren und fördern zu lassen. Das Bundesamt beteiligt sich im Rahmen einer Refinanzierung - in Anlehnung an die Förderleistungen des REAG/GARP-Programms - anteilig an den Kosten der freiwilligen Ausreise, sofern diese durch die Bundesländer gefördert wird. Nach erfolgter Ausreise kann die antragsübermittelnde Stelle einen Antrag auf Refinanzierung beim Bundesamt für Migration und Flüchtlinge einreichen.</p> 
                 <div className="infotextasylgrün">Bitte wenden Sie sich für weitere Informationen an eine Rückkehrberatungsstelle in Ihrer Nähe unter:
-                    <a href="https://www.returningfromgermany.de/de/centres/">www.ReturningfromGermany.de</a></div><br />
+                    <a href="https://www.returningfromgermany.de/de/centres/">www.ReturningfromGermany.de</a></div>
                 <p className="textgrünaufklappbar">Diese kann Sie ggf. über weitere bestehende Unterstützungsmöglichkeiten durch die einzelnen Bundesländer informieren. Bitte beachten Sie, dass eine Antragstellung nur über eine antragsübermittelnde Stelle möglich ist.
                     Weitere Informationen sind im Downloadbereich verfügbar.<br />
                     Diese Entscheidung steht unter dem Vorbehalt kurzfristiger Änderungen Seitens des Bundes und der Bundesländer.
