@@ -42,14 +42,14 @@ export default function LoginMenu() {
             <form onSubmit={handleSubmit}>
                 <label>
                     <div className="textlogin">
-                        Benutzername:
+                        E-Mail:
                     </div>
                     <br />
                     <input
                         type="text"
                         name="email"
                         className="input"
-                        placeholder="Benutzerename"
+                        placeholder="E-Mail"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
@@ -81,6 +81,8 @@ export default function LoginMenu() {
                     <Link to="/registration" className="registrierung">
                         Jetzt Registrieren
                     </Link>
+                <br />
+                <br />
                 </p>
             </form>
             <br/><br/><br/><br/><br/><br/><br/>

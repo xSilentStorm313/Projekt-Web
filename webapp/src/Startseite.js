@@ -8,15 +8,17 @@ import './App.css';
 
 function Home() {
     return (
-        <div className="Home">
-            <TitleBar />
-            <div className="container">
-                <StartseiteText />
+        <div>
+            <div className="Home">
+                <TitleBar />
+                <div className="container">
+                    <StartseiteText />
+                </div>
+                <Einloggenbutton />
+                <SocialMediaLogin />
             </div>
-            <Einloggenbutton />
-            <SocialMediaLogin />
             <div className="footer-container">
-            <Footer />
+                <Footer />
             </div>
         </div>
     );

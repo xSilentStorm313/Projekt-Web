@@ -30,11 +30,6 @@
   margin: 1rem auto;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0rem;
-}
-
 .fragebeitrag {
   background-color: rgb(132, 91, 162);
   height: 6.875rem;
