@@ -10,7 +10,7 @@ export default function BeitragInhaltRückkehr() {
         <div className="abstand2">
             <img src={rückkehr} className="formular" alt="formular" />
             <button className="downloadbuttongrün">Download Formulare</button>
-            <h1 className="überschrift1">Freiwillige Rückkehr</h1>
+            <h1 className="überschrift2">Freiwillige Rückkehr</h1>
             <div className="infotextasylgrün">Bund und Länder unterstützen mit dem humanitären Förderprogramm REAG/GARP (Reintegration and Emigration Programme for Asylum-Seekers in Germany/Government Assisted Repatriation Programme) Personen bei der freiwilligen Rückkehr in das Herkunftsland oder bei der Weiterwanderung in einen aufnahmebereiten Staat.</div>
             <p className="textgrün">
                 Die Internationale Organisation für Migration (IOM) organisiert und betreut über beide Förderprogramme die Ausreise. Bund und Länder legen jährlich gemeinsam den Umfang der Ausreisehilfen fest. Die aktuell gültigen Förderleistungen sind im REAG/GARP-Informationsblatt aufgeführt. Das Informationsblatt ist in mehreren Sprachen auf dem Onlineportal "Returning from Germany" verfügbar (siehe Links im Tab unten). </p>

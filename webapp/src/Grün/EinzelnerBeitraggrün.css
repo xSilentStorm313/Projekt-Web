@@ -16,11 +16,12 @@
   margin-bottom: 2rem;
 }
 
-.überschrift1 {
+.überschrift2 {
   box-sizing: border-box;
   text-align: left;
   margin-left: 1.2rem;
   margin-bottom: 1rem;
+  width: 90%;
 }
 
 .formular {
@@ -61,7 +62,7 @@ ul {
 
 .text {
   text-align: left;
-  margin-left: 1.563rem;
+  margin-left: 1.2rem;
 }
 @media (max-width: 645px) {
   .zwischenüberschriftgrün {
@@ -102,6 +103,7 @@ ul {
 .textgrün {
   text-align: left;
   width: 90%;
+  margin-left: 1.2rem;
 }
 
 .zwischenüberschriftasyl {

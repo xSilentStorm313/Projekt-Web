@@ -20,7 +20,7 @@ export default function NotFound() {
                 <ZurueckIcon/>
             </Link>
             <TitleBar />
-            <h1 className="errorüberschrift">404<br /> Ups, diese Seite existiert noch nicht</h1>
+            <h1 className="errorüberschrift">404<br /> Ups, diese Seite existiert noch nicht!</h1>
             
             <footer className="footererror">
                 <p className="texterror">Hier kommst du wieder zur Startseite:</p>
