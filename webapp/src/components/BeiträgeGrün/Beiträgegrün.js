@@ -16,7 +16,7 @@ export default function Beiträgegrün() {
         <img src={verkehr} className="formular" alt="formular" /><span className="überschriften-hauptseite">Verkehr</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema freiwillige Rückkehr als Geflüchteter</span></span></a>
 
       <a href="/rückkehr"><span className="buttonbeitraggrün-rückkehr">
-        <img src={rückkehr} className="formular" alt="formular" /><span className="überschriften-hauptseite">Freiwillige Rückkehr</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema kostenfreien Verkehr für ukrainische Geflüchtete</span></span></a>
+        <img src={rückkehr} className="formular" alt="formular" /><span className="überschriften-hauptseite">Freiwillige Rückkehr</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema kostenfreier Verkehr für ukrainische Geflüchtete</span></span></a>
 
     </div>
   );
