@@ -7,7 +7,7 @@ import rückkehr from "./BilderbeiträgeGrün/Rückkehr.png";
 export default function BeitragInhaltRückkehr() {
 
     return (
-        <div className="abstand">
+        <div className="abstand2">
             <img src={rückkehr} className="formular" alt="formular" />
             <button className="downloadbuttongrün">Download Formulare</button>
             <h1 className="überschrift1">Freiwillige Rückkehr</h1>
