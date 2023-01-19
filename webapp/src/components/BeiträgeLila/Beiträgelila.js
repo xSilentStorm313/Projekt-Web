@@ -5,6 +5,7 @@ import anerkennung from "./BeiträgeBilderLila/anerkennunngabschluesse.svg";
 import asylbeantragen from "./BeiträgeBilderLila/asylbeantragen.svg";
 import sportverein from "./BeiträgeBilderLila/sportverein.svg";
 import wohnen from "./BeiträgeBilderLila/wohnen.svg";
+import rückkehr from "./BeiträgeBilderLila/Rückkehr.png";
 
 export default function Button() {
   return (
@@ -29,6 +30,9 @@ export default function Button() {
       
         <a href="/kindergeld"><span className="buttonbeitrag-kindergeld">
         <img src={formular} className="formular-kindergeld" alt="formular"/> <br /> <br /><span className="überschriften-hauptseite">Kindergeld</span><span className="beschreibung-kindergeld"> <br />Ich hätte eine Frage zu Absatz 3, woher kriege ich folgende Informationen?</span> </span></a>
+    
+        <a href="/rückkehrlila"><span className="buttonbeitraggrün-rückkehr">
+        <img src={rückkehr} className="formular" alt="formular" /><span className="überschriften-hauptseite">Freiwillige Rückkehr</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema freiwillige Rückkehr als Geflüchteter in das Ursprungsland</span></span></a>
     </div>
   );
 }

@@ -16,6 +16,7 @@ import Verkehr from './Grün/Verkehr';
 import AnfrageStellen from './AnfrageStellen';
 import AnfrageFertig from './AnfrageFertig';
 import NotFound from './NotFound';
+import BeitragInhaltRückkehrLila from './components/BeiträgeLila/BeitragInhaltRückkehrLila';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <Route exact path="/verkehr" element={<Verkehr />} />
       <Route exact path="/anfrage" element={<AnfrageStellen />} />
       <Route exact path="/anfragefertig" element={<AnfrageFertig />} />
+      <Route exact path="/rückkehrlila" element={<BeitragInhaltRückkehrLila />} />
       <Route path='*' element={<NotFound />}/>
     </Routes>
     </BrowserRouter>
