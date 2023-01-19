@@ -7,7 +7,7 @@ export default function BeitragInhaltVereinsanmeldung() {
     return (
         <div className="abstand2">
             <img src={sportverein} className="formular" alt="formular" />
-            <button className="downloadbutton">Download Formulare</button>
+            <button className="downloadbutton">Formulare herunterladen</button>
             <h1 className="überschrift1">Vereinsanmeldung</h1>
             <p className="text">In Deutschland kommt es bei der Anerkennung der Abschlüsse sehr auf den jeweiligen Abschluss an.</p>
             <div className="infotextasyl">Dementsprechend empfehlen wir Ihnen das <a href="https://www.anerkennung-in-deutschland.de/html/de/fachkraefte.php">Infoportal der Bundesregierung
