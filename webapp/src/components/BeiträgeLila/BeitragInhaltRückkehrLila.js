@@ -1,12 +1,13 @@
 import React from "react";
-import rückkehr from "./BilderbeiträgeGrün/Rückkehr.png";
+import rückkehr from "./BeiträgeBilderLila/Rückkehr.png";
+
 //import { MdAccountCircle } from "react-icons/md";
 
 // https://www.bamf.de/DE/Themen/Rueckkehr/FoerderprogrammREAGGARP/reaggarp-node.html
 
-export default function BeitragInhaltRückkehr() {
+export default function BeitragInhaltRückkehrLila() {
 
-    return (
+    return ( 
         <div className="abstand2">
             <img src={rückkehr} className="formular" alt="formular" />
             <button className="downloadbuttongrün">Download Formulare</button>

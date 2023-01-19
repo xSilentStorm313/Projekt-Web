@@ -8,7 +8,7 @@ import infografik from "./BeiträgeBilderLila/grafik-fluechtlinge-begrifflichkei
 export default function BeitragInhaltArbeitserlaubnis() {
 
     return (
-        <div className="abstand">
+        <div className="abstand2">
             <img src={arbeitserlaubnis} className="formular" alt="formular" />
             <button className="downloadbutton">Download Formulare</button>
             <h1 className="überschrift1">Arbeitserlaubnis</h1>

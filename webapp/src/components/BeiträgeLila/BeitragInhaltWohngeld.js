@@ -7,7 +7,7 @@ import wohnen from "./BeiträgeBilderLila/wohnen.svg";
 export default function BeitragInhaltWohngeld() {
 
     return (
-        <div className="abstand">
+        <div className="abstand2">
             <img src={wohnen} className="formular" alt="formular" />
             <button className="downloadbutton">Download Formulare</button>
             <h1 className="überschrift1">Beantragen Wohngeld</h1>

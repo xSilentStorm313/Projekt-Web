@@ -1,5 +1,5 @@
 import React from "react";
-import verkehr from "./BilderbeiträgeGrün/verkehr.png";
+import verkehr from "../components/BeiträgeLila/BeiträgeBilderLila/verkehr.png";
 //import { MdAccountCircle } from "react-icons/md";
 
 // https://www.bamf.de/DE/Themen/Rueckkehr/FoerderprogrammREAGGARP/reaggarp-node.html

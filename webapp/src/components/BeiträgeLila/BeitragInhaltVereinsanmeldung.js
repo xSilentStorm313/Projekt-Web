@@ -5,7 +5,7 @@ import sportverein from "./BeiträgeBilderLila/sportverein.svg";
 export default function BeitragInhaltVereinsanmeldung() {
 
     return (
-        <div className="abstand">
+        <div className="abstand2">
             <img src={sportverein} className="formular" alt="formular" />
             <button className="downloadbutton">Download Formulare</button>
             <h1 className="überschrift1">Vereinsanmeldung</h1>
