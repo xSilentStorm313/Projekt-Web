@@ -255,6 +255,11 @@ ul {
   color: black;
 }
 
+.authorkommentar{
+  text-align: left;
+  font-weight: bolder;
+}
+
 .delete-button {
   position: absolute;
   bottom: 0.1rem;

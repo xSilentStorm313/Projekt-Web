@@ -42,8 +42,9 @@ function Comment({ id, comment, onEdit, onDelete, showActions }) {
         </>
       ) : (
         <>
+        <p className='authorkommentar'>Author: {username}</p>
           <p className="comment-text">{comment.text}</p>
-          <p>Author: {username}</p>
+          
           {showActions && ( // Only show the edit and delete buttons if showActions is true
             <>
               <button className="edit-button" onClick={() => setIsEditing(true)}><FiEdit size={20} /></button>
