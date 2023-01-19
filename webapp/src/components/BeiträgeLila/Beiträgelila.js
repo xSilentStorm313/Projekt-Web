@@ -27,7 +27,7 @@ export default function Button() {
         <img src={sportverein} className="formular" alt="formular" /><span className="überschriften-hauptseite">Vereinsanmeldung</span><span className="beschreibung-asyl-verein"> <br />Hier findest Sport und Freizeitangebote</span></span></a>
 
       <a href="/wohngeld"><span className="buttonbeitrag">
-        <img src={wohnen} className="formular" alt="formular" /><span className="überschriften-hauptseite">Beantragen Wohngeld</span><span className="beschreibung"> <br />Hier findest Informationen zum Thema Wohnen wie zum Beispiel zur Wohnungsanmeldung</span></span></a>
+        <img src={wohnen} className="formular" alt="formular" /><span className="überschriften-hauptseite">Beantragen Wohngeld</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema Wohnen</span></span></a>
 
       <a href="/kindergeld"><span className="buttonbeitrag-kindergeld">
         <img src={formular} className="formular-kindergeld" alt="formular" /> <br /> <br /><span className="überschriften-hauptseite">Kindergeld</span><span className="beschreibung-kindergeld"> <br />Ich hätte eine Frage zu Absatz 3, woher kriege ich folgende Informationen?</span> </span></a>

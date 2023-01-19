@@ -12,7 +12,7 @@ export default function BeitragInhaltVereinsanmeldung() {
             <p className="text">In Deutschland kommt es bei der Anerkennung der Abschlüsse sehr auf den jeweiligen Abschluss an.</p>
             <div className="infotextasyl">Dementsprechend empfehlen wir Ihnen das <a href="https://www.anerkennung-in-deutschland.de/html/de/fachkraefte.php">Infoportal der Bundesregierung
                 zur Anerkennung ausländischer Berufsqualifikationen</a> anzuschauen.</div>
-            <p className="text">Geben sie in dies Suchleiste ihren Job ein, den sie in Ihrem Lang ausgeführt haben. Und das Portal führt sich durch die einzelnen Schritte die Sie brauchen um ihre Abschlüsse und Arbeitserfahrung in Deutschland anerkennen lassen zu können.</p>
+            <p className="text">Geben Sie in die Suchleiste Ihren Job ein, den Sie in Ihrem Land ausgeführt haben. Und das Portal führt Sie durch die einzelnen Schritte, die Sie brauchen, um Ihre Abschlüsse und Ihre Arbeitserfahrung in Deutschland anerkennen lassen zu können.</p>
 
 
 

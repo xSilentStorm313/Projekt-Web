@@ -16,7 +16,7 @@ export default function BeitragInhaltAsylantrag() {
 
             <details>
                 <summary className="textlilaaufklappbar">1. Registrierung</summary>
-                <p className="text">Bei Ihrer Ankunft in Deutschland werden Sie zunächst regis­triert <br /> <br />
+                <p className="text">Bei Ihrer Ankunft in Deutschland werden Sie zunächst regis­triert. <br /> <br />
                     Wir fragen Sie nach Ihrem Namen, Herkunftsland, Geburtsdatum, Ihrer Religion, Sprache und Volkszugehörig­keit. Wir fotografieren Sie und nehmen Ihre Fingerabdrücke ab. Nach der Registrierung erhalten Sie einen An­kunftsnachweis und stellen direkt im Ankunftszentrum Ihren Asylantrag.<br /><br />
                     Es kann aber sein, dass Sie erst in einer Aufnahme­einrichtung untergebracht werden. Dort erhalten Sie Ihren Ankunftsnachweis und erfahren, wann Sie Ihren Asylantrag persönlich stellen können.
                 </p>
@@ -26,7 +26,7 @@ export default function BeitragInhaltAsylantrag() {
                 <summary className="textlilaaufklappbar">2. Persönliche Antragsstellung</summary>
                 <p className="text">Zu der persönlichen Antragstellung bringen Sie bitte Ihren Ankunftsnachweis und alle wichtigen Dokumente und Unter­lagen mit, die Sie besitzen. <br /> <br />
                     Das können Ihre Geburtsurkunde oder Ihr Pass sein; aber auch Reiseunterlagen oder Beweise für Ihre Fluchtgründe, wie zum Beispiel Fotos. <br /> <br />
-                    Wir fragen Sie nach Ihren Personalien sowie nach Wohnort, Schul­ und Ausbildung, Sprachkenntnissen und Reiseweg.<br /> <br />
+                    Wir fragen Sie nach Ihren Personalien sowie nach Wohnort, Schul-­ und Ausbildung, Sprachkenntnissen und Reiseweg.<br /> <br />
                     Teilen Sie uns auch mit, ob sich bereits Familienangehörigein Deutschland aufhalten, wo diese wohnen und ob sie sich auch im Asylverfahren befinden oder befanden. Wenn Sie Ihren Asylantrag gestellt haben, erhalten Sie für die Dauer Ihres Asylverfahrens eine Aufenthaltsgestattung. Tragen Sie diese immer bei sich.
                 </p>
             </details>
