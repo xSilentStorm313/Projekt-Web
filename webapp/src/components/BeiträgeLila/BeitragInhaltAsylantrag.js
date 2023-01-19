@@ -7,7 +7,7 @@ import asylbeantragen from "./BeiträgeBilderLila/asylbeantragen.svg";
 export default function BeitragInhaltAsylantrag() {
 
     return (
-        <div className="abstand">
+        <div className="abstand2">
             <img src={asylbeantragen} className="formular" alt="formular" />
             <button className="downloadbutton">Download Formulare</button>
             <h1 className="überschrift1">Asylverfahren</h1>

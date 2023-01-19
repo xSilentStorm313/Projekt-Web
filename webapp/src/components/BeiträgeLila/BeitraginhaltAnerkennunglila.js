@@ -5,7 +5,7 @@ import anerkennung from "./BeiträgeBilderLila/anerkennunngabschluesse.svg";
 export default function BeitragInhaltAnerkennung() {
 
     return (
-        <div className="abstand">
+        <div className="abstand2">
             <img src={anerkennung} className="formular" alt="formular" />
             <button className="downloadbutton">Download Formulare</button>
             <h1 className="überschrift1">Anerkennung der Abschlüsse</h1>
