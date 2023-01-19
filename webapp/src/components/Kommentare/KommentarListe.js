@@ -61,6 +61,7 @@ const handleDelete = (id) => {
       .then(res => res.json())
       .then(data => {
         // Add the new comment to the state
+        console.log(comment);
         setComments([...comments, data]);
       })
       .catch(error => console.log(error));
@@ -68,7 +69,9 @@ const handleDelete = (id) => {
   return (
     <div>
       {comments.length ? (
-        comments.map(comment => (
+        comments.filter( c => {
+          return c.channel === window.location.href.split('/')[3];
+        } ).map(comment => (
           <Comment
             key={comment._id}
             id={comment._id}

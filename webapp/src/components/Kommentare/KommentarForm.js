@@ -7,7 +7,7 @@ function CommentForm({ onSubmit }) {
     <form onSubmit={e => {
       e.preventDefault();
       if (text.trim()) {
-        onSubmit({ text, id: Date.now() });
+        onSubmit({ text, id: Date.now(), channel: window.location.href.split('/')[3] });
         setText('');
       }
     }} className="form-container">
