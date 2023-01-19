@@ -10,25 +10,25 @@ export default function BeitragInhaltArbeitserlaubnis() {
     return (
         <div className="abstand2">
             <img src={arbeitserlaubnis} className="formular" alt="formular" />
-            <button className="downloadbutton">Download Formulare</button>
+            <button className="downloadbutton">Formulare herunterladen</button>
             <h1 className="überschrift1">Arbeitserlaubnis</h1>
-            <p className="text">Bürgerinnen und Bürger aus EU-Mitgliedstaaten und sog. EFTA-Staaten dürfen in Deutschland gemäß dem sogenannten Frei- zügigkeitsrecht ohne Einschränkung eine Beschäftigung aufnehmen. <br /> <br />
-                Sie sind inländischen Arbeitnehmerinnen und Arbeitnehmern gleichgestellt. Der Zugang von ausländischen Fachkräften aus Dritt- staaten zum deutschen Arbeitsmarkt setzt in den meisten Fällen eine Zustimmung der Bundesagentur für Arbeit (BA) voraus.</p>
-            <div className="infotextasyl">Der Arbeitsmarktzugang von Schutzsuchenden bzw. Geflüchteten ist in den folgenden Fällen möglich, Vorausstzung ist jedoch grundsätzlich eine Arbeitserlaubnis</div>
+            <p className="text">Bürgerinnen und Bürger aus EU-Mitgliedstaaten und sog. EFTA-Staaten dürfen in Deutschland gemäß des sogenannten Freizügigkeitsrechts ohne Einschränkung eine Beschäftigung aufnehmen. <br /> <br />
+                Sie sind inländischen Arbeitnehmerinnen und Arbeitnehmern gleichgestellt. Der Zugang von ausländischen Fachkräften aus Drittstaaten zum deutschen Arbeitsmarkt setzt in den meisten Fällen eine Zustimmung der Bundesagentur für Arbeit (BA) voraus.</p>
+            <div className="infotextasyl">Der Arbeitsmarktzugang von Schutzsuchenden bzw. Geflüchteten ist in den folgenden Fällen möglich, Voraussetzung ist jedoch grundsätzlich eine Arbeitserlaubnis.</div>
             <details>
                 <summary className="zwischenüberschrift">1. Ein Arbeitsmarktzugang ist in folgenden Fällen grundsätzlich möglich</summary>
                 <br />
                 <details>
-                    <summary className="zwischenüberschriftasyl">Asylbewerber haben einen Arbeits- &ensp; &nbsp; &nbsp;marktzugang</summary>
+                    <summary className="zwischenüberschriftasyl">Asylbewerber haben einen Arbeitsmarktzugang</summary>
                     <br />
-                    <li className="listearbeitserlaubnis">Nach drei Monaten für Asylbewerber, die nicht verpflichtet sind, in einer Aufnahmeeinrichtung zu wohnen</li>
+                    <li className="listearbeitserlaubnis">Nach drei Monaten: für Asylbewerber, die nicht verpflichtet sind, in einer Aufnahmeeinrichtung zu wohnen</li>
                     <br />
-                    <li className="listearbeitserlaubnis">Nach sechs Monaten Asylbewerber mit minderjährigen Kindern</li>
+                    <li className="listearbeitserlaubnis">Nach sechs Monaten: für Asylbewerber mit minderjährigen Kindern</li>
                     <br />
-                    <li className="listearbeitserlaubnis">Nach neun Monaten Asylbewerber ohne minderjährige Kinder (auchtrotz Verpflichtung in Aufnahmeeinrichtung zu wohnen)</li>
+                    <li className="listearbeitserlaubnis">Nach neun Monaten: für Asylbewerber ohne minderjährige Kinder (auch trotz Verpflichtung in Aufnahmeeinrichtung zu wohnen)</li>
                 </details>
                 <details>
-                    <summary className="zwischenüberschriftasyl">Gedulete haben nach sechs Monaten einen Arbeitsmarktzugang, wenn sie zum Wohnen in der Aufnahmeeinrichtung verpflichtet sind, ansonsten nach drei Monaten</summary>
+                    <summary className="zwischenüberschriftasyl">Geduldete haben nach sechs Monaten einen Arbeitsmarktzugang, wenn sie zum Wohnen in der Aufnahmeeinrichtung verpflichtet sind, ansonsten nach drei Monaten</summary>
                 </details>
                 <details>
                     <summary className="zwischenüberschriftasyl">Kein Arbeitsmarktzugang besteht</summary>
@@ -36,7 +36,7 @@ export default function BeitragInhaltArbeitserlaubnis() {
                     <li className="listearbeitserlaubnis">In den ersten drei Monaten des Aufenthaltes</li>
                     <br />
                     <li className="listearbeitserlaubnis">Für die Zeit des Aufenthaltes in einer Erstaufnehmeeinrichtung <br /><br />(§§47 und 61 des Asylgesetzes)
-                    <br /><br />(soweit die Fristen nach Nummern 1 und 2 nicht abgelaufen sind, oder für Asylbewerber deren Asylverfahren als offensichtlich unbegründet oder unzulässig abgelehnt wurde und keine aufschiebende Wirkung der Klage angeordnet wurde )</li>
+                    <br /><br />(soweit die Fristen nach Nummern 1 und 2 nicht abgelaufen sind, oder für Asylbewerber deren Asylverfahren als offensichtlich unbegründet oder unzulässig abgelehnt wurde und keine aufschiebende Wirkung der Klage angeordnet wurde)</li>
                     <br />
                     <li className="listearbeitserlaubnis">für Geduldete, die das Abschiebungshindernis selbst zu vertreten oder ihre Mitwirkungspflichten bei der Beseitigung des Abschiebungshindernisses verletzt haben.</li>
                     <br />
