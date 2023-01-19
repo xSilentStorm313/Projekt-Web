@@ -16,7 +16,7 @@ export default function Button() {
     <div className="abstand">
       <button className="buttonerfahrungsbereich"><div class="container-inner">
         <span className="schrift-erfahrungsbereich">Suche</span>
-        <div className="erfahrungsbereich-pfeil"><img src={icon3} className="lupeicon" alt="icon" align="left" /></div>
+        <div className="erfahrungsbereich-lupe"><img src={icon3} className="lupeicon" alt="icon" align="left" /></div>
       </div>
       </button>
 

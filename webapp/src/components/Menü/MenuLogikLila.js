@@ -41,7 +41,6 @@ function Menu({ items }) {
                 {item.text}
               </li>
             ))}
-            <br />
           </ul>
           <div className="button-container-lila">
             <Helfer />
