@@ -20,14 +20,14 @@ export default function Button() {
         <img src={anerkennung} className="formular" alt="formular" /><span className="überschriften-hauptseite">Abschluss Anerkennung</span><span className="beschreibung"> <br />Hier wird dir gezeigt, wie du welche Abschlüsse anerkennen lassen kannst</span></span></a>
 
       <a href="/asylantrag"><span className="buttonbeitrag">
-        <img src={asylbeantragen} className="formular" alt="formular" /><span className="überschriften-hauptseite">Asyl beantragen</span>
+        <img src={asylbeantragen} className="formular" alt="formular" /><span className="überschriften-hauptseite">Asyl Beantragung</span>
         <span className="beschreibung-asyl-verein"> <br />Hier erhälst du Hilfe für dein Asylverfahren</span> </span> </a>
 
       <a href="/vereinsanmeldung"><span className="buttonbeitrag">
         <img src={sportverein} className="formular" alt="formular" /><span className="überschriften-hauptseite">Vereinsanmeldung</span><span className="beschreibung-asyl-verein"> <br />Hier findest Sport und Freizeitangebote</span></span></a>
 
       <a href="/wohngeld"><span className="buttonbeitrag">
-        <img src={wohnen} className="formular" alt="formular" /><span className="überschriften-hauptseite">Beantragen Wohngeld</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema Wohnen</span></span></a>
+        <img src={wohnen} className="formular" alt="formular" /><span className="überschriften-hauptseite">Wohngeld Beantragung</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema Wohnen</span></span></a>
 
       <a href="/kindergeld"><span className="buttonbeitrag">
         <img src={formular} className="formular-kindergeld" alt="formular" /> <br /> <br /><span className="überschriften-hauptseite">Kindergeld</span><span className="beschreibung-kindergeld"> <br />Ich hätte eine Frage zu Absatz 3, woher kriege ich folgende Informationen?</span> </span></a>
@@ -36,7 +36,7 @@ export default function Button() {
         <img src={rückkehr} className="formular" alt="formular" /><span className="überschriften-hauptseite">Freiwillige Rückkehr</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema freiwillige Rückkehr als Geflüchteter</span></span></a>
 
       <a href="/verkehrlila"><span className="buttonbeitrag-verkehr">
-        <img src={verkehr} className="formular" alt="formular" /><span className="überschriften-hauptseite">Verkehr</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema kostenfreien Verkehr für ukrainische Geflüchtete</span></span></a>
+        <img src={verkehr} className="formular" alt="formular" /><span className="überschriften-hauptseite">Verkehr</span><span className="beschreibung"> <br />Hier findest du Informationen zum Thema kostenfreier Verkehr für ukrainische Geflüchtete</span></span></a>
     </div>
   );
 }

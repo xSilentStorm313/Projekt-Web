@@ -31,19 +31,25 @@
 }
 
 .fragebeitrag {
-  background-color: rgb(132, 91, 162);
+  background-color: white;
   height: 6.875rem;
   width: 21.875rem;
   margin: 1rem 1rem;
-  box-shadow: 0.188rem 0.188rem 0.188rem 0.188rem rgb(213, 213, 213);
-  border-radius: 0.75rem;
+  box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
+  border-radius: 0.625rem;
   font-size: 1.2rem;
   font-weight: bold;
   color: white;
   text-align: left;
   padding: 0.625rem;
   display: block;
-  border: none;
+  border: transparent;
+
+  color: black;
+  width: 90%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: medium;
 }
 
 ul {
@@ -87,6 +93,7 @@ ul {
   margin-bottom: -0.313rem;
   font-size: 1.375rem;
   width: 90%;
+  margin-left: 1.2rem;
 }
 
 .zwischenüberschriftasyl {
