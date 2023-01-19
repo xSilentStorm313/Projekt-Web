@@ -1,7 +1,7 @@
 import React from "react";
 import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from '../components/BeiträgeLila/TitleBarHauptseiteLila.js';
-import MenuIconGrün from "../components/Menü/MenüLogikGrün";
+import MenuIcon from "../components/Menü/MenuLogikLila";
 import Kommentare from "../components/Kommentare/KommentareAusgeben";
 import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
@@ -18,8 +18,8 @@ export default function VerkehrLila() {
 
     return (
         <div className="hauptseite">
-            <MenuIconGrün items={items} />
-            <Link to='/startgrün'>
+            <MenuIcon items={items} />
+            <Link to='/start'>
                 <ZurueckIcon />
             </Link>
             <TitleBarHauptseite />

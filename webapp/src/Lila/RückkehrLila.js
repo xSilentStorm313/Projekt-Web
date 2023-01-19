@@ -1,15 +1,15 @@
 import React from "react";
 import "./EinzelnerBeitrag.css";
 import TitleBarHauptseite from '../components/BeiträgeLila/TitleBarHauptseiteLila.js';
-import MenuIconGrün from "../components/Menü/MenüLogikGrün";
+import MenuIcon from "../components/Menü/MenuLogikLila";
 import Kommentare from "../components/Kommentare/KommentareAusgeben";
 import ZurueckIcon from "../components/ZurückButton";
 import { Link } from "react-router-dom";
 import BeitragInhaltRückkehr from "../components/BeiträgeGrün/BeitragInhaltRückkehr";
 
 export default function Rückkehr() {
-    const itemsgrün = [
-        { text: 'Home', link: '/startgrün' },
+    const items = [
+        { text: 'Home', link: '/start' },
         { text: 'Account',  },
         { text: 'Kategorien',  },
         { text: 'Anfrage stellen', link: '/anfrage' },
@@ -17,8 +17,8 @@ export default function Rückkehr() {
     ];
     return (
         <div className="hauptseite">
-            <MenuIconGrün items={itemsgrün} />
-            <Link to='/startgrün'>
+            <MenuIcon items={items} />
+            <Link to='/start'>
                 <ZurueckIcon/>
             </Link>
             <TitleBarHauptseite />
