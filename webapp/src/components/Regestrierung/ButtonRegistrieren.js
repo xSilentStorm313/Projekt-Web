@@ -9,7 +9,7 @@ export default function ButtonRegestrierung() {
   return (
 
     <div className="button">
-      <Link to="/start">
+      <Link to="/login">
         <input type="submit" value="JETZT REGISTRIEREN" className="registrierenweiterbutton" onClick={RegestrierungText} />
       </Link>
     </div>

@@ -49,7 +49,7 @@ const RegestrierungText = () => {
         };
         const res = await fetch("https://backend-projektweb.onrender.com/users", options);
         if (!res.ok) throw new Error(res.statusText);
-        navigate("/start");
+        navigate("/login");
       } catch (err) {
         setError(err.message);
       }

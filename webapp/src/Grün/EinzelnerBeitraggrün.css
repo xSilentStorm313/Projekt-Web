@@ -198,6 +198,7 @@ ul {
   outline: none;
   box-shadow: 0 0 1rem 0.063rem rgb(213, 213, 213);
   color: black;
+  font-size: 16px;
 }
 
 .submit-button {
