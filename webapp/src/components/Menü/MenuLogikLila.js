@@ -34,7 +34,7 @@ function Menu({ items }) {
           <MenuIcon onClick={() => setMenuOpen(!menuOpen)} />
           <TitleBarHauptseite/>
           <ul>
-          <br/><br/><br/><br/>
+          <br/><br/>
             <h1> Menü </h1>
             {items.map((item, index) => (
               <li key={index} onClick={() => window.location.href = item.link}>

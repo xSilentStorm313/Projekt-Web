@@ -186,7 +186,7 @@ span {
 
 .abmeldengrün {
   color: rgb(0, 0, 0);
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 1rem;
   width: 100%;
@@ -206,6 +206,7 @@ span {
 .button-container-grün {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
