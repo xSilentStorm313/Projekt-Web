@@ -70,7 +70,7 @@ const handleDelete = (id) => {
     <div>
       {comments.length ? (
         comments.filter( c => {
-          return c.channel === window.location.href.split('/')[3];
+          return c.channel === window.location.href.split('/')[4];
         } ).map(comment => (
           <Comment
             key={comment._id}
