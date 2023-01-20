@@ -7,16 +7,15 @@ import sportverein from "./BeiträgeBilderLila/sportverein.svg";
 import wohnen from "./BeiträgeBilderLila/wohnen.svg";
 import rückkehr from "./BeiträgeBilderLila/Rückkehr.png";
 import verkehr from "./BeiträgeBilderLila/verkehr.png";
-import icon3 from "../images/lupe.svg";
-
+import { AiOutlineSearch } from "react-icons/ai"
 
 
 export default function Button() {
   return (
     <div className="abstand">
-      <button className="buttonerfahrungsbereich"><div class="container-inner">
-        <span className="schrift-erfahrungsbereich">Suche</span>
-        <div className="erfahrungsbereich-lupe"><img src={icon3} className="lupeicon" alt="icon" align="left" /></div>
+      <button className="buttonsuche"><div class="container-inner">
+        <span className="schrift-suche">Suche</span>
+        <div className="erfahrungsbereich-lupe"><AiOutlineSearch size={20} /></div>
       </div>
       </button>
 

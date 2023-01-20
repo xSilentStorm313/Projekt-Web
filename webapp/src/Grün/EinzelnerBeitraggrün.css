@@ -233,11 +233,19 @@ ul {
   text-align: left;
   width: 80%;
   position: relative;
-  top: 0.6rem;
+  top: 0.5rem;
   right: 1rem;
-  left: 0.5rem;
+  left: 0.1rem;
   color: black;
   word-wrap: break-word;
+}
+
+.authorkommentar{
+  text-align: left;
+  font-weight: bolder;
+  margin-top: 0rem;
+  left: 1.35rem;
+  position: absolute;
 }
 
 .edit-button {
@@ -253,11 +261,6 @@ ul {
   border: transparent;
   background-color: white;
   color: black;
-}
-
-.authorkommentar{
-  text-align: left;
-  font-weight: bolder;
 }
 
 .delete-button {

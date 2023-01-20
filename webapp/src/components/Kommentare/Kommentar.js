@@ -42,7 +42,7 @@ function Comment({ id, comment, onEdit, onDelete, showActions }) {
         </>
       ) : (
         <>
-        <p className='authorkommentar'>Author: {username}</p>
+        <p className='authorkommentar'>{username}</p>
           <p className="comment-text">{comment.text}</p>
           
           {showActions && ( // Only show the edit and delete buttons if showActions is true

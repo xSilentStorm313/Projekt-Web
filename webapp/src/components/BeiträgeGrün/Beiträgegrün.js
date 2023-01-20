@@ -6,7 +6,8 @@ import { AiOutlineRight } from "react-icons/ai";
 export default function Beiträgegrün() {
   return (
     <div className="abstand">
-      <button className="buttonerfahrungsbereich"><div class="container-inner">
+      <button className="buttonerfahrungsbereich">
+      <div class="container-inner">
         <span className="schrift-erfahrungsbereich">Erfahrungsbereich</span>
         <div className="erfahrungsbereich-pfeil"><AiOutlineRight size={20} /></div>
       </div>
