@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter,Routes,Route, HashRouter} from "react-router-dom";
+import {Routes,Route, HashRouter} from "react-router-dom";
 import Startseite from "./Startseite"
 import Login from './Login';
 import Hauptseitelila from "./Lila/Hauptseitelila"
@@ -42,6 +42,7 @@ function App() {
       <Route exact path="/rückkehrlila" element={<RückkehrLila />} />
       <Route exact path="/verkehrlila" element={<VerkehrLila />} />
       <Route path='*' element={<NotFound />}/>
+
     </Routes>
     </HashRouter>
   );
