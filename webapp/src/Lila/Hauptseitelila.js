@@ -10,11 +10,11 @@ import { Link } from "react-router-dom";
 
 function App() {
   const items =[
-  { text: 'Home', link: '/start' },
-  { text: 'Account',  },
-  { text: 'Kategorien',  },
-  { text: 'Anfrage stellen', link: '/anfrage' },
-  { text: 'Meine Chats', },
+    { text: 'Home', link: '/start' },
+    { text: 'Account', link: '/account' },
+    { text: 'Kategorien', link: '/kategorien' },
+    { text: 'Anfrage stellen', link: '/anfrage' },
+    { text: 'Meine Chats', link: '/chats' },
   ];
 
   return (

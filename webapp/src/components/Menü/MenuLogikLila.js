@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import TitleBarHauptseite from '../BeiträgeLila/TitleBarHauptseiteLila';
 import Helfer from "./HelferButton";
 import Hilfesuchender from "./HilfesuchenderButton";
+import { Link } from "react-router-dom";
 
 
 function MenuIcon({ onClick }) {
@@ -19,8 +20,8 @@ function Menu({ items }) {
   const handleSubmit = async (e) => {
     fetch('/users/logout', { method: 'POST' })
       .then(res => {
-        if(res.status === 200){
-            window.location.href = '/';
+        if (res.status === 200) {
+          window.location.href = '/';
         }
       })
       .catch(err => console.log(err));
@@ -32,13 +33,17 @@ function Menu({ items }) {
       {menuOpen && (
         <div className={`menu ${menuOpen ? 'open' : ''}`}>
           <MenuIcon onClick={() => setMenuOpen(!menuOpen)} />
-          <TitleBarHauptseite/>
+          <TitleBarHauptseite />
           <ul>
-          <br/><br/>
+            <br /><br />
             <h1> Menü </h1>
             {items.map((item, index) => (
-              <li key={index} onClick={() => window.location.href = item.link}>
-                {item.text}
+              <li key={index}>
+                <Link to={item.link}>
+                  <div className="menü-schrift">
+                    {item.text}
+                  </div>
+                </Link>
               </li>
             ))}
           </ul>
@@ -51,7 +56,7 @@ function Menu({ items }) {
         </div>
 
       )}
-      
+
     </div>
   );
 }

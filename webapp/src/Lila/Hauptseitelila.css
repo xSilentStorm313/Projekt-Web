@@ -262,6 +262,10 @@ span{
   width: 100%;
   text-align: center;
 }
+.menü-schrift {
+  color: black;
+  text-align: left;
+}
 
 .button-container-lila {
   display: grid;
