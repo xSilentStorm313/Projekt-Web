@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter,Routes,Route} from "react-router-dom";
+import {BrowserRouter,Routes,Route, HashRouter} from "react-router-dom";
 import Startseite from "./Startseite"
 import Login from './Login';
 import Hauptseitelila from "./Lila/Hauptseitelila"
@@ -22,7 +22,7 @@ import VerkehrLila from './Lila/VerkehrLila';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route exact path="/" element={<Startseite/>} />
       <Route exact path="/login" element={<Login />} />
@@ -43,7 +43,7 @@ function App() {
       <Route exact path="/verkehrlila" element={<VerkehrLila />} />
       <Route path='*' element={<NotFound />}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
