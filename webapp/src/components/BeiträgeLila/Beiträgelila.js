@@ -19,7 +19,7 @@ export default function Button() {
       </div>
       </button>
 
-      <a href="/arbeitserlaubnis"><span className="buttonbeitrag">
+      <a href="/#/arbeitserlaubnis"><span className="buttonbeitrag">
         <img src={arbeitserlaubnis} className="formular" alt="formular" /><span className="überschriften-hauptseite">Arbeitserlaubnis</span><span className="beschreibung"> <br />In diesem Artikel erfährst du,
           wie du als EU und non-EU Bürger in Deutschland arbeiten kannst</span> </span></a>
 
